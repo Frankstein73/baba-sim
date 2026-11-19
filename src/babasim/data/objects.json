@@ -1,0 +1,13029 @@
+{
+ "editor_objlist": [
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "layer": 15,
+   "name": "algae",
+   "tags": [
+    "water",
+    "plant",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    0
+   ],
+   "colour_active": [
+    5,
+    1
+   ],
+   "layer": 20,
+   "name": "text_algae",
+   "tags": [
+    "water",
+    "plant",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    3
+   ],
+   "layer": 18,
+   "name": "baba",
+   "tags": [
+    "animal",
+    "common"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_baba",
+   "tags": [
+    "animal",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "layer": 14,
+   "name": "bat",
+   "tags": [
+    "cave",
+    "animal"
+   ],
+   "tiling": 4,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    0
+   ],
+   "colour_active": [
+    3,
+    1
+   ],
+   "layer": 20,
+   "name": "text_bat",
+   "tags": [
+    "cave",
+    "animal"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "layer": 9,
+   "name": "belt",
+   "tags": [
+    "common",
+    "machine",
+    "movement"
+   ],
+   "tiling": 3,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    3
+   ],
+   "layer": 20,
+   "name": "text_belt",
+   "tags": [
+    "common",
+    "machine",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 17,
+   "name": "bird",
+   "tags": [
+    "mountain",
+    "animal",
+    "sky"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_bird",
+   "tags": [
+    "mountain",
+    "animal",
+    "sky"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_w",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "layer": 2,
+   "name": "bog",
+   "sprite": "water",
+   "tags": [
+    "obstacle",
+    "forest"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_bog",
+   "tags": [
+    "obstacle",
+    "forest"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 16,
+   "name": "bolt",
+   "tags": [
+    "machine",
+    "sky",
+    "danger"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_bolt",
+   "tags": [
+    "machine",
+    "sky",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "layer": 16,
+   "name": "box",
+   "tags": [
+    "common",
+    "machine",
+    "item",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "colour_active": [
+    6,
+    1
+   ],
+   "layer": 20,
+   "name": "text_box",
+   "tags": [
+    "common",
+    "machine",
+    "item",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    3
+   ],
+   "layer": 10,
+   "name": "brick",
+   "tags": [
+    "ruins",
+    "floor",
+    "decorative",
+    "town"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "colour_active": [
+    6,
+    1
+   ],
+   "layer": 20,
+   "name": "text_brick",
+   "tags": [
+    "ruins",
+    "floor",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    4
+   ],
+   "layer": 12,
+   "name": "bubble",
+   "tags": [
+    "water",
+    "decorative"
+   ],
+   "tiling": 4,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    3
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_bubble",
+   "tags": [
+    "water",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "layer": 17,
+   "name": "bug",
+   "tags": [
+    "forest",
+    "animal"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_bug",
+   "tags": [
+    "forest",
+    "animal"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    2
+   ],
+   "layer": 17,
+   "name": "cake",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_cake",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "layer": 12,
+   "name": "cash",
+   "tags": [
+    "item",
+    "danger",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_cash",
+   "tags": [
+    "item",
+    "danger",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 14,
+   "name": "cliff",
+   "tags": [
+    "cave",
+    "obstacle"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_cliff",
+   "tags": [
+    "cave",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    4
+   ],
+   "layer": 14,
+   "name": "cloud",
+   "tags": [
+    "sky",
+    "obstacle"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    3
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_cloud",
+   "tags": [
+    "sky",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "layer": 16,
+   "name": "cog",
+   "tags": [
+    "machine",
+    "item",
+    "decorative"
+   ],
+   "tiling": 4,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    2
+   ],
+   "layer": 20,
+   "name": "text_cog",
+   "tags": [
+    "machine",
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 17,
+   "name": "crab",
+   "tags": [
+    "water",
+    "animal"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_crab",
+   "tags": [
+    "water",
+    "animal"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    3
+   ],
+   "layer": 13,
+   "name": "cup",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    3,
+    3
+   ],
+   "layer": 20,
+   "name": "text_cup",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "cursor",
+   "special": true,
+   "tags": [
+    "common"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 15,
+   "name": "door",
+   "tags": [
+    "common",
+    "obstacle",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_door",
+   "tags": [
+    "common",
+    "obstacle",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    3
+   ],
+   "layer": 12,
+   "name": "dot",
+   "tags": [
+    "abstract",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_dot",
+   "tags": [
+    "abstract",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "layer": 12,
+   "name": "dust",
+   "tags": [
+    "sky",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_dust",
+   "tags": [
+    "sky",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 14,
+   "name": "fence",
+   "tags": [
+    "autumn",
+    "obstacle",
+    "town"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "colour_active": [
+    6,
+    1
+   ],
+   "layer": 20,
+   "name": "text_fence",
+   "tags": [
+    "autumn",
+    "obstacle",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 15,
+   "name": "fire",
+   "tags": [
+    "cave",
+    "decorative",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    0
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_fire",
+   "tags": [
+    "cave",
+    "decorative",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 17,
+   "name": "flag",
+   "tags": [
+    "common",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_flag",
+   "tags": [
+    "common",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    3
+   ],
+   "layer": 12,
+   "name": "flower",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    3,
+    3
+   ],
+   "layer": 20,
+   "name": "text_flower",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "layer": 17,
+   "name": "foliage",
+   "tags": [
+    "autumn",
+    "plant",
+    "decorative",
+    "floor"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_foliage",
+   "tags": [
+    "autumn",
+    "plant",
+    "decorative",
+    "floor"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 16,
+   "name": "fruit",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_fruit",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 8,
+   "name": "fungi",
+   "tags": [
+    "plant",
+    "autumn",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_fungi",
+   "tags": [
+    "plant",
+    "autumn",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 16,
+   "name": "fungus",
+   "tags": [
+    "plant",
+    "autumn",
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "colour_active": [
+    6,
+    1
+   ],
+   "layer": 20,
+   "name": "text_fungus",
+   "tags": [
+    "plant",
+    "autumn",
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    2
+   ],
+   "layer": 17,
+   "name": "ghost",
+   "tags": [
+    "autumn",
+    "animal"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_ghost",
+   "tags": [
+    "autumn",
+    "animal"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    0
+   ],
+   "layer": 10,
+   "name": "grass",
+   "tags": [
+    "plant",
+    "forest",
+    "floor"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_grass",
+   "tags": [
+    "plant",
+    "forest",
+    "floor"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "layer": 17,
+   "name": "hand",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_hand",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "layer": 14,
+   "name": "hedge",
+   "tags": [
+    "plant",
+    "obstacle"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    0
+   ],
+   "colour_active": [
+    5,
+    1
+   ],
+   "layer": 20,
+   "name": "text_hedge",
+   "tags": [
+    "plant",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 15,
+   "name": "husk",
+   "tags": [
+    "plant",
+    "obstacle",
+    "autumn"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    6,
+    1
+   ],
+   "layer": 20,
+   "name": "text_husk",
+   "tags": [
+    "plant",
+    "obstacle",
+    "autumn"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "layer": 9,
+   "name": "ice",
+   "tags": [
+    "mountain",
+    "floor",
+    "common"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    3
+   ],
+   "layer": 20,
+   "name": "text_ice",
+   "tags": [
+    "mountain",
+    "floor",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    4
+   ],
+   "layer": 17,
+   "name": "jelly",
+   "tags": [
+    "water",
+    "animal",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    3
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_jelly",
+   "tags": [
+    "water",
+    "animal",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 18,
+   "name": "keke",
+   "tags": [
+    "common",
+    "animal"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_keke",
+   "tags": [
+    "common",
+    "animal"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 16,
+   "name": "key",
+   "tags": [
+    "common",
+    "item",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_key",
+   "tags": [
+    "common",
+    "item",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 10,
+   "name": "ladder",
+   "tags": [
+    "item",
+    "machine",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_ladder",
+   "tags": [
+    "item",
+    "machine",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 2,
+   "name": "lava",
+   "sprite": "water",
+   "tags": [
+    "obstacle",
+    "cave",
+    "danger"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_lava",
+   "tags": [
+    "obstacle",
+    "cave",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 8,
+   "name": "leaf",
+   "tags": [
+    "plant",
+    "autumn",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_leaf",
+   "tags": [
+    "plant",
+    "autumn",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "line",
+   "tags": [
+    "abstract",
+    "common"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    2
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_line",
+   "tags": [
+    "abstract",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    2
+   ],
+   "layer": 16,
+   "name": "love",
+   "tags": [
+    "common",
+    "abstract",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_love",
+   "tags": [
+    "common",
+    "abstract",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "layer": 18,
+   "name": "me",
+   "tags": [
+    "common",
+    "animal"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    0
+   ],
+   "colour_active": [
+    3,
+    1
+   ],
+   "layer": 20,
+   "name": "text_me",
+   "tags": [
+    "common",
+    "animal"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 16,
+   "name": "moon",
+   "tags": [
+    "sky",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_moon",
+   "tags": [
+    "sky",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "layer": 17,
+   "name": "orb",
+   "tags": [
+    "common",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_orb",
+   "tags": [
+    "common",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "layer": 16,
+   "name": "pillar",
+   "tags": [
+    "ruins",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    0,
+    1
+   ],
+   "layer": 20,
+   "name": "text_pillar",
+   "tags": [
+    "ruins",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "layer": 14,
+   "name": "pipe",
+   "tags": [
+    "machine",
+    "obstacle"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    0,
+    1
+   ],
+   "layer": 20,
+   "name": "text_pipe",
+   "tags": [
+    "machine",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "layer": 16,
+   "name": "reed",
+   "tags": [
+    "forest",
+    "plant",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_reed",
+   "tags": [
+    "forest",
+    "plant",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "layer": 17,
+   "name": "robot",
+   "tags": [
+    "machine"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    0,
+    1
+   ],
+   "layer": 20,
+   "name": "text_robot",
+   "tags": [
+    "machine"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "layer": 15,
+   "name": "rocket",
+   "tags": [
+    "machine",
+    "sky"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    0,
+    1
+   ],
+   "layer": 20,
+   "name": "text_rocket",
+   "tags": [
+    "machine",
+    "sky"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "layer": 16,
+   "name": "rock",
+   "tags": [
+    "common",
+    "item",
+    "cave"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "colour_active": [
+    6,
+    1
+   ],
+   "layer": 20,
+   "name": "text_rock",
+   "tags": [
+    "common",
+    "item",
+    "cave"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 16,
+   "name": "rose",
+   "tags": [
+    "plant",
+    "decorative",
+    "forest"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_rose",
+   "tags": [
+    "plant",
+    "decorative",
+    "forest"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "layer": 8,
+   "name": "rubble",
+   "tags": [
+    "mountain",
+    "decorative",
+    "floor"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "colour_active": [
+    6,
+    1
+   ],
+   "layer": 20,
+   "name": "text_rubble",
+   "tags": [
+    "mountain",
+    "decorative",
+    "floor"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_x",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "layer": 15,
+   "name": "shirt",
+   "tags": [
+    "item",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    2,
+    1
+   ],
+   "layer": 20,
+   "name": "text_shirt",
+   "tags": [
+    "item",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "layer": 17,
+   "name": "skull",
+   "tags": [
+    "common",
+    "danger"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    0
+   ],
+   "colour_active": [
+    2,
+    1
+   ],
+   "layer": 20,
+   "name": "text_skull",
+   "tags": [
+    "common",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "layer": 10,
+   "name": "spike",
+   "tags": [
+    "mountain",
+    "decorative",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    0,
+    1
+   ],
+   "layer": 20,
+   "name": "text_spike",
+   "tags": [
+    "mountain",
+    "decorative",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 16,
+   "name": "star",
+   "tags": [
+    "sky",
+    "decorative",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_star",
+   "tags": [
+    "sky",
+    "decorative",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "layer": 17,
+   "name": "statue",
+   "tags": [
+    "ruins",
+    "decorative"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    2
+   ],
+   "layer": 20,
+   "name": "text_statue",
+   "tags": [
+    "ruins",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 12,
+   "name": "stump",
+   "tags": [
+    "ruins",
+    "forest",
+    "plant",
+    "decorative",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_stump",
+   "tags": [
+    "ruins",
+    "forest",
+    "plant",
+    "decorative",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 14,
+   "name": "sun",
+   "tags": [
+    "mountain",
+    "decorative",
+    "sky"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_sun",
+   "tags": [
+    "mountain",
+    "decorative",
+    "sky"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    3
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_right",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    3
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_up",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    3
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_left",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    3
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_down",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_all",
+   "tags": [
+    "text_special"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text",
+   "unpaired": true
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_and",
+   "tags": [
+    "text_verb",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 6,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_best",
+   "tags": [
+    "text_quality",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_red",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    3,
+    3
+   ],
+   "layer": 20,
+   "name": "text_blue",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    2
+   ],
+   "layer": 20,
+   "name": "text_green",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_yellow",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    0
+   ],
+   "colour_active": [
+    3,
+    1
+   ],
+   "layer": 20,
+   "name": "text_purple",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_pink",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    0,
+    1
+   ],
+   "layer": 20,
+   "name": "text_grey",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    0,
+    1
+   ],
+   "layer": 20,
+   "name": "text_black",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_white",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    6,
+    1
+   ],
+   "layer": 20,
+   "name": "text_brown",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_orange",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_bonus",
+   "tags": [
+    "common",
+    "text_quality",
+    "text_special"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    3,
+    3
+   ],
+   "layer": 20,
+   "name": "text_chill",
+   "tags": [
+    "text_quality",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_cursor",
+   "special": true,
+   "tags": [
+    "text_special",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    0
+   ],
+   "colour_active": [
+    2,
+    1
+   ],
+   "layer": 20,
+   "name": "text_defeat",
+   "tags": [
+    "text_quality",
+    "danger",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_eat",
+   "tags": [
+    "text_verb"
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_empty",
+   "tags": [
+    "common",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_end",
+   "tags": [
+    "text_quality",
+    "text_special"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "argextra": [
+    "right",
+    "up",
+    "left",
+    "down"
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_facing",
+   "tags": [
+    "text_condition"
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_back",
+   "tags": [
+    "text_quality",
+    "abstract",
+    "text_special",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_fall",
+   "sprite": "text_falldown",
+   "tags": [
+    "text_quality",
+    "sky",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_fallright",
+   "tags": [
+    "text_quality",
+    "sky",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_fallup",
+   "tags": [
+    "text_quality",
+    "sky",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_fallleft",
+   "tags": [
+    "text_quality",
+    "sky",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_fear",
+   "tags": [
+    "text_verb",
+    "danger",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_float",
+   "tags": [
+    "text_quality",
+    "water"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_follow",
+   "tags": [
+    "text_verb",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    3,
+    3
+   ],
+   "layer": 20,
+   "name": "text_group",
+   "tags": [
+    "common",
+    "text_special"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_has",
+   "tags": [
+    "text_verb",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    3,
+    3
+   ],
+   "layer": 20,
+   "name": "text_hide",
+   "tags": [
+    "text_quality",
+    "text_special",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_hot",
+   "pairedwith": "text_melt",
+   "tags": [
+    "text_quality",
+    "cave",
+    "danger",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_idle",
+   "tags": [
+    "text_condition",
+    "text_prefix"
+   ],
+   "tiling": -1,
+   "type": 3,
+   "unittype": "text"
+  },
+  {
+   "argtype": [
+    0,
+    2
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_is",
+   "tags": [
+    "text_verb",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_level",
+   "tags": [
+    "text_special",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_lonely",
+   "tags": [
+    "text_condition",
+    "text_prefix",
+    "mountain"
+   ],
+   "tiling": -1,
+   "type": 3,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_often",
+   "tags": [
+    "text_condition",
+    "text_prefix",
+    "abstract",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 3,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    3,
+    3
+   ],
+   "layer": 20,
+   "name": "text_seldom",
+   "tags": [
+    "text_condition",
+    "text_prefix",
+    "abstract",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 3,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_make",
+   "tags": [
+    "text_verb",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    3
+   ],
+   "layer": 20,
+   "name": "text_melt",
+   "pairedwith": "text_hot",
+   "tags": [
+    "text_quality",
+    "cave",
+    "danger",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_more",
+   "tags": [
+    "text_quality",
+    "abstract",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_move",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_near",
+   "tags": [
+    "text_condition",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_not",
+   "tags": [
+    "text_special",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 4,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_on",
+   "tags": [
+    "text_condition",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_open",
+   "pairedwith": "text_shut",
+   "tags": [
+    "text_quality",
+    "common",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_you2",
+   "tags": [
+    "text_quality",
+    "text_special",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "argtype": [
+    8
+   ],
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "customobjects": [
+    "c",
+    "csharp",
+    "cflat",
+    "d",
+    "dsharp",
+    "dflat",
+    "e",
+    "esharp",
+    "eflat",
+    "f",
+    "fsharp",
+    "fflat",
+    "g",
+    "gsharp",
+    "gflat",
+    "a",
+    "asharp",
+    "aflat",
+    "b",
+    "bsharp",
+    "bflat",
+    "c4",
+    "csharp4",
+    "cflat4",
+    "d4",
+    "dsharp4",
+    "dflat4",
+    "e4",
+    "esharp4",
+    "eflat4",
+    "f4",
+    "fsharp4",
+    "fflat4",
+    "g4",
+    "gsharp4",
+    "gflat4",
+    "a4",
+    "asharp4",
+    "aflat4",
+    "b4",
+    "bsharp4",
+    "bflat4",
+    "c5",
+    "csharp5",
+    "cflat5",
+    "d5",
+    "dsharp5",
+    "dflat5",
+    "e5",
+    "esharp5",
+    "eflat5",
+    "f5",
+    "fsharp5",
+    "fflat5",
+    "g5",
+    "gsharp5",
+    "gflat5",
+    "a5",
+    "asharp5",
+    "aflat5",
+    "b5",
+    "bsharp5",
+    "bflat5",
+    "c6",
+    "csharp6",
+    "d6",
+    "dsharp6",
+    "dflat6",
+    "e6",
+    "esharp6",
+    "eflat6",
+    "f6",
+    "fsharp6",
+    "fflat6",
+    "g6",
+    "gsharp6",
+    "gflat6",
+    "a6",
+    "aflat6"
+   ],
+   "layer": 20,
+   "name": "text_play",
+   "tags": [
+    "text_verb",
+    "common",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_powered",
+   "pairedwith": "text_power",
+   "tags": [
+    "text_condition",
+    "text_prefix",
+    "machine"
+   ],
+   "tiling": -1,
+   "type": 3,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_power",
+   "pairedwith": "text_powered",
+   "tags": [
+    "text_quality",
+    "machine"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_pull",
+   "tags": [
+    "text_quality",
+    "common",
+    "obstacle",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "colour_active": [
+    6,
+    1
+   ],
+   "layer": 20,
+   "name": "text_push",
+   "tags": [
+    "text_quality",
+    "common",
+    "obstacle",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    3,
+    2
+   ],
+   "layer": 20,
+   "name": "text_sad",
+   "tags": [
+    "text_quality",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_safe",
+   "tags": [
+    "text_quality",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    3
+   ],
+   "layer": 20,
+   "name": "text_shift",
+   "tags": [
+    "text_quality",
+    "common",
+    "machine",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_shut",
+   "pairedwith": "text_open",
+   "tags": [
+    "text_quality",
+    "common",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    3
+   ],
+   "layer": 20,
+   "name": "text_sink",
+   "tags": [
+    "text_quality",
+    "common",
+    "obstacle",
+    "water",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    3
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_sleep",
+   "tags": [
+    "text_quality",
+    "sky",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    0
+   ],
+   "colour_active": [
+    5,
+    1
+   ],
+   "layer": 20,
+   "name": "text_stop",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    0
+   ],
+   "colour_active": [
+    3,
+    1
+   ],
+   "layer": 20,
+   "name": "text_swap",
+   "tags": [
+    "text_quality",
+    "abstract",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_tele",
+   "tags": [
+    "text_quality",
+    "abstract",
+    "machine",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_text",
+   "tags": [
+    "text_special",
+    "common",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    0
+   ],
+   "layer": 4,
+   "name": "tile",
+   "tags": [
+    "common",
+    "floor",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    0,
+    1
+   ],
+   "layer": 20,
+   "name": "text_tile",
+   "tags": [
+    "common",
+    "floor",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "layer": 16,
+   "name": "tree",
+   "tags": [
+    "forest",
+    "plant",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    2
+   ],
+   "layer": 20,
+   "name": "text_tree",
+   "tags": [
+    "forest",
+    "plant",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    2
+   ],
+   "layer": 17,
+   "name": "ufo",
+   "tags": [
+    "sky",
+    "machine"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_ufo",
+   "tags": [
+    "sky",
+    "machine"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "layer": 14,
+   "name": "wall",
+   "tags": [
+    "common",
+    "obstacle",
+    "town"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    0,
+    1
+   ],
+   "layer": 20,
+   "name": "text_wall",
+   "tags": [
+    "common",
+    "obstacle",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    3
+   ],
+   "layer": 2,
+   "name": "water",
+   "tags": [
+    "water",
+    "obstacle",
+    "danger"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    3
+   ],
+   "layer": 20,
+   "name": "text_water",
+   "tags": [
+    "water",
+    "obstacle",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    1,
+    2
+   ],
+   "layer": 20,
+   "name": "text_weak",
+   "tags": [
+    "text_quality",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_win",
+   "tags": [
+    "text_quality",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_without",
+   "tags": [
+    "text_condition",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_wonder",
+   "tags": [
+    "text_quality",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    2
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_word",
+   "tags": [
+    "text_quality",
+    "text_special"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_you",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 9,
+   "name": "husks",
+   "tags": [
+    "plant",
+    "autumn",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "layer": 9,
+   "name": "trees",
+   "tags": [
+    "forest",
+    "plant",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_a",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_b",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_c",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_d",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_e",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_f",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_g",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_h",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_i",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_l",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_m",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_n",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_o",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_r",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_s",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_t",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_u",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_v",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_j",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_k",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_p",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_q",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_y",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_z",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_broken",
+   "tags": [
+    "text_quality",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_nudgeright",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_nudgeup",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_nudgeleft",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_nudgedown",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_turn",
+   "pairedwith": "text_deturn",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_deturn",
+   "pairedwith": "text_turn",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_done",
+   "tags": [
+    "text_quality",
+    "text_special"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_mimic",
+   "tags": [
+    "text_verb",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 16,
+   "name": "sign",
+   "tags": [
+    "common",
+    "item",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_sign",
+   "tags": [
+    "common",
+    "item",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_still",
+   "tags": [
+    "text_quality",
+    "abstract",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    3
+   ],
+   "layer": 17,
+   "name": "circle",
+   "tags": [
+    "item",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_circle",
+   "tags": [
+    "item",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "layer": 17,
+   "name": "square",
+   "tags": [
+    "item",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_square",
+   "tags": [
+    "item",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "layer": 17,
+   "name": "triangle",
+   "tags": [
+    "item",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    3,
+    3
+   ],
+   "layer": 20,
+   "name": "text_triangle",
+   "tags": [
+    "item",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    2
+   ],
+   "layer": 16,
+   "name": "crystal",
+   "tags": [
+    "cave",
+    "obstacle",
+    "item"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_crystal",
+   "tags": [
+    "cave",
+    "obstacle",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "layer": 17,
+   "name": "foot",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_foot",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "layer": 19,
+   "name": "eye",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_eye",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    3
+   ],
+   "layer": 19,
+   "name": "worm",
+   "tags": [
+    "forest",
+    "animal"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_worm",
+   "tags": [
+    "forest",
+    "animal"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_above",
+   "tags": [
+    "text_condition",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_below",
+   "tags": [
+    "text_condition",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_select",
+   "tags": [
+    "text_quality",
+    "text_special",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    2
+   ],
+   "layer": 16,
+   "name": "gem",
+   "tags": [
+    "item",
+    "cave",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_gem",
+   "tags": [
+    "item",
+    "cave",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    6,
+    1
+   ],
+   "layer": 20,
+   "name": "text_husks",
+   "tags": [
+    "plant",
+    "autumn",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    2
+   ],
+   "layer": 20,
+   "name": "text_trees",
+   "tags": [
+    "forest",
+    "plant",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "argtype": [
+    2
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_feeling",
+   "tags": [
+    "text_condition"
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_cyan",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "layer": 9,
+   "name": "track",
+   "tags": [
+    "machine",
+    "floor",
+    "town"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "colour_active": [
+    6,
+    1
+   ],
+   "layer": 20,
+   "name": "text_track",
+   "tags": [
+    "machine",
+    "floor",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "layer": 18,
+   "name": "train",
+   "tags": [
+    "machine",
+    "item",
+    "danger",
+    "town"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    2
+   ],
+   "layer": 20,
+   "name": "text_train",
+   "tags": [
+    "machine",
+    "item",
+    "danger",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_rosy",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_lime",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    2
+   ],
+   "layer": 20,
+   "name": "text_silver",
+   "tags": [
+    "text_quality",
+    "decorative",
+    "colour"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 17,
+   "name": "ring",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_ring",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "layer": 9,
+   "name": "arrow",
+   "tags": [
+    "abstract",
+    "movement"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    2
+   ],
+   "layer": 20,
+   "name": "text_arrow",
+   "tags": [
+    "abstract",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "layer": 18,
+   "name": "cart",
+   "tags": [
+    "machine",
+    "item",
+    "danger",
+    "town"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    2
+   ],
+   "layer": 20,
+   "name": "text_cart",
+   "tags": [
+    "machine",
+    "item",
+    "danger",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 16,
+   "name": "book",
+   "tags": [
+    "item",
+    "ruins",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_book",
+   "tags": [
+    "item",
+    "ruins",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "layer": 17,
+   "name": "tower",
+   "tags": [
+    "ruins",
+    "obstacle",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    0,
+    1
+   ],
+   "layer": 20,
+   "name": "text_tower",
+   "tags": [
+    "ruins",
+    "obstacle",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "layer": 16,
+   "name": "seed",
+   "tags": [
+    "forest",
+    "plant",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_seed",
+   "tags": [
+    "forest",
+    "plant",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    3
+   ],
+   "layer": 17,
+   "name": "sprout",
+   "tags": [
+    "forest",
+    "plant",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_sprout",
+   "tags": [
+    "forest",
+    "plant",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 18,
+   "name": "jiji",
+   "tags": [
+    "animal",
+    "common"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_jiji",
+   "tags": [
+    "animal",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "layer": 18,
+   "name": "fofo",
+   "tags": [
+    "animal",
+    "common"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    2
+   ],
+   "layer": 20,
+   "name": "text_fofo",
+   "tags": [
+    "animal",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "layer": 15,
+   "name": "vine",
+   "tags": [
+    "obstacle",
+    "decorative",
+    "forest",
+    "plant"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    2
+   ],
+   "layer": 20,
+   "name": "text_vine",
+   "tags": [
+    "obstacle",
+    "decorative",
+    "forest",
+    "plant"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    4
+   ],
+   "layer": 8,
+   "name": "wind",
+   "tags": [
+    "abstract",
+    "movement",
+    "mountain",
+    "sky"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    3
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_wind",
+   "tags": [
+    "abstract",
+    "movement",
+    "mountain",
+    "sky"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "layer": 16,
+   "name": "fort",
+   "tags": [
+    "obstacle",
+    "ruins",
+    "town"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    0,
+    1
+   ],
+   "layer": 20,
+   "name": "text_fort",
+   "tags": [
+    "obstacle",
+    "ruins",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_auto",
+   "tags": [
+    "text_quality",
+    "movement",
+    "text_special"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 17,
+   "name": "bee",
+   "tags": [
+    "animal",
+    "forest"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_bee",
+   "tags": [
+    "animal",
+    "forest"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "layer": 16,
+   "name": "pants",
+   "tags": [
+    "item",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    3,
+    3
+   ],
+   "layer": 20,
+   "name": "text_pants",
+   "tags": [
+    "item",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_0",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_1",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_2",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_3",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_4",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_5",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_6",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_7",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_8",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_9",
+   "tags": [
+    "text_letter"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_sharp",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_flat",
+   "tags": [
+    "text_letter",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 5,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_revert",
+   "tags": [
+    "text_quality",
+    "text_special"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 19,
+   "name": "lizard",
+   "tags": [
+    "animal",
+    "forest",
+    "cave"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_lizard",
+   "tags": [
+    "animal",
+    "forest",
+    "cave"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    2
+   ],
+   "layer": 16,
+   "name": "shell",
+   "tags": [
+    "animal",
+    "water",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_shell",
+   "tags": [
+    "animal",
+    "water",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    3
+   ],
+   "layer": 17,
+   "name": "fish",
+   "tags": [
+    "animal",
+    "water",
+    "movement"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    3
+   ],
+   "layer": 20,
+   "name": "text_fish",
+   "tags": [
+    "animal",
+    "water",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 16,
+   "name": "house",
+   "tags": [
+    "obstacle",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_house",
+   "tags": [
+    "obstacle",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 15,
+   "name": "gate",
+   "tags": [
+    "obstacle",
+    "decorative",
+    "ruins"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_gate",
+   "tags": [
+    "obstacle",
+    "decorative",
+    "ruins"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 16,
+   "name": "boat",
+   "tags": [
+    "water",
+    "movement",
+    "machine",
+    "decorative"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_boat",
+   "tags": [
+    "water",
+    "movement",
+    "machine",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 16,
+   "name": "pumpkin",
+   "tags": [
+    "plant",
+    "autumn",
+    "decorative"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_pumpkin",
+   "tags": [
+    "plant",
+    "autumn",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 16,
+   "name": "lamp",
+   "tags": [
+    "item",
+    "autumn",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_lamp",
+   "tags": [
+    "item",
+    "autumn",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "layer": 17,
+   "name": "lift",
+   "tags": [
+    "machine",
+    "movement",
+    "town"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    2
+   ],
+   "layer": 20,
+   "name": "text_lift",
+   "tags": [
+    "machine",
+    "movement",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "layer": 18,
+   "name": "ear",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_ear",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "layer": 18,
+   "name": "nose",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_nose",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "layer": 16,
+   "name": "monitor",
+   "tags": [
+    "machine",
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    2
+   ],
+   "layer": 20,
+   "name": "text_monitor",
+   "tags": [
+    "machine",
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 16,
+   "name": "stick",
+   "tags": [
+    "item",
+    "decorative",
+    "forest"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_stick",
+   "tags": [
+    "item",
+    "decorative",
+    "forest"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 16,
+   "name": "bucket",
+   "tags": [
+    "item",
+    "decorative",
+    "cave"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_bucket",
+   "tags": [
+    "item",
+    "decorative",
+    "cave"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "layer": 16,
+   "name": "shovel",
+   "tags": [
+    "item",
+    "decorative",
+    "cave"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_shovel",
+   "tags": [
+    "item",
+    "decorative",
+    "cave"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    4
+   ],
+   "layer": 18,
+   "name": "it",
+   "tags": [
+    "common",
+    "animal"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_it",
+   "tags": [
+    "common",
+    "animal"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 16,
+   "name": "plane",
+   "tags": [
+    "sky",
+    "movement",
+    "machine"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_plane",
+   "tags": [
+    "sky",
+    "movement",
+    "machine"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_lockeddown",
+   "tags": [
+    "text_quality",
+    "abstract",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_lockedright",
+   "tags": [
+    "text_quality",
+    "abstract",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_lockedup",
+   "tags": [
+    "text_quality",
+    "abstract",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_lockedleft",
+   "tags": [
+    "text_quality",
+    "abstract",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    1,
+    1
+   ],
+   "colour_active": [
+    0,
+    1
+   ],
+   "layer": 20,
+   "name": "text_phantom",
+   "tags": [
+    "text_quality",
+    "abstract",
+    "movement",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 16,
+   "name": "planet",
+   "tags": [
+    "sky",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_planet",
+   "tags": [
+    "sky",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "layer": 7,
+   "name": "road",
+   "tags": [
+    "floor",
+    "decorative",
+    "town"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    2
+   ],
+   "layer": 20,
+   "name": "text_road",
+   "tags": [
+    "floor",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 16,
+   "name": "banana",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_banana",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 16,
+   "name": "burger",
+   "tags": [
+    "town",
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_burger",
+   "tags": [
+    "town",
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    4
+   ],
+   "layer": 16,
+   "name": "drink",
+   "tags": [
+    "town",
+    "item",
+    "decorative",
+    "water"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    4,
+    4
+   ],
+   "layer": 20,
+   "name": "text_drink",
+   "tags": [
+    "town",
+    "item",
+    "decorative",
+    "water"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "layer": 16,
+   "name": "turnip",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_turnip",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    3
+   ],
+   "layer": 9,
+   "name": "pixel",
+   "tags": [
+    "obstacle",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_pixel",
+   "tags": [
+    "obstacle",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "layer": 16,
+   "name": "guitar",
+   "tags": [
+    "item",
+    "decorative",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_guitar",
+   "tags": [
+    "item",
+    "decorative",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    3
+   ],
+   "layer": 16,
+   "name": "piano",
+   "tags": [
+    "item",
+    "decorative",
+    "music"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    3
+   ],
+   "layer": 20,
+   "name": "text_piano",
+   "tags": [
+    "item",
+    "decorative",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    4
+   ],
+   "layer": 16,
+   "name": "sax",
+   "tags": [
+    "item",
+    "decorative",
+    "music"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    3,
+    4
+   ],
+   "layer": 20,
+   "name": "text_sax",
+   "tags": [
+    "item",
+    "decorative",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "layer": 8,
+   "name": "blob",
+   "tags": [
+    "obstacle",
+    "danger"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    2
+   ],
+   "layer": 20,
+   "name": "text_blob",
+   "tags": [
+    "obstacle",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 16,
+   "name": "drum",
+   "tags": [
+    "item",
+    "decorative",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_drum",
+   "tags": [
+    "item",
+    "decorative",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 16,
+   "name": "hihat",
+   "tags": [
+    "item",
+    "decorative",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_hihat",
+   "tags": [
+    "item",
+    "decorative",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_group2",
+   "tags": [
+    "common",
+    "text_special"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_group3",
+   "tags": [
+    "common",
+    "text_special"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_party",
+   "tags": [
+    "text_quality",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 16,
+   "name": "potato",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_potato",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_pet",
+   "tags": [
+    "text_quality",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "layer": 16,
+   "name": "donut",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_donut",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_reverse",
+   "tags": [
+    "text_quality",
+    "common",
+    "movement"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_besideleft",
+   "tags": [
+    "text_condition",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_besideright",
+   "tags": [
+    "text_condition",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    3
+   ],
+   "layer": 18,
+   "name": "frog",
+   "tags": [
+    "water",
+    "animal"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_frog",
+   "tags": [
+    "water",
+    "animal"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    4
+   ],
+   "layer": 16,
+   "name": "trumpet",
+   "tags": [
+    "item",
+    "decorative",
+    "music"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_trumpet",
+   "tags": [
+    "item",
+    "decorative",
+    "music"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 17,
+   "name": "pawn",
+   "tags": [
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_pawn",
+   "tags": [
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 17,
+   "name": "knight",
+   "tags": [
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_knight",
+   "tags": [
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    4
+   ],
+   "layer": 18,
+   "name": "turtle",
+   "tags": [
+    "water",
+    "animal",
+    "forest"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "colour_active": [
+    5,
+    4
+   ],
+   "layer": 20,
+   "name": "text_turtle",
+   "tags": [
+    "water",
+    "animal",
+    "forest"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "layer": 18,
+   "name": "cat",
+   "tags": [
+    "animal",
+    "forest",
+    "town"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_cat",
+   "tags": [
+    "animal",
+    "forest",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    4
+   ],
+   "layer": 16,
+   "name": "sword",
+   "tags": [
+    "item",
+    "decorative",
+    "danger"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_sword",
+   "tags": [
+    "item",
+    "decorative",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    3
+   ],
+   "layer": 16,
+   "name": "clock",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": 4,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    3,
+    3
+   ],
+   "layer": 20,
+   "name": "text_clock",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    3
+   ],
+   "layer": 16,
+   "name": "bed",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_bed",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 16,
+   "name": "pizza",
+   "tags": [
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_pizza",
+   "tags": [
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    2
+   ],
+   "layer": 16,
+   "name": "vase",
+   "tags": [
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    2
+   ],
+   "layer": 20,
+   "name": "text_vase",
+   "tags": [
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    4
+   ],
+   "layer": 16,
+   "name": "bottle",
+   "tags": [
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    2
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_bottle",
+   "tags": [
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 17,
+   "name": "car",
+   "tags": [
+    "machine",
+    "danger",
+    "town"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_car",
+   "tags": [
+    "machine",
+    "danger",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    3
+   ],
+   "layer": 16,
+   "name": "egg",
+   "tags": [
+    "item",
+    "decorative",
+    "animal",
+    "forest"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_egg",
+   "tags": [
+    "item",
+    "decorative",
+    "animal",
+    "forest"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    0
+   ],
+   "layer": 8,
+   "name": "plank",
+   "tags": [
+    "floor",
+    "town"
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_plank",
+   "tags": [
+    "floor",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    2
+   ],
+   "layer": 18,
+   "name": "dog",
+   "tags": [
+    "animal",
+    "forest",
+    "town"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    2
+   ],
+   "layer": 20,
+   "name": "text_dog",
+   "tags": [
+    "animal",
+    "forest",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    4
+   ],
+   "layer": 16,
+   "name": "mirror",
+   "tags": [
+    "item",
+    "decorative",
+    "town",
+    "ruins"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    4,
+    4
+   ],
+   "layer": 20,
+   "name": "text_mirror",
+   "tags": [
+    "item",
+    "decorative",
+    "town",
+    "ruins"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "layer": 9,
+   "name": "lily",
+   "tags": [
+    "water",
+    "decorative",
+    "plant"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    2
+   ],
+   "layer": 20,
+   "name": "text_lily",
+   "tags": [
+    "water",
+    "decorative",
+    "plant"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_3d",
+   "tags": [
+    "abstract",
+    "text_special",
+    "text_quality"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    2
+   ],
+   "layer": 14,
+   "name": "lock",
+   "tags": [
+    "common",
+    "obstacle",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    2
+   ],
+   "layer": 20,
+   "name": "text_lock",
+   "tags": [
+    "common",
+    "obstacle",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "layer": 16,
+   "name": "boba",
+   "tags": [
+    "decorative",
+    "town",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_boba",
+   "tags": [
+    "decorative",
+    "town",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    1,
+    4
+   ],
+   "layer": 18,
+   "name": "badbad",
+   "tags": [
+    "animal",
+    "common"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    1,
+    3
+   ],
+   "colour_active": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_badbad",
+   "tags": [
+    "animal",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    3
+   ],
+   "layer": 16,
+   "name": "what",
+   "tags": [
+    "decorative",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_what",
+   "tags": [
+    "decorative",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_boom",
+   "tags": [
+    "text_quality",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_nextto",
+   "tags": [
+    "text_condition",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "layer": 19,
+   "name": "monster",
+   "tags": [
+    "ruins",
+    "danger",
+    "animal"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    0
+   ],
+   "colour_active": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_monster",
+   "tags": [
+    "ruins",
+    "danger",
+    "animal"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_seeing",
+   "tags": [
+    "text_condition",
+    "common"
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    3
+   ],
+   "layer": 18,
+   "name": "teeth",
+   "tags": [
+    "abstract",
+    "decorative"
+   ],
+   "tiling": 4,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    2
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_teeth",
+   "tags": [
+    "abstract",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    2
+   ],
+   "layer": 16,
+   "name": "lever",
+   "tags": [
+    "machine",
+    "decorative"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    2
+   ],
+   "layer": 20,
+   "name": "text_lever",
+   "tags": [
+    "machine",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "argtype": [
+    0,
+    2
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_write",
+   "tags": [
+    "text_verb",
+    "text_special"
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_powered2",
+   "pairedwith": "text_power2",
+   "tags": [
+    "text_condition",
+    "text_prefix",
+    "machine"
+   ],
+   "tiling": -1,
+   "type": 3,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_power2",
+   "pairedwith": "text_powered2",
+   "tags": [
+    "text_quality",
+    "machine"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    4,
+    4
+   ],
+   "layer": 20,
+   "name": "text_powered3",
+   "pairedwith": "text_power3",
+   "tags": [
+    "text_condition",
+    "text_prefix",
+    "machine"
+   ],
+   "tiling": -1,
+   "type": 3,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    4,
+    4
+   ],
+   "layer": 20,
+   "name": "text_power3",
+   "pairedwith": "text_powered3",
+   "tags": [
+    "text_quality",
+    "machine"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "layer": 16,
+   "name": "chair",
+   "tags": [
+    "town",
+    "decorative",
+    "item"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_chair",
+   "tags": [
+    "town",
+    "decorative",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "layer": 16,
+   "name": "table",
+   "tags": [
+    "town",
+    "decorative",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_table",
+   "tags": [
+    "town",
+    "decorative",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    4
+   ],
+   "layer": 16,
+   "name": "cheese",
+   "tags": [
+    "town",
+    "decorative",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "colour_active": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_cheese",
+   "tags": [
+    "town",
+    "decorative",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "layer": 16,
+   "name": "bomb",
+   "tags": [
+    "machine",
+    "danger",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    2
+   ],
+   "layer": 20,
+   "name": "text_bomb",
+   "tags": [
+    "machine",
+    "danger",
+    "item"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    3
+   ],
+   "layer": 9,
+   "name": "paper",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_paper",
+   "tags": [
+    "item",
+    "decorative",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    4
+   ],
+   "layer": 16,
+   "name": "scissors",
+   "tags": [
+    "item",
+    "decorative",
+    "town",
+    "danger"
+   ],
+   "tiling": 3,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    2
+   ],
+   "colour_active": [
+    4,
+    4
+   ],
+   "layer": 20,
+   "name": "text_scissors",
+   "tags": [
+    "item",
+    "decorative",
+    "town",
+    "danger"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "layer": 15,
+   "name": "arm",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": 3,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    3,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_arm",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    3
+   ],
+   "layer": 19,
+   "name": "bunny",
+   "tags": [
+    "animal",
+    "forest"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_bunny",
+   "tags": [
+    "animal",
+    "forest"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    6,
+    2
+   ],
+   "layer": 19,
+   "name": "snail",
+   "tags": [
+    "animal",
+    "forest"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    6,
+    1
+   ],
+   "colour_active": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_snail",
+   "tags": [
+    "animal",
+    "forest"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "layer": 16,
+   "name": "bean",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_bean",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 16,
+   "name": "hotdog",
+   "tags": [
+    "town",
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_hotdog",
+   "tags": [
+    "town",
+    "item",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    3
+   ],
+   "layer": 19,
+   "name": "yes",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_yes",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 19,
+   "name": "no",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_no",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_hold",
+   "tags": [
+    "text_quality",
+    "movement",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    4,
+    2
+   ],
+   "layer": 19,
+   "name": "brain",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    4,
+    1
+   ],
+   "colour_active": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_brain",
+   "tags": [
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    2
+   ],
+   "layer": 12,
+   "name": "chili",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_chili",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_angry",
+   "tags": [
+    "text_quality",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "colour_active": [
+    5,
+    4
+   ],
+   "layer": 20,
+   "name": "text_happy",
+   "tags": [
+    "text_quality",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    0,
+    3
+   ],
+   "layer": 9,
+   "name": "bone",
+   "tags": [
+    "danger",
+    "decorative"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_bone",
+   "tags": [
+    "danger",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_become",
+   "tags": [
+    "text_verb",
+    "abstract"
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  {
+   "advanced": true,
+   "colour": [
+    0,
+    1
+   ],
+   "colour_active": [
+    0,
+    3
+   ],
+   "layer": 20,
+   "name": "text_facedby",
+   "tags": [
+    "text_condition"
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    2
+   ],
+   "layer": 15,
+   "name": "cactus",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    2
+   ],
+   "layer": 20,
+   "name": "text_cactus",
+   "tags": [
+    "plant",
+    "forest",
+    "decorative"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    2,
+    3
+   ],
+   "layer": 18,
+   "name": "fox",
+   "tags": [
+    "animal",
+    "forest",
+    "town"
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    2,
+    1
+   ],
+   "colour_active": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_fox",
+   "tags": [
+    "animal",
+    "forest",
+    "town"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  {
+   "colour": [
+    5,
+    3
+   ],
+   "layer": 16,
+   "name": "palm",
+   "tags": [
+    "forest",
+    "plant",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  {
+   "colour": [
+    5,
+    1
+   ],
+   "colour_active": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_palm",
+   "tags": [
+    "forest",
+    "plant",
+    "obstacle"
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  }
+ ],
+ "tileslist": {
+  "edge": {
+   "colour": [
+    0,
+    2
+   ],
+   "tile": [
+    0,
+    0
+   ]
+  },
+  "object000": {
+   "colour": [
+    0,
+    3
+   ],
+   "grid": [
+    0,
+    1
+   ],
+   "layer": 18,
+   "name": "baba",
+   "sprite": "baba",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    0
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object001": {
+   "colour": [
+    2,
+    2
+   ],
+   "grid": [
+    0,
+    2
+   ],
+   "layer": 18,
+   "name": "keke",
+   "sprite": "keke",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    0
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object002": {
+   "colour": [
+    6,
+    2
+   ],
+   "grid": [
+    0,
+    4
+   ],
+   "layer": 16,
+   "name": "rock",
+   "sprite": "rock",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    0
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object003": {
+   "active": [
+    5,
+    3
+   ],
+   "colour": [
+    5,
+    1
+   ],
+   "grid": [
+    4,
+    4
+   ],
+   "layer": 20,
+   "name": "text_grass",
+   "sprite": "text_grass",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    0
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object004": {
+   "colour": [
+    1,
+    0
+   ],
+   "grid": [
+    3,
+    7
+   ],
+   "layer": 4,
+   "name": "tile",
+   "sprite": "tile",
+   "sprite_in_root": true,
+   "tile": [
+    5,
+    0
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object005": {
+   "active": [
+    0,
+    3
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    2,
+    0
+   ],
+   "layer": 20,
+   "name": "text_and",
+   "sprite": "text_and",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    0
+   ],
+   "tiling": -1,
+   "type": 6,
+   "unittype": "text"
+  },
+  "object006": {
+   "active": [
+    3,
+    3
+   ],
+   "colour": [
+    3,
+    2
+   ],
+   "grid": [
+    8,
+    6
+   ],
+   "layer": 20,
+   "name": "text_hide",
+   "sprite": "text_hide",
+   "sprite_in_root": true,
+   "tile": [
+    7,
+    0
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object007": {
+   "active": [
+    5,
+    2
+   ],
+   "colour": [
+    5,
+    0
+   ],
+   "grid": [
+    10,
+    5
+   ],
+   "layer": 20,
+   "name": "text_follow",
+   "sprite": "text_follow",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    0
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  "object008": {
+   "active": [
+    1,
+    4
+   ],
+   "colour": [
+    1,
+    2
+   ],
+   "grid": [
+    10,
+    2
+   ],
+   "layer": 20,
+   "name": "text_float",
+   "sprite": "text_float",
+   "sprite_in_root": true,
+   "tile": [
+    9,
+    0
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object009": {
+   "active": [
+    2,
+    2
+   ],
+   "colour": [
+    2,
+    1
+   ],
+   "grid": [
+    9,
+    4
+   ],
+   "layer": 20,
+   "name": "text_lonely",
+   "sprite": "text_lonely",
+   "sprite_in_root": true,
+   "tile": [
+    10,
+    0
+   ],
+   "tiling": -1,
+   "type": 3,
+   "unittype": "text"
+  },
+  "object010": {
+   "colour": [
+    2,
+    3
+   ],
+   "grid": [
+    9,
+    9
+   ],
+   "layer": 2,
+   "name": "lava",
+   "sprite": "water",
+   "sprite_in_root": true,
+   "tile": [
+    11,
+    0
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object011": {
+   "colour": [
+    1,
+    3
+   ],
+   "grid": [
+    0,
+    6
+   ],
+   "layer": 2,
+   "name": "water",
+   "sprite": "water",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    1
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object012": {
+   "colour": [
+    1,
+    1
+   ],
+   "grid": [
+    0,
+    5
+   ],
+   "layer": 14,
+   "name": "wall",
+   "sprite": "wall",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    1
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object013": {
+   "active": [
+    0,
+    3
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    6,
+    0
+   ],
+   "layer": 20,
+   "name": "text_empty",
+   "sprite": "text_empty",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    1
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object014": {
+   "active": [
+    0,
+    1
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "grid": [
+    4,
+    7
+   ],
+   "layer": 20,
+   "name": "text_tile",
+   "sprite": "text_tile",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    1
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object015": {
+   "active": [
+    1,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "grid": [
+    7,
+    3
+   ],
+   "layer": 20,
+   "name": "text_weak",
+   "sprite": "text_weak",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    1
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object016": {
+   "active": [
+    0,
+    3
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    8,
+    4
+   ],
+   "layer": 20,
+   "name": "text_near",
+   "sprite": "text_near",
+   "sprite_in_root": true,
+   "tile": [
+    5,
+    1
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  "object017": {
+   "colour": [
+    1,
+    4
+   ],
+   "grid": [
+    5,
+    5
+   ],
+   "layer": 14,
+   "name": "cloud",
+   "sprite": "cloud",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    1
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object018": {
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    5,
+    6
+   ],
+   "layer": 16,
+   "name": "pillar",
+   "sprite": "pillar",
+   "sprite_in_root": true,
+   "tile": [
+    7,
+    1
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object019": {
+   "active": [
+    6,
+    1
+   ],
+   "colour": [
+    6,
+    0
+   ],
+   "grid": [
+    8,
+    7
+   ],
+   "layer": 20,
+   "name": "text_fungus",
+   "sprite": "text_fungus",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    1
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object020": {
+   "active": [
+    4,
+    1
+   ],
+   "colour": [
+    4,
+    0
+   ],
+   "grid": [
+    1,
+    1
+   ],
+   "layer": 20,
+   "name": "text_baba",
+   "sprite": "text_baba",
+   "sprite_in_root": true,
+   "tile": [
+    9,
+    1
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object021": {
+   "active": [
+    2,
+    2
+   ],
+   "colour": [
+    2,
+    1
+   ],
+   "grid": [
+    1,
+    2
+   ],
+   "layer": 20,
+   "name": "text_keke",
+   "sprite": "text_keke",
+   "sprite_in_root": true,
+   "tile": [
+    10,
+    1
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object022": {
+   "active": [
+    2,
+    4
+   ],
+   "colour": [
+    6,
+    1
+   ],
+   "grid": [
+    1,
+    3
+   ],
+   "layer": 20,
+   "name": "text_flag",
+   "sprite": "text_flag",
+   "sprite_in_root": true,
+   "tile": [
+    11,
+    1
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object023": {
+   "colour": [
+    2,
+    4
+   ],
+   "grid": [
+    0,
+    3
+   ],
+   "layer": 17,
+   "name": "flag",
+   "sprite": "flag",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    2
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object024": {
+   "colour": [
+    1,
+    2
+   ],
+   "grid": [
+    3,
+    3
+   ],
+   "layer": 9,
+   "name": "ice",
+   "sprite": "ice",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    2
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object025": {
+   "active": [
+    1,
+    3
+   ],
+   "colour": [
+    1,
+    2
+   ],
+   "grid": [
+    2,
+    9
+   ],
+   "layer": 20,
+   "name": "text_shift",
+   "sprite": "text_shift",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    2
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object026": {
+   "colour": [
+    2,
+    2
+   ],
+   "grid": [
+    9,
+    10
+   ],
+   "layer": 16,
+   "name": "rose",
+   "sprite": "rose",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    2
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object027": {
+   "active": [
+    0,
+    3
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    5,
+    0
+   ],
+   "layer": 20,
+   "name": "text_all",
+   "sprite": "text_all",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    2
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object028": {
+   "active": [
+    1,
+    4
+   ],
+   "colour": [
+    1,
+    3
+   ],
+   "grid": [
+    7,
+    1
+   ],
+   "layer": 20,
+   "name": "text_right",
+   "sprite": "text_right",
+   "sprite_in_root": true,
+   "tile": [
+    5,
+    2
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object029": {
+   "active": [
+    1,
+    4
+   ],
+   "colour": [
+    1,
+    3
+   ],
+   "grid": [
+    6,
+    5
+   ],
+   "layer": 20,
+   "name": "text_cloud",
+   "sprite": "text_cloud",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    2
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object030": {
+   "active": [
+    0,
+    1
+   ],
+   "colour": [
+    0,
+    0
+   ],
+   "grid": [
+    6,
+    6
+   ],
+   "layer": 20,
+   "name": "text_pillar",
+   "sprite": "text_pillar",
+   "sprite_in_root": true,
+   "tile": [
+    7,
+    2
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object031": {
+   "colour": [
+    6,
+    1
+   ],
+   "grid": [
+    7,
+    7
+   ],
+   "layer": 16,
+   "name": "fungus",
+   "sprite": "fungus",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    2
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object032": {
+   "active": [
+    6,
+    1
+   ],
+   "colour": [
+    6,
+    0
+   ],
+   "grid": [
+    1,
+    4
+   ],
+   "layer": 20,
+   "name": "text_rock",
+   "sprite": "text_rock",
+   "sprite_in_root": true,
+   "tile": [
+    9,
+    2
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object033": {
+   "active": [
+    2,
+    3
+   ],
+   "colour": [
+    2,
+    2
+   ],
+   "grid": [
+    10,
+    9
+   ],
+   "layer": 20,
+   "name": "text_lava",
+   "sprite": "text_lava",
+   "sprite_in_root": true,
+   "tile": [
+    10,
+    2
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object034": {
+   "active": [
+    0,
+    1
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "grid": [
+    1,
+    5
+   ],
+   "layer": 20,
+   "name": "text_wall",
+   "sprite": "text_wall",
+   "sprite_in_root": true,
+   "tile": [
+    11,
+    2
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object035": {
+   "active": [
+    1,
+    3
+   ],
+   "colour": [
+    1,
+    2
+   ],
+   "grid": [
+    4,
+    3
+   ],
+   "layer": 20,
+   "name": "text_ice",
+   "sprite": "text_ice",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    3
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object036": {
+   "active": [
+    0,
+    3
+   ],
+   "argtype": [
+    0,
+    2
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    1,
+    0
+   ],
+   "layer": 20,
+   "name": "text_is",
+   "sprite": "text_is",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    3
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  "object037": {
+   "active": [
+    2,
+    2
+   ],
+   "colour": [
+    2,
+    1
+   ],
+   "grid": [
+    10,
+    10
+   ],
+   "layer": 20,
+   "name": "text_rose",
+   "sprite": "text_rose",
+   "sprite_in_root": true,
+   "tile": [
+    7,
+    3
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object038": {
+   "active": [
+    4,
+    1
+   ],
+   "colour": [
+    4,
+    0
+   ],
+   "grid": [
+    10,
+    3
+   ],
+   "layer": 20,
+   "name": "text_more",
+   "sprite": "text_more",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    3
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object039": {
+   "active": [
+    0,
+    3
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    7,
+    6
+   ],
+   "layer": 20,
+   "name": "text_safe",
+   "sprite": "text_safe",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    3
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object040": {
+   "active": [
+    1,
+    4
+   ],
+   "colour": [
+    1,
+    3
+   ],
+   "grid": [
+    6,
+    1
+   ],
+   "layer": 20,
+   "name": "text_up",
+   "sprite": "text_up",
+   "sprite_in_root": true,
+   "tile": [
+    5,
+    3
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object041": {
+   "colour": [
+    2,
+    4
+   ],
+   "grid": [
+    5,
+    9
+   ],
+   "layer": 16,
+   "name": "star",
+   "sprite": "star",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    3
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object042": {
+   "active": [
+    0,
+    3
+   ],
+   "colour": [
+    0,
+    2
+   ],
+   "grid": [
+    8,
+    0
+   ],
+   "layer": 20,
+   "name": "text_word",
+   "sprite": "text_word",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    11
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object043": {
+   "active": [
+    2,
+    2
+   ],
+   "colour": [
+    2,
+    1
+   ],
+   "grid": [
+    4,
+    10
+   ],
+   "layer": 20,
+   "name": "text_fruit",
+   "sprite": "text_fruit",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    3
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object044": {
+   "active": [
+    1,
+    3
+   ],
+   "colour": [
+    1,
+    2
+   ],
+   "grid": [
+    1,
+    6
+   ],
+   "layer": 20,
+   "name": "text_water",
+   "sprite": "text_water",
+   "sprite_in_root": true,
+   "tile": [
+    9,
+    3
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object045": {
+   "active": [
+    2,
+    4
+   ],
+   "colour": [
+    6,
+    1
+   ],
+   "grid": [
+    2,
+    3
+   ],
+   "layer": 20,
+   "name": "text_win",
+   "sprite": "text_win",
+   "sprite_in_root": true,
+   "tile": [
+    10,
+    3
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object046": {
+   "active": [
+    6,
+    1
+   ],
+   "colour": [
+    6,
+    0
+   ],
+   "grid": [
+    2,
+    4
+   ],
+   "layer": 20,
+   "name": "text_push",
+   "sprite": "text_push",
+   "sprite_in_root": true,
+   "tile": [
+    11,
+    3
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object047": {
+   "active": [
+    5,
+    1
+   ],
+   "colour": [
+    5,
+    0
+   ],
+   "grid": [
+    2,
+    5
+   ],
+   "layer": 20,
+   "name": "text_stop",
+   "sprite": "text_stop",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    4
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object048": {
+   "active": [
+    5,
+    3
+   ],
+   "colour": [
+    5,
+    1
+   ],
+   "grid": [
+    2,
+    2
+   ],
+   "layer": 20,
+   "name": "text_move",
+   "sprite": "text_move",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    4
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object049": {
+   "active": [
+    2,
+    4
+   ],
+   "colour": [
+    2,
+    3
+   ],
+   "grid": [
+    9,
+    2
+   ],
+   "layer": 20,
+   "name": "text_best",
+   "sprite": "text_best",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    4
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object050": {
+   "active": [
+    1,
+    4
+   ],
+   "colour": [
+    1,
+    2
+   ],
+   "grid": [
+    8,
+    1
+   ],
+   "layer": 20,
+   "name": "text_tele",
+   "sprite": "text_tele",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    4
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object051": {
+   "colour": [
+    0,
+    3
+   ],
+   "grid": [
+    7,
+    8
+   ],
+   "layer": 17,
+   "name": "hand",
+   "sprite": "hand",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    4
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object052": {
+   "active": [
+    1,
+    4
+   ],
+   "colour": [
+    1,
+    3
+   ],
+   "grid": [
+    6,
+    2
+   ],
+   "layer": 20,
+   "name": "text_left",
+   "sprite": "text_left",
+   "sprite_in_root": true,
+   "tile": [
+    5,
+    4
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object053": {
+   "active": [
+    2,
+    4
+   ],
+   "colour": [
+    6,
+    1
+   ],
+   "grid": [
+    6,
+    9
+   ],
+   "layer": 20,
+   "name": "text_star",
+   "sprite": "text_star",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    4
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object054": {
+   "active": [
+    2,
+    2
+   ],
+   "colour": [
+    2,
+    1
+   ],
+   "grid": [
+    10,
+    6
+   ],
+   "layer": 20,
+   "name": "text_red",
+   "sprite": "text_red",
+   "sprite_in_root": true,
+   "tile": [
+    7,
+    4
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object055": {
+   "colour": [
+    2,
+    2
+   ],
+   "grid": [
+    3,
+    10
+   ],
+   "layer": 16,
+   "name": "fruit",
+   "sprite": "fruit",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    4
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object056": {
+   "active": [
+    1,
+    3
+   ],
+   "colour": [
+    1,
+    2
+   ],
+   "grid": [
+    5,
+    3
+   ],
+   "layer": 20,
+   "name": "text_melt",
+   "sprite": "text_melt",
+   "sprite_in_root": true,
+   "tile": [
+    9,
+    4
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object057": {
+   "active": [
+    2,
+    3
+   ],
+   "colour": [
+    2,
+    2
+   ],
+   "grid": [
+    6,
+    3
+   ],
+   "layer": 20,
+   "name": "text_hot",
+   "sprite": "text_hot",
+   "sprite_in_root": true,
+   "tile": [
+    10,
+    4
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object058": {
+   "active": [
+    4,
+    1
+   ],
+   "colour": [
+    4,
+    0
+   ],
+   "grid": [
+    2,
+    1
+   ],
+   "layer": 20,
+   "name": "text_you",
+   "sprite": "text_you",
+   "sprite_in_root": true,
+   "tile": [
+    11,
+    4
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object059": {
+   "active": [
+    2,
+    2
+   ],
+   "colour": [
+    2,
+    1
+   ],
+   "grid": [
+    4,
+    0
+   ],
+   "layer": 20,
+   "name": "text_not",
+   "sprite": "text_not",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    5
+   ],
+   "tiling": -1,
+   "type": 4,
+   "unittype": "text"
+  },
+  "object060": {
+   "active": [
+    1,
+    3
+   ],
+   "colour": [
+    1,
+    2
+   ],
+   "grid": [
+    2,
+    6
+   ],
+   "layer": 20,
+   "name": "text_sink",
+   "sprite": "text_sink",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    5
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object061": {
+   "colour": [
+    4,
+    2
+   ],
+   "grid": [
+    3,
+    5
+   ],
+   "layer": 16,
+   "name": "love",
+   "sprite": "love",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    5
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object062": {
+   "colour": [
+    2,
+    2
+   ],
+   "grid": [
+    3,
+    2
+   ],
+   "layer": 15,
+   "name": "door",
+   "sprite": "door",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    5
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object063": {
+   "active": [
+    0,
+    3
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    8,
+    8
+   ],
+   "layer": 20,
+   "name": "text_hand",
+   "sprite": "text_hand",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    5
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object064": {
+   "active": [
+    1,
+    4
+   ],
+   "colour": [
+    1,
+    3
+   ],
+   "grid": [
+    7,
+    2
+   ],
+   "layer": 20,
+   "name": "text_down",
+   "sprite": "text_down",
+   "sprite_in_root": true,
+   "tile": [
+    5,
+    5
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object065": {
+   "colour": [
+    6,
+    2
+   ],
+   "grid": [
+    9,
+    8
+   ],
+   "layer": 12,
+   "name": "dust",
+   "sprite": "dust",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    5
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object066": {
+   "active": [
+    3,
+    3
+   ],
+   "colour": [
+    3,
+    2
+   ],
+   "grid": [
+    6,
+    4
+   ],
+   "layer": 20,
+   "name": "text_flower",
+   "sprite": "text_flower",
+   "sprite_in_root": true,
+   "tile": [
+    7,
+    5
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object067": {
+   "active": [
+    5,
+    2
+   ],
+   "colour": [
+    5,
+    1
+   ],
+   "grid": [
+    4,
+    9
+   ],
+   "layer": 20,
+   "name": "text_tree",
+   "sprite": "text_tree",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    5
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object068": {
+   "colour": [
+    4,
+    2
+   ],
+   "grid": [
+    5,
+    8
+   ],
+   "layer": 17,
+   "name": "ghost",
+   "sprite": "ghost",
+   "sprite_in_root": true,
+   "tile": [
+    10,
+    10
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object069": {
+   "active": [
+    2,
+    1
+   ],
+   "colour": [
+    2,
+    0
+   ],
+   "grid": [
+    2,
+    7
+   ],
+   "layer": 20,
+   "name": "text_defeat",
+   "sprite": "text_defeat",
+   "sprite_in_root": true,
+   "tile": [
+    10,
+    5
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object070": {
+   "colour": [
+    2,
+    1
+   ],
+   "grid": [
+    0,
+    7
+   ],
+   "layer": 16,
+   "name": "skull",
+   "sprite": "skull",
+   "sprite_in_root": true,
+   "tile": [
+    11,
+    5
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object071": {
+   "colour": [
+    5,
+    0
+   ],
+   "grid": [
+    3,
+    4
+   ],
+   "layer": 10,
+   "name": "grass",
+   "sprite": "grass",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    6
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object072": {
+   "active": [
+    2,
+    1
+   ],
+   "colour": [
+    2,
+    0
+   ],
+   "grid": [
+    1,
+    7
+   ],
+   "layer": 20,
+   "name": "text_skull",
+   "sprite": "text_skull",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    6
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object073": {
+   "active": [
+    4,
+    2
+   ],
+   "colour": [
+    4,
+    1
+   ],
+   "grid": [
+    4,
+    5
+   ],
+   "layer": 20,
+   "name": "text_love",
+   "sprite": "text_love",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    6
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object074": {
+   "active": [
+    2,
+    2
+   ],
+   "colour": [
+    2,
+    1
+   ],
+   "grid": [
+    4,
+    2
+   ],
+   "layer": 20,
+   "name": "text_door",
+   "sprite": "text_door",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    6
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object075": {
+   "active": [
+    4,
+    1
+   ],
+   "colour": [
+    4,
+    0
+   ],
+   "grid": [
+    7,
+    0
+   ],
+   "layer": 20,
+   "name": "text_text",
+   "sprite": "text_text",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    6
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object076": {
+   "active": [
+    1,
+    4
+   ],
+   "colour": [
+    1,
+    3
+   ],
+   "grid": [
+    8,
+    3
+   ],
+   "layer": 20,
+   "name": "text_sleep",
+   "sprite": "text_sleep",
+   "sprite_in_root": true,
+   "tile": [
+    5,
+    6
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object077": {
+   "active": [
+    2,
+    4
+   ],
+   "colour": [
+    6,
+    2
+   ],
+   "grid": [
+    10,
+    8
+   ],
+   "layer": 20,
+   "name": "text_dust",
+   "sprite": "text_dust",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    6
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object078": {
+   "active": [
+    3,
+    3
+   ],
+   "colour": [
+    3,
+    2
+   ],
+   "grid": [
+    9,
+    6
+   ],
+   "layer": 20,
+   "name": "text_blue",
+   "sprite": "text_blue",
+   "sprite_in_root": true,
+   "tile": [
+    7,
+    6
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object079": {
+   "colour": [
+    5,
+    2
+   ],
+   "grid": [
+    3,
+    9
+   ],
+   "layer": 15,
+   "name": "tree",
+   "sprite": "tree",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    6
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object080": {
+   "colour": [
+    2,
+    4
+   ],
+   "grid": [
+    3,
+    1
+   ],
+   "layer": 16,
+   "name": "key",
+   "sprite": "key",
+   "sprite_in_root": true,
+   "tile": [
+    9,
+    6
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object081": {
+   "active": [
+    2,
+    4
+   ],
+   "colour": [
+    6,
+    1
+   ],
+   "grid": [
+    4,
+    1
+   ],
+   "layer": 20,
+   "name": "text_key",
+   "sprite": "text_key",
+   "sprite_in_root": true,
+   "tile": [
+    10,
+    6
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object082": {
+   "active": [
+    2,
+    4
+   ],
+   "colour": [
+    6,
+    1
+   ],
+   "grid": [
+    5,
+    1
+   ],
+   "layer": 20,
+   "name": "text_open",
+   "sprite": "text_open",
+   "sprite_in_root": true,
+   "tile": [
+    11,
+    6
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object083": {
+   "active": [
+    2,
+    2
+   ],
+   "colour": [
+    2,
+    1
+   ],
+   "grid": [
+    5,
+    2
+   ],
+   "layer": 20,
+   "name": "text_shut",
+   "sprite": "text_shut",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    7
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object084": {
+   "active": [
+    0,
+    3
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    3,
+    0
+   ],
+   "layer": 20,
+   "name": "text_has",
+   "sprite": "text_has",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    7
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  "object085": {
+   "colour": [
+    6,
+    2
+   ],
+   "grid": [
+    0,
+    8
+   ],
+   "layer": 16,
+   "name": "box",
+   "sprite": "box",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    7
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object086": {
+   "active": [
+    6,
+    1
+   ],
+   "colour": [
+    6,
+    0
+   ],
+   "grid": [
+    1,
+    8
+   ],
+   "layer": 20,
+   "name": "text_box",
+   "sprite": "text_box",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    7
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object087": {
+   "colour": [
+    1,
+    1
+   ],
+   "grid": [
+    0,
+    9
+   ],
+   "layer": 11,
+   "name": "belt",
+   "sprite": "belt",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    7
+   ],
+   "tiling": 3,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object088": {
+   "active": [
+    0,
+    3
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    7,
+    5
+   ],
+   "layer": 20,
+   "name": "text_make",
+   "sprite": "text_make",
+   "sprite_in_root": true,
+   "tile": [
+    5,
+    7
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  "object089": {
+   "active": [
+    5,
+    3
+   ],
+   "colour": [
+    5,
+    1
+   ],
+   "grid": [
+    9,
+    3
+   ],
+   "layer": 20,
+   "name": "text_fall",
+   "sprite": "text_fall",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    7
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object090": {
+   "colour": [
+    3,
+    3
+   ],
+   "grid": [
+    5,
+    4
+   ],
+   "layer": 12,
+   "name": "flower",
+   "sprite": "flower",
+   "sprite_in_root": true,
+   "tile": [
+    7,
+    7
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object091": {
+   "active": [
+    6,
+    1
+   ],
+   "colour": [
+    6,
+    0
+   ],
+   "grid": [
+    10,
+    7
+   ],
+   "layer": 20,
+   "name": "text_fence",
+   "sprite": "text_fence",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    7
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object092": {
+   "active": [
+    1,
+    3
+   ],
+   "colour": [
+    1,
+    2
+   ],
+   "grid": [
+    1,
+    9
+   ],
+   "layer": 20,
+   "name": "text_belt",
+   "sprite": "text_belt",
+   "sprite_in_root": true,
+   "tile": [
+    9,
+    7
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object093": {
+   "colour": [
+    3,
+    1
+   ],
+   "grid": [
+    3,
+    6
+   ],
+   "layer": 18,
+   "name": "me",
+   "sprite": "me",
+   "sprite_in_root": true,
+   "tile": [
+    10,
+    7
+   ],
+   "tiling": 2,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object094": {
+   "active": [
+    3,
+    1
+   ],
+   "colour": [
+    3,
+    0
+   ],
+   "grid": [
+    4,
+    6
+   ],
+   "layer": 20,
+   "name": "text_me",
+   "sprite": "text_me",
+   "sprite_in_root": true,
+   "tile": [
+    11,
+    7
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object095": {
+   "active": [
+    3,
+    1
+   ],
+   "colour": [
+    3,
+    0
+   ],
+   "grid": [
+    8,
+    2
+   ],
+   "layer": 20,
+   "name": "text_swap",
+   "sprite": "text_swap",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    8
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object096": {
+   "active": [
+    6,
+    2
+   ],
+   "colour": [
+    6,
+    1
+   ],
+   "grid": [
+    2,
+    8
+   ],
+   "layer": 20,
+   "name": "text_pull",
+   "sprite": "text_pull",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    8
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object097": {
+   "active": [
+    0,
+    3
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    7,
+    4
+   ],
+   "layer": 20,
+   "name": "text_on",
+   "sprite": "text_on",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    8
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  "object098": {
+   "colour": [
+    2,
+    4
+   ],
+   "grid": [
+    5,
+    10
+   ],
+   "layer": 16,
+   "name": "moon",
+   "sprite": "moon",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    8
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object099": {
+   "active": [
+    4,
+    2
+   ],
+   "colour": [
+    4,
+    1
+   ],
+   "grid": [
+    6,
+    8
+   ],
+   "layer": 20,
+   "name": "text_ghost",
+   "sprite": "text_ghost",
+   "sprite_in_root": true,
+   "tile": [
+    11,
+    10
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object100": {
+   "colour": [
+    6,
+    1
+   ],
+   "grid": [
+    9,
+    7
+   ],
+   "layer": 14,
+   "name": "fence",
+   "sprite": "fence",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    8
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object101": {
+   "colour": [
+    5,
+    1
+   ],
+   "grid": [
+    7,
+    9
+   ],
+   "layer": 14,
+   "name": "hedge",
+   "sprite": "hedge",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    9
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object102": {
+   "active": [
+    5,
+    1
+   ],
+   "colour": [
+    5,
+    0
+   ],
+   "grid": [
+    8,
+    9
+   ],
+   "layer": 20,
+   "name": "text_hedge",
+   "sprite": "text_hedge",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    9
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object103": {
+   "active": [
+    4,
+    1
+   ],
+   "colour": [
+    4,
+    0
+   ],
+   "grid": [
+    9,
+    0
+   ],
+   "layer": 20,
+   "name": "text_level",
+   "sprite": "text_level",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    9
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object104": {
+   "active": [
+    4,
+    1
+   ],
+   "colour": [
+    4,
+    0
+   ],
+   "grid": [
+    1,
+    10
+   ],
+   "layer": 20,
+   "name": "text_orb",
+   "sprite": "text_orb",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    9
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object105": {
+   "colour": [
+    4,
+    1
+   ],
+   "grid": [
+    0,
+    10
+   ],
+   "layer": 17,
+   "name": "orb",
+   "sprite": "orb",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    9
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object106": {
+   "active": [
+    4,
+    1
+   ],
+   "colour": [
+    4,
+    0
+   ],
+   "grid": [
+    2,
+    10
+   ],
+   "layer": 20,
+   "name": "text_bonus",
+   "sprite": "text_bonus",
+   "sprite_in_root": true,
+   "tile": [
+    5,
+    9
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object107": {
+   "active": [
+    2,
+    4
+   ],
+   "colour": [
+    6,
+    1
+   ],
+   "grid": [
+    6,
+    10
+   ],
+   "layer": 20,
+   "name": "text_moon",
+   "sprite": "text_moon",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    9
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object108": {
+   "active": [
+    3,
+    3
+   ],
+   "colour": [
+    3,
+    2
+   ],
+   "grid": [
+    10,
+    0
+   ],
+   "layer": 20,
+   "name": "text_group",
+   "sprite": "text_group",
+   "sprite_in_root": true,
+   "tile": [
+    7,
+    9
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object109": {
+   "active": [
+    0,
+    3
+   ],
+   "colour": [
+    0,
+    2
+   ],
+   "grid": [
+    4,
+    8
+   ],
+   "layer": 20,
+   "name": "text_line",
+   "sprite": "text_line",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    9
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object110": {
+   "colour": [
+    6,
+    3
+   ],
+   "grid": [
+    7,
+    10
+   ],
+   "layer": 10,
+   "name": "brick",
+   "sprite": "brick",
+   "sprite_in_root": true,
+   "tile": [
+    9,
+    9
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object111": {
+   "active": [
+    6,
+    1
+   ],
+   "colour": [
+    6,
+    0
+   ],
+   "grid": [
+    8,
+    10
+   ],
+   "layer": 20,
+   "name": "text_brick",
+   "sprite": "text_brick",
+   "sprite_in_root": true,
+   "tile": [
+    10,
+    9
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object112": {
+   "active": [
+    0,
+    3
+   ],
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    9,
+    1
+   ],
+   "layer": 20,
+   "name": "text_wonder",
+   "sprite": "text_wonder",
+   "sprite_in_root": true,
+   "tile": [
+    11,
+    9
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object113": {
+   "active": [
+    2,
+    2
+   ],
+   "colour": [
+    2,
+    1
+   ],
+   "grid": [
+    8,
+    5
+   ],
+   "layer": 20,
+   "name": "text_eat",
+   "sprite": "text_eat",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    10
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  "object114": {
+   "active": [
+    0,
+    1
+   ],
+   "colour": [
+    0,
+    0
+   ],
+   "grid": [
+    6,
+    7
+   ],
+   "layer": 20,
+   "name": "text_statue",
+   "sprite": "text_statue",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    10
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "text"
+  },
+  "object115": {
+   "colour": [
+    0,
+    1
+   ],
+   "grid": [
+    5,
+    7
+   ],
+   "layer": 17,
+   "name": "statue",
+   "sprite": "statue",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    10
+   ],
+   "tiling": 0,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object116": {
+   "active": [
+    0,
+    3
+   ],
+   "argextra": [
+    "right",
+    "up",
+    "left",
+    "down"
+   ],
+   "colour": [
+    0,
+    2
+   ],
+   "grid": [
+    10,
+    4
+   ],
+   "layer": 20,
+   "name": "text_facing",
+   "sprite": "text_facing",
+   "sprite_in_root": true,
+   "tile": [
+    9,
+    10
+   ],
+   "tiling": -1,
+   "type": 7,
+   "unittype": "text"
+  },
+  "object117": {
+   "colour": [
+    0,
+    3
+   ],
+   "grid": [
+    3,
+    8
+   ],
+   "layer": 20,
+   "name": "line",
+   "sprite": "line",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    10
+   ],
+   "tiling": 1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object118": {
+   "active": [
+    2,
+    2
+   ],
+   "colour": [
+    2,
+    1
+   ],
+   "grid": [
+    9,
+    5
+   ],
+   "layer": 20,
+   "name": "text_fear",
+   "sprite": "text_fear",
+   "sprite_in_root": true,
+   "tile": [
+    7,
+    10
+   ],
+   "tiling": -1,
+   "type": 1,
+   "unittype": "text"
+  },
+  "object119": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "text_sad",
+   "sprite": "text_sad",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    10
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object120": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object121": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object122": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object123": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object124": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object125": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    5,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object126": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object127": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    7,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object128": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object129": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    9,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object130": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    10,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object131": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    11,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object132": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    12,
+    12
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object133": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object134": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object135": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object136": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object137": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object138": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    5,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object139": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    6,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object140": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    7,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object141": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    8,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object142": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    9,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object143": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    10,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object144": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    11,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object145": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    12,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object146": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    13,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object147": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    14,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object148": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    15,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object149": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    16,
+    13
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object150": {
+   "colour": [
+    4,
+    2
+   ],
+   "grid": [
+    11,
+    0
+   ],
+   "layer": 20,
+   "name": "cursor",
+   "sprite": "cursor",
+   "sprite_in_root": true,
+   "tile": [
+    5,
+    10
+   ],
+   "tiling": -1,
+   "type": 0,
+   "unittype": "object"
+  },
+  "object151": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    0,
+    14
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object152": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    1,
+    14
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object153": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    2,
+    14
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object154": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    3,
+    14
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  },
+  "object155": {
+   "active": [
+    3,
+    2
+   ],
+   "colour": [
+    1,
+    1
+   ],
+   "does_not_exist": true,
+   "grid": [
+    10,
+    1
+   ],
+   "layer": 20,
+   "name": "default",
+   "sprite": "default",
+   "sprite_in_root": true,
+   "tile": [
+    4,
+    14
+   ],
+   "tiling": -1,
+   "type": 2,
+   "unittype": "text"
+  }
+ }
+}

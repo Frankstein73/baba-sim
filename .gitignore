@@ -1,0 +1,12 @@
+# 原版游戏文件一律不进仓库，运行时从本地安装目录读取（BABA_DATA）
+game
+*.l
+*.ld
+.venv/
+__pycache__/
+*.pyc
+traces/local/
+re/bin/
+re/proj/
+re/out/
+re/proj_b/

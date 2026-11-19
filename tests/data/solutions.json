@@ -1,0 +1,221 @@
+{
+ "_source": "move strings from github.com/stared/baba-is-harbor (Apache-2.0), tasks/*/solution/solve.sh",
+ "levels": {
+  "78level": {
+   "title": "?",
+   "moves": "rrrruuuuuuurdddddddrr"
+  },
+  "0level": {
+   "title": "baba is you",
+   "moves": "rrrrrrrr"
+  },
+  "1level": {
+   "title": "where do i go?",
+   "moves": "lllrrruuuuuuuurulldddddllllllurrdruuuudddrruulllllldrrrdruuudddr"
+  },
+  "189level": {
+   "title": "now what is this?",
+   "moves": "llllulldrrrdrurrruuuuuuululddddddllll"
+  },
+  "3level": {
+   "title": "out of reach",
+   "moves": "rrdddrrulllulddddddrdrrrrruuddrddluuullldlluluuuuuuurrr"
+  },
+  "2level": {
+   "title": "still out of reach",
+   "moves": "uuuuuuuuulllllddrrrrrrrrrrrddddrrrrrr"
+  },
+  "90level": {
+   "title": "volcano",
+   "moves": "lllddlddrrrddddddllllllluuurrrrrrurddrddlllllllluurrrrrrrurdrrrrrrrrdddrrrr"
+  },
+  "5level": {
+   "title": "off limits",
+   "moves": "rrrddddrrrudllluurdrdlllldd"
+  },
+  "6level": {
+   "title": "grass yard",
+   "moves": "rrurrdrdddrdllldluuuuuuuuurullluldrrrrddddrdrdrrrdruuuurullllllluldrdlllrrrurrrr"
+  },
+  "243level": {
+   "title": "slideshow",
+   "moves": "lluuurrrrrrrrrrrrdddll"
+  },
+  "117level": {
+   "title": "hostile environment",
+   "moves": "dlluulllruulduldulddrrrrrrrurddldrlllddluudlldlulurdrrudlullwwwwwwurrrrrrrrrluurdwwwwwwwwwwwwuuuuurrrrrurdllllllddddd"
+  },
+  "211level": {
+   "title": "submerged ruins",
+   "moves": "rrrrrrddddrrrdldlluuuuurullllllllullddrulurrrdrrrrrrddddddrruldluuuuurulllllddlldddrrdluuuuuurrdl"
+  },
+  "314level": {
+   "title": "sunken temple",
+   "moves": "rrrrrrddddddrrrruldllluuuuurulllllllrrrrrrddddddrrruldlluuuuurullllllrrrrrddddddrruldluuuuurulllllullldlllddlllldlulddddrruuldlluurdddldrrruuullurrrllluurrddlrrdluuurrdluldddddlluuurddldrluuuururdddldddruuuluurrurdr"
+  },
+  "20level": {
+   "title": "icy waters",
+   "moves": "ddddrrrrrdduuuurrrrrrrrrrrdruuuu"
+  },
+  "212level": {
+   "title": "turns",
+   "moves": "lulllldllllllurrdrrruullldddrdruuuullllllllldlurrrrrrrruuulddrurlllllllluuldddddddrurrrrrddlllllllllluuldddddddrrrrrrrddlllllllllldddddruuuuldddddddr"
+  },
+  "10level": {
+   "title": "affection",
+   "moves": "urrrrrrrruuuudldrllldddrrdruuuurulru"
+  },
+  "4level": {
+   "title": "pillar yard",
+   "moves": "rrrrrrruuuuuullldddddldrrrrruuuuuullllllllldrdllulddddddddldrrurdr"
+  },
+  "93level": {
+   "title": "brick wall",
+   "moves": "ddrrrruuruldddrurull"
+  },
+  "209level": {
+   "title": "lock",
+   "moves": "ullldrrrrrrrrrrrurrrrdllllluldddduuuuulddddrdllulldurrrdllllurrrdddlurdlludruuulllldddldrrdruuurrrruuuuuulldrrrrrrurddddd"
+  },
+  "15level": {
+   "title": "novice locksmith",
+   "moves": "rruuldluuudrrulruuulllldrurrdrdddlllulddrrrdrulurlllurrurdldrrrrrrrdruuddlddd"
+  },
+  "8level": {
+   "title": "locked in",
+   "moves": "durrddddddlluulurrrrddddddllluurudllurrrrdrulllluuddlllllllluuudddrrrrrrrrrrrrudruulllllllllllluldrrrrrr"
+  },
+  "236level": {
+   "title": "changeless",
+   "moves": "uurrrrdrrurudddllddllrrdlrrdlluruulldduldddrlurrruullddruurdduuuulldrurddduuurrullllllulldddddldrrrrrurdwuu"
+  },
+  "210level": {
+   "title": "two doors",
+   "moves": "rrruuullluulldduurrrddrurulllllulddduurrrddluullllllluuullluldrrrrdlddrrrrrrrrr"
+  },
+  "136level": {
+   "title": "jelly throne",
+   "moves": "rurrullllllulldddurrrrrrrrdlllllllullrrrrrrrrruurdrdllllllllllrrrrrrrrrrr"
+  },
+  "30level": {
+   "title": "crab storage",
+   "moves": "rrrrruulllllllrrrrrrrdlllllllrddllurrrrrrrrdruluruuuulllllllllddrrrdruuudrrrrdllldluudddrrrrrrrurrdlllllldluuuuuuuuddddddddl"
+  },
+  "166level": {
+   "title": "burglary",
+   "moves": "urrulrrdddlluuuuddddruuurulddddllllllluuuulurrrrddddlldlluuuuddddruuudrruullrrddrrruuuuddllurdruuuurullldlurrrrulrrrrrrudllllllddddddlllld"
+  },
+  "219level": {
+   "title": "boiling river",
+   "moves": "ddlllurrdrullrddllluuuurddddrruuuuuulddddrrrulllulddddrrdruuuurulllllruuldrrrrrrrrrrr"
+  },
+  "173level": {
+   "title": "...bridges?",
+   "moves": "rdddrdlrrrrrrrddddulddrdllllllru"
+  },
+  "41level": {
+   "title": "tiny isle",
+   "moves": "llllllllllddddddrrrrdruuuuulurrrrrrrurudluuuuuuurdrrdlurddddrrruuuuluurlddrulurlluuuurddduuurddur"
+  },
+  "134level": {
+   "title": "dim signal",
+   "moves": "uuuulururdrdulddddlldddrruuruluddluulurrrrddlulurrrddddrdlrdddluruluuuddddluruuuluruulurdrullurldddddduuulllwwww"
+  },
+  "318level": {
+   "title": "dungeon",
+   "moves": "lddrrdrulurddruuuuurulruldddddrrrrrrduruuullllllddd"
+  },
+  "215level": {
+   "title": "evaporating river",
+   "moves": "ullrdddluululurrrrrlllldrrrrrrdrululurrdrdrrulllldrdrululllllldluulddddrrrrrrrrr"
+  },
+  "310level": {
+   "title": "poem",
+   "moves": "uuulllllddluruulldrrrrlllllldddddddrrrrruullllluuuuuurrrrrrrdddddrdllllrddlurrruuuuuulldllldd"
+  },
+  "205level": {
+   "title": "float",
+   "moves": "llddddrrrruldllluuuuulurdruuu"
+  },
+  "218level": {
+   "title": "warm river",
+   "moves": "ldldluuuuudddddddruuuuuurrrrrrrrr"
+  },
+  "171level": {
+   "title": "bridge building",
+   "moves": "ddrdrdlddlrrddduruuuuurrrrr"
+  },
+  "172level": {
+   "title": "bridge building?",
+   "moves": "rrrddddllluuuddrrdrruuudddluuulurrrrrr"
+  },
+  "234level": {
+   "title": "victory spring",
+   "moves": "uurrdrdlllllrrrrddlurulllllruulllllllllddrrrurddruuulurdddrrrrdruurullll"
+  },
+  "107level": {
+   "title": "assembly team",
+   "moves": "rddrdlllrrruuurrurrdlrddlurulllluuuuu"
+  },
+  "7level": {
+   "title": "catch the thief!",
+   "moves": "rrrrdddddddrrddrwwwwwwudrudrurullllullllddrulurdrurdurduuwlluullllldrrrrrrwdruwrdddd"
+  },
+  "37level": {
+   "title": "tiny pond",
+   "moves": "llldddddlllldulldldrrrrurddldrrrldrruuurulddrrrrrrdurrrdllrrullruuuuururddddddrdllll"
+  },
+  "319level": {
+   "title": "research facility",
+   "moves": "rrdruuuuuruldllrdldlullllllllllwddddddrrrrrurrdruuuuuuluurdldruul"
+  },
+  "68level": {
+   "title": "wireless connection",
+   "moves": "uuuulururdddddlldddrrlurdruuulurrulurulrrrddddddluuurulullllddwwwwww"
+  },
+  "65level": {
+   "title": "prison",
+   "moves": "rddldluuuuulurrlddddrrrrdldluuurrrurdddddldrrrllllllluuuuuurddrrrrrrrdllllluuuuuuldlulduruuuuuulllruulldddddddldrrrdd"
+  },
+  "129level": {
+   "title": "further fields",
+   "moves": "wluulururdddllllluuurrrrrrrlllllddddddddldrrrrrdrulurlddlddruuuruluuuulurrrddluuuulddddddruuuulllddldrrldrrdrddllurdrullluuuuurddldrlddrrruuddrruuuululddddldrrdruddlluurrrulwwwwwwwwwwwwdll"
+  },
+  "199level": {
+   "title": "fragility",
+   "moves": "rruuurrrddrrrddlldlulurrrrrrdrruurullrdllluurdldrurddddddrdllllrrrrdlllldllldllll"
+  },
+  "52level": {
+   "title": "tunnel vision",
+   "moves": "uuuuuluurrurrruuudruulrrullrrrddddddrrrdddrrrrr"
+  },
+  "58level": {
+   "title": "a present for you",
+   "moves": "rrrrullllllllurrrrururdddddddrdldlluuuuurullllllllllluldrdldd"
+  },
+  "17level": {
+   "title": "unreachable shores",
+   "moves": "llllllllurrrurrdulldrurddduuuurrruulluuurdldruurddddddrdlrdluuldddddldrldruuuuuuurrrrrrrrrrrrrrrrrrrrrrrr"
+  },
+  "23level": {
+   "title": "but where's the key",
+   "moves": "ulllldrrrrrruurdddrrullulddddrlurrurdduldrrdlllluuuuuuulllllluldrdluuldulldrurdddddldrddrdrrrrrrrulllrrrulllllulluldldrrrrllddrudrurrrrrrrrrrrrrrruuullluuuuu"
+  },
+  "33level": {
+   "title": "love is out there",
+   "moves": "llllddrrrllddrlldrrrulurdddruuuuuddruuuuuddddddruuuulllldluuulurdddddddlllrrrrrrrrrrrrrrdddddll"
+  },
+  "71level": {
+   "title": "perilous gang",
+   "moves": "uuuulllddldrruuurrrddduuurdddrrdddluwwwwwwdrrwwwwrrrrrrrruuuuuuuuuurulllllldluudd"
+  },
+  "72level": {
+   "title": "double moat",
+   "moves": "ulldldrrrrdruuuuruulruuuullldurrdluldrrdrdlllluuurduurululdddrwwwwwwwwwdduurddrrru"
+  },
+  "56level": {
+   "title": "walls of gold",
+   "moves": "drrrrrrrdrulurddrudrruldluuuuruullurrddlldluudddddruuuulurrrdruuuuuurullrrull"
+  }
+ }
+}
