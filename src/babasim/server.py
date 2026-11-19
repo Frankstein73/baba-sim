@@ -11,7 +11,7 @@
     GET    /sessions/<id>                     -> {"summary", "history"}
     DELETE /sessions/<id>
 
-Session options: world, seed, rules (none|lit|list), obs (text|json|image|text+image), grid, lang (en|zh),
+Session options: world, seed, rules (none|lit|list), obs (text|json|image|text+image|gif|text+gif), grid, lang (en|zh),
 max_actions_per_call, max_calls, max_steps, tile_px. No authentication: bind it to a trusted interface.
 """
 

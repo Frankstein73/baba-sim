@@ -429,8 +429,26 @@ class Renderer:
             out = kept
         return out
 
+    def step_frames(self, per_phase: int = 2) -> list[Image.Image]:
+        """In-between and end pictures of the last step, without its starting picture."""
+        n = len(self._phases(self.game._anim[2]))
+        if n == 0:
+            return [self.frame(1.0)]
+        total = n * per_phase
+        return [self.frame(i / total) for i in range(1, total + 1)]
+
     def save_gif(self, path, frames_per_phase: int = 6, ms: int = 60):
         n = max(1, len(self._phases(self.game._anim[2])))
         total = n * frames_per_phase
         ims = [self.frame(i / total) for i in range(total + 1)]
         ims[0].save(path, save_all=True, append_images=ims[1:], duration=[ms] * total + [ms * 8], loop=0)
+
+
+def gif_bytes(frames: list[Image.Image], ms: int = 110, hold_ms: int = 1500) -> bytes:
+    """Animated GIF of `frames`; the last one is held so the end state can be read."""
+    palette = frames[-1].quantize(colors=255, method=Image.MEDIANCUT, dither=Image.NONE)
+    paletted = [f.quantize(palette=palette, dither=Image.NONE) for f in frames]
+    buf = io.BytesIO()
+    paletted[0].save(buf, "GIF", save_all=True, append_images=paletted[1:], loop=0, optimize=False,
+                     duration=[ms] * (len(frames) - 1) + [hold_ms])
+    return buf.getvalue()

@@ -83,8 +83,8 @@ class Session:
                  obs: str = "text", grid: bool = False, max_actions_per_call: int = 32,
                  max_calls: int | None = None, max_steps: int | None = None, tile_px: int = 48,
                  lang: str = "en"):
-        if obs not in ("text", "json", "image", "text+image"):
-            raise ValueError("obs must be text, json, image or text+image")
+        if obs not in ("text", "json", "image", "text+image", "gif", "text+gif"):
+            raise ValueError("obs must be text, json, image, text+image, gif or text+gif")
         self.game = Game(level, world, seed, rules)
         self.obs, self.grid, self.tile_px = obs, grid, tile_px
         self.lang, self.m = lang, M[lang]
@@ -94,6 +94,7 @@ class Session:
         self.stats = {"calls": 0, "steps": 0, "undos": 0, "restarts": 0, "invalid_calls": 0}
         self.history: list[dict] = []  # every executed call, for replay / scoring
         self._renderer = None
+        self._clip = []  # pictures of the call being executed (gif modes)
 
     # ---- what the model is told ------------------------------------------------------------
     def tools(self) -> list[dict]:
@@ -186,6 +187,7 @@ class Session:
                 out.append(self.m["steps_out"])
                 break
             r = self.game.step(ACTION_NAMES[k])
+            self._film()
             executed += 1
             self.stats["steps"] += 1
             out.append(self._events_text(r, executed))
@@ -202,11 +204,13 @@ class Session:
         done = min(n, self.game.turn)
         for _ in range(done):
             self.game.step("undo")
+            self._film()
         self.stats["undos"] += done
         return self.m["undone"].format(n=done) if done else self.m["undo_none"]
 
     def _tool_restart(self, args):
         self.game.step("restart")
+        self._film()
         self.stats["restarts"] += 1
         return self.m["restarted"]
 
@@ -217,7 +221,7 @@ class Session:
     def _events_text(self, result, i):
         if self.obs == "json":
             return json.dumps({"action": result["action"], "events": result["events"]}, ensure_ascii=False)
-        if self.obs == "image":
+        if "text" not in self.obs and self.obs != "json":
             return ""
         return f"[{i}] " + format_events(result["action"], result["events"], self.lang)
 
@@ -225,7 +229,7 @@ class Session:
         state = self.game._state(self.game.last)
         if self.obs == "json":
             return json.dumps(state, ensure_ascii=False)
-        if self.obs == "image":
+        if "text" not in self.obs:
             return ""
         return format_state(state, self.grid, self.lang)
 
@@ -241,19 +245,36 @@ class Session:
         """`text` (what the call did) followed by the current state and the remaining budget."""
         text = "\n\n".join(filter(None, [text, self._state_text()]))
         text = "\n".join(filter(None, [text, self._budget_text()]))
-        if "image" not in self.obs:
+        pictured = "image" in self.obs or "gif" in self.obs
+        if not pictured:
             return text
+        still = self._painter().state_image()
+        if "gif" in self.obs and len(self._clip) > 1:
+            from babasim.render import gif_bytes
+
+            kind, data = "gif", gif_bytes(self._clip)
+        else:
+            buf = io.BytesIO()
+            still.save(buf, "PNG")
+            kind, data = "png", buf.getvalue()
+        self._clip = [still]  # the next call's animation starts from here
+        url = f"data:image/{kind};base64," + base64.b64encode(data).decode()
+        parts = [{"type": "image_url", "image_url": {"url": url}}]
+        if text and "text" in self.obs:
+            parts.insert(0, {"type": "text", "text": text})
+        return parts
+
+    def _painter(self):
         if self._renderer is None:
             from babasim.render import Renderer
 
             self._renderer = Renderer(self.game, tile_px=self.tile_px)
-        buf = io.BytesIO()
-        self._renderer.state_image().save(buf, "PNG")
-        url = "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
-        parts = [{"type": "image_url", "image_url": {"url": url}}]
-        if text:
-            parts.insert(0, {"type": "text", "text": text})
-        return parts
+        return self._renderer
+
+    def _film(self):
+        """Add the pictures of the step just taken to the call's animation."""
+        if "gif" in self.obs:
+            self._clip += self._painter().step_frames()
 
     def summary(self) -> dict:
         return {"level": self.game.level, "world": self.game.world, "won": self.won,

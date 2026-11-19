@@ -65,3 +65,21 @@ def test_image_observation():
     s = Session("0level", obs="text+image", tile_px=8)
     parts = s.call("move", {"actions": ["right"]})
     assert parts[0]["type"] == "text" and parts[1]["image_url"]["url"].startswith("data:image/png;base64,")
+
+
+def test_gif_observation_shows_the_whole_call():
+    import base64
+    import io
+
+    import pytest
+
+    PIL = pytest.importorskip("PIL.Image")
+    s = Session("0level", obs="text+gif", tile_px=24)
+    assert s.initial_observation()[1]["image_url"]["url"].startswith("data:image/png;base64,")  # nothing moved yet
+    parts = s.call("move", {"actions": ["right", "right", "up"]})
+    url = parts[1]["image_url"]["url"]
+    assert parts[0]["type"] == "text" and url.startswith("data:image/gif;base64,")
+    clip = PIL.open(io.BytesIO(base64.b64decode(url.split(",", 1)[1])))
+    assert clip.n_frames >= 1 + 3 * 2 and clip.size == (33 * 24, 18 * 24)  # start, then every step
+    assert s.call("look")[1]["image_url"]["url"].startswith("data:image/png;base64,")
+    assert s.call("undo")[1]["image_url"]["url"].startswith("data:image/gif;base64,")
