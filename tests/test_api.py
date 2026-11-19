@@ -104,3 +104,16 @@ def test_renderer_frames(engine):
     assert len(r.frames(5)) == 5 and len(r.frames("endpoints")) == 2
     g.step("up")  # blocked by nothing; then a no-op against the wall keeps frames identical
     assert r.state_image().tobytes() == r.frame(1.0).tobytes()
+
+
+def test_game_art_style(engine):
+    pytest.importorskip("PIL")
+    from babasim.render import Renderer
+
+    g = Game("0level", engine=engine)
+    art, plain = Renderer(g, tile_px=24), Renderer(g, tile_px=24, style="plain")
+    assert art.style == "game"
+    a, b = art.state_image(), plain.state_image()
+    assert a.size == b.size == (33 * 24, 18 * 24) and a.tobytes() != b.tobytes()
+    assert a.getpixel((0, 0)) == (8, 8, 8)  # the level's palette background
+    assert Renderer(g, tile_px=48).state_image().size == (33 * 48, 18 * 48)

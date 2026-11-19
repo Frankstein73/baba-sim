@@ -11,7 +11,7 @@ offline testing. Internal use only.
 | `src/babasim/gen/` | game logic translated from the original Lua by `tools/lua2py.py` (generated, do not edit) |
 | `src/babasim/luart.py` | Lua 5.3 value semantics used by the generated code (tables incl. exact `pairs` order for integer keys, `#`, strings, `rand()`) |
 | `src/babasim/api.py`, `text.py`, `render.py` | model-facing layer: states, per-turn events, text and image observations (`docs/state-schema.md`) |
-| `src/babasim/data/` | levels and object tables exported once from the game (`tools/export_data.py`), shipped inside the package |
+| `src/babasim/data/` | levels, object tables and sprites/palettes exported once from the game (`tools/export_data.py`, `tools/export_sprites.py`), shipped inside the package |
 | `re/NATIVE_TURN_LOOP.md` | what the native binary calls, in which order (recovered from the binary) |
 | `tools/oracle/` | dev only: runs the original Lua headless (lupa) to compare against |
 | `docs/state-schema.md` | observation/event format, with implementation status in §10 |

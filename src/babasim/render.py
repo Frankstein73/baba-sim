@@ -1,15 +1,22 @@
-"""Procedural renderer (own visual style, no game art): states and in-between frames of a turn.
+"""Renderer: states and in-between frames of a turn.
 
-Needs Pillow (`pip install babasim[render]`). Works on the engine snapshots kept by api.Game, so
-the picture shows exactly what the perceptual view describes.
+`style="game"` (default) draws the game's own sprites and palettes, exported once into
+data/sprites.zip; `style="plain"` is a procedural look that needs no art. Needs Pillow
+(`pip install babasim[render]`). Works on the engine snapshots kept by api.Game, so the picture
+shows exactly what the perceptual view describes.
 """
 
 from __future__ import annotations
 
 import colorsys
 import hashlib
+import io
+import zipfile
+from functools import lru_cache
 
 from PIL import Image, ImageDraw, ImageFont
+
+from babasim.runtime import DATA
 
 BG = (21, 24, 31)
 GRID = (30, 34, 43)
@@ -27,6 +34,52 @@ CLASS_COLOR = {"verb": (240, 240, 240), "and": (240, 240, 240), "not": (229, 83,
                "condition": (160, 214, 230), "prefix": (160, 214, 230)}
 DIRS = {0: (1, 0), 1: (0, -1), 2: (-1, 0), 3: (0, 1)}
 _fonts = {}
+SPRITE_PX = 24
+_zip = None
+
+
+def _asset(path):
+    """Bytes of a file in the exported art, or None."""
+    global _zip
+    if _zip is None:
+        _zip = zipfile.ZipFile(DATA / "sprites.zip") if (DATA / "sprites.zip").exists() else False
+    if not _zip:
+        return None
+    try:
+        return _zip.read(path)
+    except KeyError:
+        return None
+
+
+@lru_cache(maxsize=None)
+def _palette(name, world):
+    data = _asset(f"Worlds/{world}/Palettes/{name}") or _asset(f"Palettes/{name}") or _asset("Palettes/default.png")
+    return Image.open(io.BytesIO(data)).convert("RGB") if data else None
+
+
+@lru_cache(maxsize=None)
+def _tile(sprite, n, root, world, color, px):
+    """Sprite frame `n` tinted with `color` at `px` pixels per tile; None when the art lacks it."""
+    data = None
+    for k in (n, 0):
+        if not root:
+            data = _asset(f"Worlds/{world}/Sprites/{sprite}_{k}_1.png")
+        data = data or _asset(f"Sprites/{sprite}_{k}_1.png") or _asset(f"Worlds/{world}/Sprites/{sprite}_{k}_1.png")
+        if data:
+            break
+    if not data:
+        return None
+    im = Image.open(io.BytesIO(data))
+    if im.mode == "RGBA":
+        lum, alpha = im.convert("L"), im.getchannel("A")
+    else:  # opaque sprites are white on black: brightness is coverage
+        lum = im.convert("L")
+        alpha = lum
+        lum = Image.new("L", im.size, 255)
+    out = Image.merge("RGBA", (*[lum.point(lambda v, c=c: v * c // 255) for c in color], alpha))
+    if px != out.size[0]:
+        out = out.resize((px * out.size[0] // SPRITE_PX, px * out.size[1] // SPRITE_PX), Image.NEAREST)
+    return out
 
 
 def color_of(name):
@@ -69,9 +122,18 @@ def _label(draw, box, text, fill, px):
         y += size
 
 
+class _Neighbours:
+    def __init__(self, cells, w, h):
+        self.cells, self.w, self.h = cells, w, h
+
+    def __contains__(self, key):
+        _name, x, y = key
+        return not (0 <= x < self.w and 0 <= y < self.h) or key in self.cells
+
+
 class Sprite:
     __slots__ = ("id", "name", "kind", "word", "cls", "facing", "x", "y", "dir", "z", "alpha", "state",
-                 "ghost")
+                 "ghost", "look")
 
     def copy(self):
         s = Sprite()
@@ -81,11 +143,58 @@ class Sprite:
 
 
 class Renderer:
-    def __init__(self, game, tile_px: int = 32, axes: bool = False, motion_hints: bool = False):
+    def __init__(self, game, tile_px: int = 48, axes: bool = False, motion_hints: bool = False,
+                 style: str = "game"):
         self.game = game
         self.px = tile_px
         self.axes = axes
         self.hints = motion_hints
+        self.style = style if _asset("Palettes/default.png") else "plain"
+
+    # ---- game art ------------------------------------------------------------------------
+    def _look(self, name):
+        """(sprite, in_root, tiling, colour, active colour) of an object name in this level."""
+        key = ("look", name)
+        info = self.game._info.get(key)
+        if info is None:
+            G = self.game.engine.G
+            cls = G["unitreference"][name]
+            if cls is None or cls == "level":
+                info = False
+            else:
+                get = lambda k: G["getactualdata_objlist"](cls, k)[0]  # noqa: E731
+
+                def colour(k):
+                    c = get(k)
+                    return (int(c[1]), int(c[2])) if c is not None else None
+
+                base = colour("colour") or (0, 3)
+                info = (get("sprite") or name, bool(get("sprite_in_root")), get("tiling"), base, colour("active") or base)
+            self.game._info[key] = info
+        return info
+
+    def _rgb(self, xy):
+        ld = self.game.engine.ld.get("general", {})
+        pal = _palette(ld.get("palette", "default.png"), self.game.world)
+        x, y = xy
+        return pal.getpixel((min(x, pal.size[0] - 1), min(y, pal.size[1] - 1)))
+
+    def _game_tile(self, s, neighbours):
+        look = s.look
+        if not look:
+            return None
+        sprite, root, tiling, colour, active = look
+        if tiling == 1:  # joins with neighbours of its kind: right 1, up 2, left 4, down 8
+            x, y = round(s.x), round(s.y)
+            n = sum(bit for bit, (dx, dy) in ((1, (1, 0)), (2, (0, -1)), (4, (-1, 0)), (8, (0, 1)))
+                    if (s.name, x + dx, y + dy) in neighbours)
+        elif tiling in (0, 2, 3):
+            n = (s.dir if s.dir in DIRS else 0) * 8
+        else:
+            n = 0
+        lit = s.kind == "object" or s.state != "dim"
+        return _tile(sprite, n, root, self.game.world, self._rgb(active if lit and s.kind != "object" else colour),
+                     self.px)
 
     # ---- sprites -----------------------------------------------------------------------
     def _sprite(self, uid, name, x, y, d, z, snap):
@@ -93,6 +202,7 @@ class Renderer:
         s = Sprite()
         s.id, s.name, s.kind, s.word, s.cls, s.facing = uid, name, kind, word, cls, facing
         s.x, s.y, s.dir, s.z, s.alpha, s.ghost = x - 1, y - 1, d, z, 1.0, None
+        s.look = self._look(name) if self.style == "game" else None
         s.state = self.game._text_state(snap, uid) if self.game.rules_mode != "none" else "lit"
         return s
 
@@ -101,10 +211,24 @@ class Renderer:
                 for u in snap["units"] if not u["hidden"]]
 
     # ---- drawing -----------------------------------------------------------------------
-    def _draw_sprite(self, img, s, ox, oy):
+    def _draw_sprite(self, img, s, ox, oy, neighbours=frozenset()):
         px = self.px
         a = max(0.0, min(1.0, s.alpha))
         if a <= 0.01:
+            return
+        tile = self._game_tile(s, neighbours) if self.style == "game" else None
+        if tile is not None:
+            if a < 0.99:
+                tile = tile.copy()
+                tile.putalpha(tile.getchannel("A").point(lambda v: int(v * a)))
+            x0, y0 = round(ox + s.x * px), round(oy + s.y * px)
+            img.alpha_composite(tile, (max(x0, 0), max(y0, 0)),
+                                (max(-x0, 0), max(-y0, 0), tile.size[0], tile.size[1]))
+            if s.state == "crossed" and s.kind != "object":
+                d = ImageDraw.Draw(img)
+                w = max(2, px // 12)
+                d.line((x0 + 3, y0 + 3, x0 + px - 4, y0 + px - 4), fill=(229, 83, 59), width=w)
+                d.line((x0 + px - 4, y0 + 3, x0 + 3, y0 + px - 4), fill=(229, 83, 59), width=w)
             return
         layer = img if a >= 0.99 else Image.new("RGBA", img.size, (0, 0, 0, 0))
         d = ImageDraw.Draw(layer)
@@ -152,22 +276,28 @@ class Renderer:
         px = self.px
         margin = int(px * 0.6) if self.axes else 0
         panel = int(px * 7) if self.game.rules_mode == "list" else 0
-        img = Image.new("RGBA", (margin + w * px + panel, margin + h * px), BG + (255,))
+        game_style = self.style == "game"
+        img = Image.new("RGBA", (margin + w * px + panel, margin + h * px), (self._rgb((1, 0)) if game_style else BG) + (255,))
         d = ImageDraw.Draw(img)
-        for x in range(w + 1):
-            d.line((margin + x * px, margin, margin + x * px, margin + h * px), fill=GRID)
-        for y in range(h + 1):
-            d.line((margin, margin + y * px, margin + w * px, margin + y * px), fill=GRID)
+        if game_style:
+            d.rectangle((margin, margin, margin + w * px - 1, margin + h * px - 1), fill=self._rgb((0, 4)))
+        else:
+            for x in range(w + 1):
+                d.line((margin + x * px, margin, margin + x * px, margin + h * px), fill=GRID)
+            for y in range(h + 1):
+                d.line((margin, margin + y * px, margin + w * px, margin + y * px), fill=GRID)
+        # the level edge and everything outside the field counts as "same kind" for joining sprites
+        neighbours = _Neighbours({(s.name, round(s.x), round(s.y)) for s in sprites if s.look and s.look[2] == 1}, w, h)
         if self.axes:
             f = _font(max(8, int(px * 0.34)))
             for x in range(w):
                 d.text((margin + x * px + px * 0.3, 1), str(x), fill=(150, 156, 170), font=f)
             for y in range(h):
                 d.text((2, margin + y * px + px * 0.25), str(y), fill=(150, 156, 170), font=f)
-        for s in sorted(sprites, key=lambda s: (s.z, s.kind != "object")):
+        for s in sorted(sprites, key=lambda s: s.z):
             if s.ghost is not None:
-                self._draw_sprite(img, s.ghost, margin, margin)
-            self._draw_sprite(img, s, margin, margin)
+                self._draw_sprite(img, s.ghost, margin, margin, neighbours)
+            self._draw_sprite(img, s, margin, margin, neighbours)
         if self.hints:
             for (ax, ay), (bx, by) in hints:
                 d.line((margin + (ax + 0.5) * px, margin + (ay + 0.5) * px,

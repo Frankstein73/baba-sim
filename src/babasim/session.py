@@ -81,7 +81,7 @@ M = {
 class Session:
     def __init__(self, level: str, world: str = "baba", seed: int = 0, rules: str = "lit",
                  obs: str = "text", grid: bool = False, max_actions_per_call: int = 32,
-                 max_calls: int | None = None, max_steps: int | None = None, tile_px: int = 32,
+                 max_calls: int | None = None, max_steps: int | None = None, tile_px: int = 48,
                  lang: str = "en"):
         if obs not in ("text", "json", "image", "text+image"):
             raise ValueError("obs must be text, json, image or text+image")
@@ -246,7 +246,7 @@ class Session:
         if self._renderer is None:
             from babasim.render import Renderer
 
-            self._renderer = Renderer(self.game, tile_px=self.tile_px, axes=True)
+            self._renderer = Renderer(self.game, tile_px=self.tile_px)
         buf = io.BytesIO()
         self._renderer.state_image().save(buf, "PNG")
         url = "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
