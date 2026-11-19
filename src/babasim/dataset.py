@@ -26,6 +26,11 @@ MAIN_30 = (
 )
 
 
+def main_all() -> tuple[str, ...]:
+    """Every playable level of the main game (217), in the order of the game's areas."""
+    return tuple(each["level"] for each in json.loads((DATA / "campaign_baba.json").read_text())["levels"])
+
+
 def rows(levels=MAIN_30, world: str = "baba", **options):
     for order, level in enumerate(levels, 1):
         s = Session(level, world, **options)
@@ -39,6 +44,7 @@ def main() -> None:
     ap.add_argument("out")
     ap.add_argument("--world", default="baba")
     ap.add_argument("--levels", nargs="*", help="level stems (default: the 30 main-game levels)")
+    ap.add_argument("--all", action="store_true", help="every playable level of the main game (217)")
     ap.add_argument("--rules", choices=["none", "lit", "list"], default="lit")
     ap.add_argument("--lang", choices=["en", "zh"], default="en")
     ap.add_argument("--max-calls", type=int)
@@ -46,7 +52,7 @@ def main() -> None:
     a = ap.parse_args()
     n = 0
     with open(a.out, "w") as f:
-        for row in rows(a.levels or MAIN_30, a.world, rules=a.rules, lang=a.lang, max_calls=a.max_calls,
+        for row in rows(a.levels or (main_all() if a.all else MAIN_30), a.world, rules=a.rules, lang=a.lang, max_calls=a.max_calls,
                         max_steps=a.max_steps):
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
             n += 1

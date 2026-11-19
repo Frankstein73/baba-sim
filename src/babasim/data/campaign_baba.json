@@ -1,0 +1,1090 @@
+{
+ "_note": "Playable levels of the main game reachable from the world map (106level), in area order; within an area numbered levels, then lettered extras, then bonus levels. Area grouping follows github.com/stared/baba-is-harbor level_map.json (Apache-2.0); 294level (bonus orb room, no way to win) is left out.",
+ "levels": [
+  {
+   "level": "0level",
+   "area": "map",
+   "kind": "level"
+  },
+  {
+   "level": "1level",
+   "area": "map",
+   "kind": "level"
+  },
+  {
+   "level": "189level",
+   "area": "map",
+   "kind": "level"
+  },
+  {
+   "level": "3level",
+   "area": "map",
+   "kind": "level"
+  },
+  {
+   "level": "2level",
+   "area": "map",
+   "kind": "level"
+  },
+  {
+   "level": "90level",
+   "area": "map",
+   "kind": "level"
+  },
+  {
+   "level": "5level",
+   "area": "map",
+   "kind": "level"
+  },
+  {
+   "level": "6level",
+   "area": "map",
+   "kind": "level"
+  },
+  {
+   "level": "243level",
+   "area": "map",
+   "kind": "level"
+  },
+  {
+   "level": "245level",
+   "area": "map",
+   "kind": "level"
+  },
+  {
+   "level": "117level",
+   "area": "map",
+   "kind": "level"
+  },
+  {
+   "level": "78level",
+   "area": "map",
+   "kind": "bonus"
+  },
+  {
+   "level": "20level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "212level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "10level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "4level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "93level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "209level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "15level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "8level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "236level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "210level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "136level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "30level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "166level",
+   "area": "1. the lake",
+   "kind": "level"
+  },
+  {
+   "level": "211level",
+   "area": "1. the lake",
+   "kind": "bonus"
+  },
+  {
+   "level": "314level",
+   "area": "1. the lake",
+   "kind": "bonus"
+  },
+  {
+   "level": "310level",
+   "area": "2. solitary island",
+   "kind": "level"
+  },
+  {
+   "level": "205level",
+   "area": "2. solitary island",
+   "kind": "level"
+  },
+  {
+   "level": "218level",
+   "area": "2. solitary island",
+   "kind": "level"
+  },
+  {
+   "level": "171level",
+   "area": "2. solitary island",
+   "kind": "level"
+  },
+  {
+   "level": "172level",
+   "area": "2. solitary island",
+   "kind": "level"
+  },
+  {
+   "level": "234level",
+   "area": "2. solitary island",
+   "kind": "level"
+  },
+  {
+   "level": "107level",
+   "area": "2. solitary island",
+   "kind": "level"
+  },
+  {
+   "level": "7level",
+   "area": "2. solitary island",
+   "kind": "level"
+  },
+  {
+   "level": "37level",
+   "area": "2. solitary island",
+   "kind": "level"
+  },
+  {
+   "level": "319level",
+   "area": "2. solitary island",
+   "kind": "level"
+  },
+  {
+   "level": "68level",
+   "area": "2. solitary island",
+   "kind": "level"
+  },
+  {
+   "level": "65level",
+   "area": "2. solitary island",
+   "kind": "level"
+  },
+  {
+   "level": "219level",
+   "area": "2. solitary island",
+   "kind": "bonus"
+  },
+  {
+   "level": "173level",
+   "area": "2. solitary island",
+   "kind": "bonus"
+  },
+  {
+   "level": "41level",
+   "area": "2. solitary island",
+   "kind": "bonus"
+  },
+  {
+   "level": "134level",
+   "area": "2. solitary island",
+   "kind": "bonus"
+  },
+  {
+   "level": "318level",
+   "area": "2. solitary island",
+   "kind": "bonus"
+  },
+  {
+   "level": "215level",
+   "area": "2. solitary island",
+   "kind": "bonus"
+  },
+  {
+   "level": "199level",
+   "area": "3. temple ruins",
+   "kind": "level"
+  },
+  {
+   "level": "52level",
+   "area": "3. temple ruins",
+   "kind": "level"
+  },
+  {
+   "level": "58level",
+   "area": "3. temple ruins",
+   "kind": "level"
+  },
+  {
+   "level": "17level",
+   "area": "3. temple ruins",
+   "kind": "level"
+  },
+  {
+   "level": "23level",
+   "area": "3. temple ruins",
+   "kind": "level"
+  },
+  {
+   "level": "33level",
+   "area": "3. temple ruins",
+   "kind": "level"
+  },
+  {
+   "level": "71level",
+   "area": "3. temple ruins",
+   "kind": "level"
+  },
+  {
+   "level": "72level",
+   "area": "3. temple ruins",
+   "kind": "level"
+  },
+  {
+   "level": "56level",
+   "area": "3. temple ruins",
+   "kind": "level"
+  },
+  {
+   "level": "129level",
+   "area": "3. temple ruins",
+   "kind": "bonus"
+  },
+  {
+   "level": "238level",
+   "area": "4. forest of fall",
+   "kind": "level"
+  },
+  {
+   "level": "221level",
+   "area": "4. forest of fall",
+   "kind": "level"
+  },
+  {
+   "level": "235level",
+   "area": "4. forest of fall",
+   "kind": "level"
+  },
+  {
+   "level": "62level",
+   "area": "4. forest of fall",
+   "kind": "level"
+  },
+  {
+   "level": "194level",
+   "area": "4. forest of fall",
+   "kind": "level"
+  },
+  {
+   "level": "220level",
+   "area": "4. forest of fall",
+   "kind": "level"
+  },
+  {
+   "level": "36level",
+   "area": "4. forest of fall",
+   "kind": "level"
+  },
+  {
+   "level": "26level",
+   "area": "4. forest of fall",
+   "kind": "level"
+  },
+  {
+   "level": "35level",
+   "area": "4. forest of fall",
+   "kind": "level"
+  },
+  {
+   "level": "137level",
+   "area": "4. forest of fall",
+   "kind": "level"
+  },
+  {
+   "level": "160level",
+   "area": "4. forest of fall",
+   "kind": "level"
+  },
+  {
+   "level": "174level",
+   "area": "4. forest of fall",
+   "kind": "level"
+  },
+  {
+   "level": "77level",
+   "area": "4. forest of fall",
+   "kind": "extra"
+  },
+  {
+   "level": "29level",
+   "area": "4. forest of fall",
+   "kind": "extra"
+  },
+  {
+   "level": "269level",
+   "area": "4. forest of fall",
+   "kind": "extra"
+  },
+  {
+   "level": "307level",
+   "area": "4. forest of fall",
+   "kind": "extra"
+  },
+  {
+   "level": "70level",
+   "area": "4. forest of fall",
+   "kind": "extra"
+  },
+  {
+   "level": "239level",
+   "area": "4. forest of fall",
+   "kind": "bonus"
+  },
+  {
+   "level": "138level",
+   "area": "4. forest of fall",
+   "kind": "bonus"
+  },
+  {
+   "level": "308level",
+   "area": "4. forest of fall",
+   "kind": "bonus"
+  },
+  {
+   "level": "66level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "246level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "69level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "34level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "57level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "85level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "151level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "98level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "191level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "315level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "248level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "67level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "28level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "233level",
+   "area": "5. deep forest",
+   "kind": "level"
+  },
+  {
+   "level": "50level",
+   "area": "5. deep forest",
+   "kind": "extra"
+  },
+  {
+   "level": "257level",
+   "area": "5. deep forest",
+   "kind": "extra"
+  },
+  {
+   "level": "260level",
+   "area": "5. deep forest",
+   "kind": "extra"
+  },
+  {
+   "level": "271level",
+   "area": "5. deep forest",
+   "kind": "extra"
+  },
+  {
+   "level": "268level",
+   "area": "5. deep forest",
+   "kind": "extra"
+  },
+  {
+   "level": "193level",
+   "area": "5. deep forest",
+   "kind": "bonus"
+  },
+  {
+   "level": "54level",
+   "area": "5. deep forest",
+   "kind": "bonus"
+  },
+  {
+   "level": "9level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "11level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "13level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "80level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "201level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "111level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "112level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "79level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "216level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "226level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "115level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "82level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "217level",
+   "area": "6. rocket trip",
+   "kind": "level"
+  },
+  {
+   "level": "324level",
+   "area": "6. rocket trip",
+   "kind": "bonus"
+  },
+  {
+   "level": "125level",
+   "area": "6. rocket trip",
+   "kind": "bonus"
+  },
+  {
+   "level": "59level",
+   "area": "7. flower garden",
+   "kind": "level"
+  },
+  {
+   "level": "94level",
+   "area": "7. flower garden",
+   "kind": "level"
+  },
+  {
+   "level": "242level",
+   "area": "7. flower garden",
+   "kind": "level"
+  },
+  {
+   "level": "124level",
+   "area": "7. flower garden",
+   "kind": "level"
+  },
+  {
+   "level": "64level",
+   "area": "7. flower garden",
+   "kind": "level"
+  },
+  {
+   "level": "89level",
+   "area": "7. flower garden",
+   "kind": "level"
+  },
+  {
+   "level": "150level",
+   "area": "7. flower garden",
+   "kind": "level"
+  },
+  {
+   "level": "91level",
+   "area": "7. flower garden",
+   "kind": "level"
+  },
+  {
+   "level": "130level",
+   "area": "7. flower garden",
+   "kind": "level"
+  },
+  {
+   "level": "92level",
+   "area": "7. flower garden",
+   "kind": "level"
+  },
+  {
+   "level": "127level",
+   "area": "7. flower garden",
+   "kind": "bonus"
+  },
+  {
+   "level": "142level",
+   "area": "7. flower garden",
+   "kind": "bonus"
+  },
+  {
+   "level": "21level",
+   "area": "8. chasm",
+   "kind": "extra"
+  },
+  {
+   "level": "241level",
+   "area": "8. chasm",
+   "kind": "extra"
+  },
+  {
+   "level": "31level",
+   "area": "8. chasm",
+   "kind": "extra"
+  },
+  {
+   "level": "240level",
+   "area": "8. chasm",
+   "kind": "extra"
+  },
+  {
+   "level": "19level",
+   "area": "8. chasm",
+   "kind": "extra"
+  },
+  {
+   "level": "110level",
+   "area": "8. chasm",
+   "kind": "extra"
+  },
+  {
+   "level": "18level",
+   "area": "8. chasm",
+   "kind": "extra"
+  },
+  {
+   "level": "25level",
+   "area": "8. chasm",
+   "kind": "extra"
+  },
+  {
+   "level": "60level",
+   "area": "8. chasm",
+   "kind": "extra"
+  },
+  {
+   "level": "155level",
+   "area": "8. chasm",
+   "kind": "bonus"
+  },
+  {
+   "level": "164level",
+   "area": "8. chasm",
+   "kind": "bonus"
+  },
+  {
+   "level": "175level",
+   "area": "8. chasm",
+   "kind": "bonus"
+  },
+  {
+   "level": "167level",
+   "area": "8. chasm",
+   "kind": "bonus"
+  },
+  {
+   "level": "156level",
+   "area": "8. chasm",
+   "kind": "bonus"
+  },
+  {
+   "level": "165level",
+   "area": "8. chasm",
+   "kind": "bonus"
+  },
+  {
+   "level": "163level",
+   "area": "8. chasm",
+   "kind": "bonus"
+  },
+  {
+   "level": "148level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "47level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "266level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "95level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "146level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "46level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "270level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "101level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "109level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "119level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "145level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "176level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "122level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "178level",
+   "area": "9. volcanic cavern",
+   "kind": "level"
+  },
+  {
+   "level": "51level",
+   "area": "9. volcanic cavern",
+   "kind": "bonus"
+  },
+  {
+   "level": "105level",
+   "area": "10. mountaintop",
+   "kind": "level"
+  },
+  {
+   "level": "100level",
+   "area": "10. mountaintop",
+   "kind": "level"
+  },
+  {
+   "level": "195level",
+   "area": "10. mountaintop",
+   "kind": "level"
+  },
+  {
+   "level": "116level",
+   "area": "10. mountaintop",
+   "kind": "level"
+  },
+  {
+   "level": "120level",
+   "area": "10. mountaintop",
+   "kind": "level"
+  },
+  {
+   "level": "118level",
+   "area": "10. mountaintop",
+   "kind": "level"
+  },
+  {
+   "level": "99level",
+   "area": "10. mountaintop",
+   "kind": "level"
+  },
+  {
+   "level": "104level",
+   "area": "10. mountaintop",
+   "kind": "level"
+  },
+  {
+   "level": "48level",
+   "area": "10. mountaintop",
+   "kind": "bonus"
+  },
+  {
+   "level": "192level",
+   "area": "???",
+   "kind": "level"
+  },
+  {
+   "level": "197level",
+   "area": "???",
+   "kind": "level"
+  },
+  {
+   "level": "84level",
+   "area": "???",
+   "kind": "level"
+  },
+  {
+   "level": "227level",
+   "area": "???",
+   "kind": "level"
+  },
+  {
+   "level": "141level",
+   "area": "???",
+   "kind": "level"
+  },
+  {
+   "level": "75level",
+   "area": "???",
+   "kind": "level"
+  },
+  {
+   "level": "247level",
+   "area": "???",
+   "kind": "level"
+  },
+  {
+   "level": "231level",
+   "area": "???",
+   "kind": "level"
+  },
+  {
+   "level": "250level",
+   "area": "???",
+   "kind": "level"
+  },
+  {
+   "level": "230level",
+   "area": "???",
+   "kind": "level"
+  },
+  {
+   "level": "275level",
+   "area": "???",
+   "kind": "level"
+  },
+  {
+   "level": "168level",
+   "area": "???",
+   "kind": "level"
+  },
+  {
+   "level": "340level",
+   "area": "???",
+   "kind": "extra"
+  },
+  {
+   "level": "341level",
+   "area": "???",
+   "kind": "extra"
+  },
+  {
+   "level": "337level",
+   "area": "???",
+   "kind": "extra"
+  },
+  {
+   "level": "t1level",
+   "area": "???",
+   "kind": "bonus"
+  },
+  {
+   "level": "n2level",
+   "area": "???",
+   "kind": "bonus"
+  },
+  {
+   "level": "196level",
+   "area": "???",
+   "kind": "bonus"
+  },
+  {
+   "level": "n1level",
+   "area": "???",
+   "kind": "bonus"
+  },
+  {
+   "level": "306level",
+   "area": "???",
+   "kind": "bonus"
+  },
+  {
+   "level": "255level",
+   "area": "abc",
+   "kind": "level"
+  },
+  {
+   "level": "252level",
+   "area": "abc",
+   "kind": "level"
+  },
+  {
+   "level": "253level",
+   "area": "abc",
+   "kind": "level"
+  },
+  {
+   "level": "280level",
+   "area": "abc",
+   "kind": "level"
+  },
+  {
+   "level": "313level",
+   "area": "abc",
+   "kind": "level"
+  },
+  {
+   "level": "281level",
+   "area": "abc",
+   "kind": "bonus"
+  },
+  {
+   "level": "305level",
+   "area": "center",
+   "kind": "bonus"
+  },
+  {
+   "level": "198level",
+   "area": "center",
+   "kind": "bonus"
+  },
+  {
+   "level": "261level",
+   "area": "depths",
+   "kind": "level"
+  },
+  {
+   "level": "251level",
+   "area": "depths",
+   "kind": "level"
+  },
+  {
+   "level": "263level",
+   "area": "depths",
+   "kind": "level"
+  },
+  {
+   "level": "262level",
+   "area": "depths",
+   "kind": "level"
+  },
+  {
+   "level": "265level",
+   "area": "depths",
+   "kind": "level"
+  },
+  {
+   "level": "274level",
+   "area": "depths",
+   "kind": "bonus"
+  },
+  {
+   "level": "288level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "287level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "302level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "285level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "291level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "132level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "295level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "297level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "298level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "303level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "289level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "284level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "277level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "279level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "292level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "309level",
+   "area": "meta",
+   "kind": "level"
+  },
+  {
+   "level": "299level",
+   "area": "meta",
+   "kind": "bonus"
+  },
+  {
+   "level": "188level",
+   "area": "meta",
+   "kind": "bonus"
+  },
+  {
+   "level": "323level",
+   "area": "meta",
+   "kind": "bonus"
+  },
+  {
+   "level": "203level",
+   "area": "map",
+   "kind": "bonus"
+  }
+ ]
+}
