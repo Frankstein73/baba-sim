@@ -42,7 +42,7 @@ def play(session: Session, complete, max_turns: int = 200, log=print) -> list[di
             idle += 1
             if idle >= 3:
                 break  # the model stopped using the tools
-            messages.append({"role": "user", "content": "请用工具继续操作。"})
+            messages.append({"role": "user", "content": "Please continue by calling a tool."})
             continue
         idle = 0
         for c in calls:
@@ -61,6 +61,7 @@ def main() -> int:
     ap.add_argument("--rules", choices=["none", "lit", "list"], default="lit")
     ap.add_argument("--obs", choices=["text", "json", "image", "text+image"], default="text")
     ap.add_argument("--grid", action="store_true")
+    ap.add_argument("--lang", choices=["en", "zh"], default="en")
     ap.add_argument("--max-calls", type=int, default=50)
     ap.add_argument("--max-steps", type=int)
     ap.add_argument("--max-actions-per-call", type=int, default=32)
@@ -72,7 +73,7 @@ def main() -> int:
     base, key = os.environ["OPENAI_BASE_URL"], os.environ.get("OPENAI_API_KEY", "dummy")
     extra = json.loads(a.extra)
     s = Session(a.level, a.world, rules=a.rules, obs=a.obs, grid=a.grid, max_calls=a.max_calls,
-                max_steps=a.max_steps, max_actions_per_call=a.max_actions_per_call)
+                max_steps=a.max_steps, max_actions_per_call=a.max_actions_per_call, lang=a.lang)
 
     def complete(messages, tools):
         r = chat(base, key, {"model": a.model, "messages": messages, "tools": tools, **extra}, a.timeout)

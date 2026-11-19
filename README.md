@@ -44,6 +44,25 @@ python -m babasim 0level --moves rrrrrrrr --gif last.gif
 python -m babasim 0level              # interactive
 ```
 
+## Letting a model play
+
+`babasim.session.Session` exposes four tools (`move`, `undo`, `restart`, `look`) as function-calling
+schemas and executes tool calls; prompts and observations are English by default (`lang="zh"` for
+Chinese) and describe only how to interact, not how the game works.
+
+```
+# in-process agent loop against an OpenAI-compatible endpoint
+OPENAI_BASE_URL=http://host:4000/v1 OPENAI_API_KEY=... python tools/play_llm.py 0level --model NAME --max-calls 30
+
+# or as an HTTP service (stdlib only, no auth: bind to a trusted interface)
+python -m babasim.server --host 127.0.0.1 --port 8765
+curl -s -X POST localhost:8765/sessions -d '{"level":"0level","max_calls":30}'
+curl -s -X POST localhost:8765/sessions/<id>/call -d '{"name":"move","arguments":{"actions":["right","right"]}}'
+```
+
+Endpoints: `GET /health`, `GET /levels?world=`, `POST /sessions`, `POST /sessions/<id>/call`,
+`GET /sessions/<id>`, `DELETE /sessions/<id>` (see `src/babasim/server.py`).
+
 ## Dev (needs the game at ./game)
 
 ```

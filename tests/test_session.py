@@ -13,29 +13,32 @@ def test_tools_and_bad_calls():
     s = Session("0level", max_calls=10)
     assert [t["function"]["name"] for t in s.tools()] == ["move", "undo", "restart", "look"]
     assert "baba  (12,10)" in s.initial_observation()
-    assert s.call("move", {"actions": ["jump"]}).startswith("调用无效")
-    assert s.call("fly").startswith("调用无效")
+    assert s.call("move", {"actions": ["jump"]}).startswith("Invalid call")
+    assert s.call("fly").startswith("Invalid call")
     assert s.game.turn == 0 and s.stats["invalid_calls"] == 2
     out = s.call("move", '{"actions": ["right", "right"]}')  # arguments as a JSON string
-    assert "baba (13,10)→(14,10)" in out and "第 2 回合" in out and "剩余调用 7" in out
-    assert "已撤销 2 回合" in s.call("undo", {"steps": 5})
+    assert "baba (13,10)→(14,10)" in out and "Turn 2" in out and "calls left: 7" in out
+    assert "Took back 2 turn(s)" in s.call("undo", {"steps": 5})
     s.call("move", {"actions": ["up"]})
-    assert "第 0 回合" in s.call("restart")
+    assert "Turn 0" in s.call("restart")
+    zh = Session("0level", lang="zh")
+    assert "已撤销" in zh.call("undo") or "没有可撤销" in zh.call("undo")
+    assert "WIN" not in s.system_prompt() and "rule" not in s.system_prompt().lower()
 
 
 def test_win_ends_session_and_counts():
     s = Session("0level")
     out = s.call("move", {"actions": ["right"] * 12})
-    assert "胜利" in out and "后面 4 个操作没有执行" in out
+    assert "level won" in out and "remaining 4 actions were not performed" in out
     assert s.won and s.done
-    assert s.call("move", {"actions": ["left"]}).startswith("游戏已结束")
+    assert s.call("move", {"actions": ["left"]}).startswith("The game is over")
     assert s.summary()["steps"] == 8 and s.summary()["calls"] == 1
 
 
 def test_step_budget():
     s = Session("0level", max_steps=3)
     out = s.call("move", {"actions": ["right"] * 5})
-    assert "回合数已用完" in out and s.game.turn == 3 and s.done and not s.won
+    assert "turn limit reached" in out and s.game.turn == 3 and s.done and not s.won
 
 
 def test_agent_loop_with_scripted_model():
@@ -43,7 +46,7 @@ def test_agent_loop_with_scripted_model():
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     script = iter([
-        {"role": "assistant", "content": "先看看"},  # no tool call: gets nudged
+        {"role": "assistant", "content": "let me think"},  # no tool call: gets nudged
         {"role": "assistant", "tool_calls": [{"id": "1", "type": "function", "function": {
             "name": "move", "arguments": json.dumps({"actions": ["right"] * 4})}}]},
         {"role": "assistant", "tool_calls": [{"id": "2", "type": "function", "function": {

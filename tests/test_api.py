@@ -60,10 +60,11 @@ def test_full_view_has_ids_and_order(engine):
 def test_text_format(engine):
     g = Game("0level", engine=engine)
     before = g.observe()
-    text = format_state(before, grid=True)
+    text = format_state(before, grid=True, lang="zh")
     assert "baba  (12,10) 朝右" in text and "wall  (11–21,8) (11–21,12)" in text
     r = g.step("up")
-    assert "本回合（↑）" in format_step(r, before)
+    assert "本回合（↑）" in format_step(r, before, lang="zh")
+    assert "This turn (up):" in format_step(r, before)
 
 
 @pytest.mark.parametrize("stem", ["0level", "1level", "245level", "90level", "177level", "16level", "87level"])

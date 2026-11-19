@@ -30,6 +30,7 @@ def main(argv=None) -> int:
     ap.add_argument("--view", choices=["perceptual", "full"], default="perceptual")
     ap.add_argument("--json", action="store_true", help="print StepResult JSON lines instead of text")
     ap.add_argument("--grid", action="store_true", help="add the character grid to text output")
+    ap.add_argument("--lang", choices=["en", "zh"], default="en")
     ap.add_argument("--png", help="write the final state image")
     ap.add_argument("--gif", help="write an animation of the last move")
     a = ap.parse_args(argv)
@@ -42,7 +43,7 @@ def main(argv=None) -> int:
 
     g = Game(a.level, a.world, a.seed, a.rules, a.view)
     state = g.observe()
-    print(json.dumps(state, ensure_ascii=False) if a.json else format_state(state, a.grid))
+    print(json.dumps(state, ensure_ascii=False) if a.json else format_state(state, a.grid, a.lang))
 
     def run(keys):
         nonlocal state
@@ -55,7 +56,7 @@ def main(argv=None) -> int:
             except RuntimeError as e:
                 print(e, file=sys.stderr)
                 return
-            print(json.dumps(r, ensure_ascii=False) if a.json else "\n" + format_step(r, state, a.grid))
+            print(json.dumps(r, ensure_ascii=False) if a.json else "\n" + format_step(r, state, a.grid, a.lang))
             state = r["state"]
 
     if a.moves is not None:
