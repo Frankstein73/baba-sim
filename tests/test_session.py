@@ -83,3 +83,62 @@ def test_gif_observation_shows_the_whole_call():
     assert clip.n_frames >= 1 + 3 * 2 and clip.size == (33 * 24, 18 * 24)  # start, then every step
     assert s.call("look")[1]["image_url"]["url"].startswith("data:image/png;base64,")
     assert s.call("undo")[1]["image_url"]["url"].startswith("data:image/gif;base64,")
+
+
+def test_replay_leaves_out_what_was_taken_back():
+    s = Session("0level", max_calls=20)
+    assert "Limits" not in s.system_prompt() and "80" not in s.system_prompt()
+    s.call("move", {"actions": ["up", "up"]})
+    s.call("restart")  # everything before is gone
+    s.call("move", {"actions": ["left", "left", "left", "right"]})  # baba walks into the wall: turns that change nothing
+    s.call("move", {"actions": ["down", "down"]})
+    s.call("undo", {"steps": 1})
+    s.call("look")
+    s.call("move", {"actions": ["right"] * 8})
+    r = s.replay()
+    assert r["verified"] and r["gif"] is None and r["status"] == s.game.status
+    assert len(r["actions"]) == len(r["sources"]) < s.stats["steps"]
+    again = Session("0level")
+    again.call("move", {"actions": r["actions"]})
+    assert again.game.observe()["objects"] == s.game.observe()["objects"]
+    assert all(call > 2 for call, _ in r["sources"])  # nothing from before the restart
+
+
+def test_replay_of_a_won_game_is_one_animation_from_the_start():
+    import base64
+    import io
+
+    import pytest
+
+    PIL = pytest.importorskip("PIL.Image")
+    s = Session("0level", tile_px=24)
+    s.call("move", {"actions": ["up", "down", "left"]})
+    s.call("undo", {"steps": 3})
+    s.call("move", {"actions": ["right"] * 8})
+    r = s.replay(gif=True)
+    assert r["won"] and r["verified"] and r["actions"] == ["right"] * 8
+    clip = PIL.open(io.BytesIO(base64.b64decode(r["gif"].split(",", 1)[1])))
+    assert clip.size == (33 * 24, 18 * 24) and clip.n_frames >= 1 + 8
+    from babasim.render import Renderer
+
+    start = Renderer(Session("0level", tile_px=24).game, tile_px=24).state_image().convert("RGB")
+    clip.seek(0)
+    assert clip.convert("RGB").tobytes() == start.tobytes()  # opens on the starting position
+    clip.seek(clip.n_frames - 1)
+    end = Renderer(s.game, tile_px=24).state_image().convert("RGB")
+    assert clip.convert("RGB").tobytes() == end.tobytes()  # and ends on the state the game was left in
+
+
+def test_dataset_rows_carry_a_picture_of_the_starting_position():
+    import pytest
+
+    pytest.importorskip("PIL")
+    from babasim.dataset import rows
+
+    (row,) = rows(["0level"], tile_px=8, max_calls=80)
+    assert row["initial_image"].startswith("data:image/png;base64,") and "Limits" not in row["prompt"]
+    assert "calls left: 80" in row["initial_state"]
+    prompt, shown, state = row["problem_statement"].split("\n\n", 2)  # what a viewer shows as the task
+    assert prompt == row["prompt"] and shown == f"![starting position]({row['initial_image']})"
+    assert state == f"```\n{row['initial_state']}\n```"
+    assert "initial_image" not in next(rows(["0level"], images=False))

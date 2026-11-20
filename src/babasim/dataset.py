@@ -3,12 +3,17 @@
     python -m babasim.dataset baba30.jsonl --max-calls 80
 
 The rows are what a model is shown before its first tool call; the options here must match the ones
-the playing session is opened with (the prompt states the limits).
+the playing session is opened with (the starting position states the calls that are left). Each row
+also carries a picture of the starting position, `initial_image`, as a PNG data URL, and the whole task
+as one Markdown text, `problem_statement`: the prompt, that picture and the starting position. A viewer
+of the stored instances shows the latter as the task.
 """
 
 from __future__ import annotations
 
 import argparse
+import base64
+import io
 import json
 
 from babasim.runtime import DATA
@@ -31,12 +36,29 @@ def main_all() -> tuple[str, ...]:
     return tuple(each["level"] for each in json.loads((DATA / "campaign_baba.json").read_text())["levels"])
 
 
-def rows(levels=MAIN_30, world: str = "baba", **options):
+def picture(session: Session, tile_px: int) -> str:
+    """The session's current state drawn as a PNG data URL."""
+    from babasim.render import Renderer
+
+    buf = io.BytesIO()
+    Renderer(session.game, tile_px=tile_px).state_image().save(buf, "PNG")
+    return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
+
+
+def rows(levels=MAIN_30, world: str = "baba", images: bool = True, tile_px: int = 48, **options):
     for order, level in enumerate(levels, 1):
         s = Session(level, world, **options)
         title = json.loads((DATA / "levels" / world / f"{level}.json").read_text())["ld"].get("general", {}).get("name", "")
-        yield {"id": f"{world}:{level}", "order": order, "world": world, "level": level, "title": title,
+        row = {"id": f"{world}:{level}", "order": order, "world": world, "level": level, "title": title,
                "prompt": s.system_prompt(), "initial_state": s.initial_observation()}
+        shown = [row["prompt"]]
+        if images:
+            row["initial_image"] = picture(s, tile_px)
+            shown.append(f"![starting position]({row['initial_image']})")
+        if isinstance(row["initial_state"], str):
+            shown.append(f"```\n{row['initial_state']}\n```")
+        row["problem_statement"] = "\n\n".join(shown)
+        yield row
 
 
 def main() -> None:
@@ -49,11 +71,13 @@ def main() -> None:
     ap.add_argument("--lang", choices=["en", "zh"], default="en")
     ap.add_argument("--max-calls", type=int)
     ap.add_argument("--max-steps", type=int)
+    ap.add_argument("--no-images", action="store_true", help="leave out the picture of the starting position")
+    ap.add_argument("--tile-px", type=int, default=48, help="size of a grid cell in the picture")
     a = ap.parse_args()
     n = 0
     with open(a.out, "w") as f:
-        for row in rows(a.levels or (main_all() if a.all else MAIN_30), a.world, rules=a.rules, lang=a.lang, max_calls=a.max_calls,
-                        max_steps=a.max_steps):
+        for row in rows(a.levels or (main_all() if a.all else MAIN_30), a.world, images=not a.no_images, tile_px=a.tile_px, rules=a.rules, lang=a.lang,
+                        max_calls=a.max_calls, max_steps=a.max_steps):
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
             n += 1
     print(f"{n} rows -> {a.out}")

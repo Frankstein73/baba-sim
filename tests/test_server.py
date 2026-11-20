@@ -48,6 +48,9 @@ def test_play_level_over_http(base):
 
     code, info = req("GET", url)
     assert [h["tool"] for h in info["history"]] == ["move", "undo", "move"]
+    code, replay = req("GET", url + "/replay")
+    assert code == 200 and replay["actions"] == ["right"] * 8 and replay["won"] and replay["verified"]
+    assert replay["gif"] is None and replay["sources"][3] == [3, 0]  # the fourth step was undone and made again
     assert req("DELETE", url)[0] == 200 and req("GET", url)[0] == 404
 
 

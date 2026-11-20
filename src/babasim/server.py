@@ -9,6 +9,9 @@
     POST   /sessions/<id>/call  {"name": "move", "arguments": {"actions": ["right"]}}
                                               -> {"observation", "done", "won", "summary"}
     GET    /sessions/<id>                     -> {"summary", "history"}
+    GET    /sessions/<id>/replay?gif=1        -> {"actions", "sources", "won", "status", "verified", "gif"}
+                                              the actions behind the current state, without what undo and
+                                              restart took back, and (gif=1) their animation as a data URL
     DELETE /sessions/<id>
 
 Session options: world, seed, rules (none|lit|list), obs (text|json|image|text+image|gif|text+gif), grid, lang (en|zh),
@@ -124,6 +127,9 @@ def make_handler(store: Store):
                     if method == "GET" and len(parts) == 2:
                         with lock:
                             return self._send(200, {"summary": s.summary(), "history": s.history})
+                    if method == "GET" and parts[2:] == ["replay"]:
+                        with lock:
+                            return self._send(200, s.replay(parse_qs(url.query).get("gif", ["0"])[0] == "1"))
                     if method == "DELETE" and len(parts) == 2:
                         store.delete(parts[1])
                         return self._send(200, {"deleted": True})

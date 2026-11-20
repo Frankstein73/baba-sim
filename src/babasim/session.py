@@ -36,7 +36,6 @@ M = {
             "\"up\" decreases y, \"down\" increases y.",
             "Each tool call returns what changed and the state afterwards.",
         ],
-        "limits": "Limits: {b}.", "lim_calls": "at most {n} tool calls", "lim_steps": "at most {n} turns",
         "over_won": "The game is over: level won.", "over_budget": "The game is over: limits used up.",
         "invalid": "Invalid call: {e}", "not_object": "arguments must be a JSON object",
         "no_tool": "no tool named {name}; available: move, undo, restart, look",
@@ -61,7 +60,6 @@ M = {
             "坐标 (x,y)：x 向右增大，y 向下增大，都从 0 开始。up 使 y 减小，down 使 y 增大。",
             "每次工具调用会返回发生的变化和之后的状态。",
         ],
-        "limits": "限制：{b}。", "lim_calls": "最多 {n} 次工具调用", "lim_steps": "最多 {n} 个回合",
         "over_won": "游戏已结束：已胜利。", "over_budget": "游戏已结束：已用完限制。",
         "invalid": "调用无效：{e}", "not_object": "参数必须是对象",
         "no_tool": "没有名为 {name} 的工具；可用：move、undo、restart、look",
@@ -93,6 +91,9 @@ class Session:
         # calls and executed steps are counted separately (docs/state-schema.md §9)
         self.stats = {"calls": 0, "steps": 0, "undos": 0, "restarts": 0, "invalid_calls": 0}
         self.history: list[dict] = []  # every executed call, for replay / scoring
+        # The actions behind the current state, in step with the engine's undo buffer: undo drops what it took
+        # back, restart everything. `real` is False for a turn that changed nothing (it left no undo entry).
+        self._path: list[dict] = []
         self._renderer = None
         self._clip = []  # pictures of the call being executed (gif modes)
 
@@ -115,16 +116,7 @@ class Session:
         ]
 
     def system_prompt(self) -> str:
-        m = self.m
-        budget = []
-        if self.max_calls is not None:
-            budget.append(m["lim_calls"].format(n=self.max_calls))
-        if self.max_steps is not None:
-            budget.append(m["lim_steps"].format(n=self.max_steps))
-        lines = list(m["system"])
-        if budget:
-            lines.append(m["limits"].format(b=m["join"].join(budget)))
-        return "\n".join(lines)
+        return "\n".join(self.m["system"])
 
     def initial_observation(self):
         return self._content("", final=True)
@@ -186,9 +178,12 @@ class Session:
             if self.max_steps is not None and self.stats["steps"] >= self.max_steps:
                 out.append(self.m["steps_out"])
                 break
+            depth = self._depth()
             r = self.game.step(ACTION_NAMES[k])
             self._film()
             executed += 1
+            self._path.append({"action": ACTION_NAMES[k], "call": self.stats["calls"], "index": executed - 1,
+                               "real": self._depth() > depth or r["state"]["status"] != "playing"})
             self.stats["steps"] += 1
             out.append(self._events_text(r, executed))
             if r["state"]["status"] != "playing":
@@ -203,14 +198,19 @@ class Session:
             raise ValueError(self.m["bad_steps"])
         done = min(n, self.game.turn)
         for _ in range(done):
+            depth = self._depth()
             self.game.step("undo")
             self._film()
+            if self._depth() < depth:  # the engine took back its latest entry: the last turn that changed something
+                while self._path and not self._path.pop()["real"]:
+                    pass
         self.stats["undos"] += done
         return self.m["undone"].format(n=done) if done else self.m["undo_none"]
 
     def _tool_restart(self, args):
         self.game.step("restart")
         self._film()
+        self._path.clear()
         self.stats["restarts"] += 1
         return self.m["restarted"]
 
@@ -276,6 +276,61 @@ class Session:
         if "gif" in self.obs:
             self._clip += self._painter().step_frames()
 
+    def _depth(self) -> int:
+        return len(self.game.engine.G["undobuffer"].arr)
+
+    # ---- the way to the current state -------------------------------------------------------
+    def replay(self, gif: bool = False) -> dict:
+        """The actions that lead from the start to the current state, without what undo and restart took back.
+
+        The actions are played again on a fresh game and must end in the same state (`verified`). Turns that
+        changed nothing are left out when the result is the same without them. With `gif`, the replay is drawn
+        as one animation starting from the initial state; there is none when the replay could not be verified.
+        """
+        game = self.game
+        target = _canon(game._state(game.last))
+        real = [e for e in self._path if e["real"]]
+        chosen, verified = real, False
+        for entries in (real, self._path) if len(real) < len(self._path) else (real,):
+            if _canon(self._replayed(entries)[0]) == target:
+                chosen, verified = entries, True
+                break
+        out = {"actions": [e["action"] for e in chosen],
+               "sources": [[e["call"], e["index"]] for e in chosen],
+               "won": self.won, "status": game.status, "verified": verified, "gif": None}
+        if gif and verified:
+            data = self._replayed(chosen, draw=True)[1]
+            out["gif"] = "data:image/gif;base64," + base64.b64encode(data).decode()
+        return out
+
+    def _replayed(self, entries, draw: bool = False):
+        """(final state, GIF bytes or None) of a fresh game given the actions of `entries`."""
+        fresh = Game(self.game.level, self.game.world, self.game.seed, self.game.rules_mode)
+        film = None
+        if draw:
+            from babasim.render import GifWriter, Renderer
+
+            painter, film = Renderer(fresh, tile_px=self.tile_px), GifWriter()
+            film.add(painter.state_image(), ms=1000)  # the starting position, held before anything moves
+        for e in entries:
+            if fresh.status != "playing":
+                return None, None
+            fresh.step(e["action"])
+            if draw:
+                for frame in painter.step_frames():
+                    film.add(frame)
+        if draw:
+            film.hold(1500)
+        return fresh._state(fresh.last), film.getvalue() if draw else None
+
     def summary(self) -> dict:
         return {"level": self.game.level, "world": self.game.world, "won": self.won,
                 "status": self.game.status, "turn": self.game.turn, **self.stats}
+
+
+def _canon(state):
+    """A state for comparison: without the turn counter, objects in an order that does not depend on history."""
+    if state is None:
+        return None
+    return {**{k: v for k, v in state.items() if k != "turn"},
+            "objects": sorted(json.dumps(o, sort_keys=True) for o in state["objects"])}

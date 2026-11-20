@@ -11,10 +11,11 @@ from __future__ import annotations
 import colorsys
 import hashlib
 import io
+import struct
 import zipfile
 from functools import lru_cache
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFont
 
 from babasim.runtime import DATA
 
@@ -452,3 +453,70 @@ def gif_bytes(frames: list[Image.Image], ms: int = 110, hold_ms: int = 1500) -> 
     paletted[0].save(buf, "GIF", save_all=True, append_images=paletted[1:], loop=0, optimize=False,
                      duration=[ms] * (len(frames) - 1) + [hold_ms])
     return buf.getvalue()
+
+
+def _gif_image(data: bytes) -> tuple[bytes, int, bytes]:
+    """(colour table, interlace flag, LZW data) of the first image in a GIF file."""
+    flags, pos, table = data[10], 13, b""
+    if flags & 0x80:
+        n = 3 * (2 << (flags & 7))
+        table, pos = data[pos:pos + n], pos + n
+
+    def blocks(at):
+        while data[at]:
+            at += data[at] + 1
+        return at + 1
+
+    while data[pos] == 0x21:  # extensions
+        pos = blocks(pos + 2)
+    assert data[pos] == 0x2C, "no image in GIF"
+    flags, pos = data[pos + 9], pos + 10
+    if flags & 0x80:
+        n = 3 * (2 << (flags & 7))
+        table, pos = data[pos:pos + n], pos + n
+    return table, flags & 0x40, data[pos:blocks(pos + 1)]
+
+
+class GifWriter:
+    """An animated GIF built one frame at a time.
+
+    Of each frame only the rectangle that differs from the frame before is kept, already compressed, so a
+    long animation needs the memory of one picture and not of all of them. A frame equal to the one before
+    lengthens it.
+    """
+
+    def __init__(self, ms: int = 110):
+        self.ms = ms
+        self.size = None
+        self._last = None
+        self._frames = []  # [delay in 1/100 s, box, colour table, interlace flag, LZW data]
+
+    def add(self, frame: Image.Image, ms: int | None = None) -> None:
+        frame = frame.convert("RGB")
+        delay = round((self.ms if ms is None else ms) / 10)
+        if self._last is None:
+            self.size, box = frame.size, (0, 0, *frame.size)
+        else:
+            box = ImageChops.difference(self._last, frame).getbbox()
+            if box is None:
+                self._frames[-1][0] += delay
+                return
+        self._last = frame
+        part = frame.crop(box).quantize(colors=256, method=Image.MEDIANCUT, dither=Image.NONE)
+        buf = io.BytesIO()
+        part.save(buf, "GIF", optimize=False, interlace=0)
+        self._frames.append([delay, box, *_gif_image(buf.getvalue())])
+
+    def hold(self, ms: int) -> None:
+        """Show the latest frame for `ms`."""
+        self._frames[-1][0] = round(ms / 10)
+
+    def getvalue(self) -> bytes:
+        w, h = self.size
+        out = [b"GIF89a", struct.pack("<HHBBB", w, h, 0x70, 0, 0),
+               b"\x21\xff\x0bNETSCAPE2.0\x03\x01\x00\x00\x00"]  # loop forever
+        for delay, (x0, y0, x1, y1), table, interlace, data in self._frames:
+            bits = (len(table) // 3).bit_length() - 2
+            out += [struct.pack("<BBBBHBB", 0x21, 0xF9, 4, 0x04, min(delay, 0xFFFF), 0, 0),  # keep the frame in place
+                    struct.pack("<BHHHHB", 0x2C, x0, y0, x1 - x0, y1 - y0, 0x80 | interlace | bits), table, data]
+        return b"".join(out) + b"\x3b"
