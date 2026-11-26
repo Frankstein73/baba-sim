@@ -6,6 +6,7 @@ from __future__ import annotations
 import importlib
 import json
 import math
+import os
 import sys
 from pathlib import Path
 
@@ -14,6 +15,43 @@ from babasim.luart import DefTable, LuaTable, L_ipairs, L_lib, L_noop
 
 DATA = Path(__file__).resolve().parent / "data"
 KEYS = {"r": "right", "u": "up", "l": "left", "d": "down", "w": "idle"}
+
+# Where levels come from: the shipped ones, then every directory in $BABASIM_LEVELS (each holds
+# <world>/<stem>.json like data/levels), then levels registered by the running program.
+LEVEL_DIRS = [DATA / "levels"] + [Path(p) for p in os.environ.get("BABASIM_LEVELS", "").split(os.pathsep) if p]
+REGISTERED: dict[tuple[str, str], dict] = {}
+
+
+def register_level(world: str, stem: str, level: dict) -> None:
+    """Make an in-memory level ({"layers": [...], "ld": {...}}) loadable as (world, stem)."""
+    REGISTERED[(world, stem)] = level
+
+
+def find_level(world: str, stem: str) -> Path | None:
+    for d in LEVEL_DIRS:
+        p = d / world / f"{stem}.json"
+        if p.is_file():
+            return p
+    return None
+
+
+def read_level(world: str, stem: str) -> dict:
+    level = REGISTERED.get((world, stem))
+    if level is not None:
+        return level
+    p = find_level(world, stem)
+    if p is None:
+        raise FileNotFoundError(f"no level {world}/{stem}")
+    return json.loads(p.read_text())
+
+
+def list_levels(world: str) -> list[Path]:
+    """Level files of a world, by stem; an earlier directory wins."""
+    found: dict[str, Path] = {}
+    for d in LEVEL_DIRS:
+        for p in (d / world).glob("*.json"):
+            found.setdefault(p.stem, p)
+    return [found[k] for k in sorted(found)]
 
 sys.setrecursionlimit(max(sys.getrecursionlimit(), 20000))
 
@@ -187,7 +225,7 @@ class Engine:
 
     # ---- level start (FUN_1001b9e60) -----------------------------------------------------
     def load(self, stem: str, world: str | None = None, seed: int = 0) -> None:
-        level = json.loads((DATA / "levels" / (world or self.world) / f"{stem}.json").read_text())
+        level = read_level(world or self.world, stem)
         self.load_level(stem, level["layers"], level["ld"], seed)
 
     def load_level(self, name: str, layers: list, ld: dict, seed: int = 0) -> None:
