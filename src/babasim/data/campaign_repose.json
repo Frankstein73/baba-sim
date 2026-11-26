@@ -1,0 +1,807 @@
+{
+ "_note": "Playable levels reachable from the pack's starting map, breadth-first (tools/export_campaign.py).",
+ "title": "Repose",
+ "author": "Marlowe",
+ "levels": [
+  {
+   "name": "double moat",
+   "level": "180level",
+   "area": "Map"
+  },
+  {
+   "name": "firefighting",
+   "level": "177level",
+   "area": "Map"
+  },
+  {
+   "name": "shut the door",
+   "level": "178level",
+   "area": "Map"
+  },
+  {
+   "name": "secure room",
+   "level": "176level",
+   "area": "Map"
+  },
+  {
+   "name": "lakeside",
+   "level": "174level",
+   "area": "Map"
+  },
+  {
+   "name": "sealed room",
+   "level": "57level",
+   "area": "Map"
+  },
+  {
+   "name": "rip",
+   "level": "56level",
+   "area": "Map"
+  },
+  {
+   "name": "passing through",
+   "level": "31level",
+   "area": "Map"
+  },
+  {
+   "name": "trickery",
+   "level": "32level",
+   "area": "Map"
+  },
+  {
+   "name": "refresh",
+   "level": "16level",
+   "area": "Map"
+  },
+  {
+   "name": "The Wall",
+   "level": "85level",
+   "area": "Map"
+  },
+  {
+   "name": "storage facility",
+   "level": "87level",
+   "area": "Map"
+  },
+  {
+   "name": "friendless",
+   "level": "84level",
+   "area": "Map"
+  },
+  {
+   "name": "helping hand",
+   "level": "86level",
+   "area": "Map"
+  },
+  {
+   "name": "banana split",
+   "level": "88level",
+   "area": "Map"
+  },
+  {
+   "name": "predicament",
+   "level": "259level",
+   "area": "6. Remote Ridge"
+  },
+  {
+   "name": "explode-o-bot",
+   "level": "247level",
+   "area": "6. Remote Ridge"
+  },
+  {
+   "name": "no eyes",
+   "level": "249level",
+   "area": "6. Remote Ridge"
+  },
+  {
+   "name": "demolition crew",
+   "level": "245level",
+   "area": "6. Remote Ridge"
+  },
+  {
+   "name": "three musketeers",
+   "level": "246level",
+   "area": "6. Remote Ridge"
+  },
+  {
+   "name": "boom",
+   "level": "241level",
+   "area": "6. Remote Ridge"
+  },
+  {
+   "name": "Bigger Boom",
+   "level": "242level",
+   "area": "6. Remote Ridge"
+  },
+  {
+   "name": "rickety tracks",
+   "level": "243level",
+   "area": "6. Remote Ridge"
+  },
+  {
+   "name": "lava cells",
+   "level": "251level",
+   "area": "6. Remote Ridge"
+  },
+  {
+   "name": "abandoned trackline",
+   "level": "248level",
+   "area": "6. Remote Ridge"
+  },
+  {
+   "name": "savior",
+   "level": "250level",
+   "area": "6. Remote Ridge"
+  },
+  {
+   "name": "see-through",
+   "level": "252level",
+   "area": "6. Remote Ridge"
+  },
+  {
+   "name": "restricted",
+   "level": "149level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "malicious marsh",
+   "level": "235level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "grimy trench",
+   "level": "152level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "flummox",
+   "level": "261level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "double entrendre",
+   "level": "209level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "Undoing of time",
+   "level": "210level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "swim team",
+   "level": "211level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "Pillar Pond",
+   "level": "217level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "Hesitation",
+   "level": "219level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "Taxonomy",
+   "level": "221level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "conglomerate",
+   "level": "253level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "apparition",
+   "level": "212level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "Counteract",
+   "level": "220level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "Containers",
+   "level": "218level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "traffic jam",
+   "level": "225level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "Mirrored Mansion",
+   "level": "214level",
+   "area": "8. Forgotten Forest"
+  },
+  {
+   "name": "bouncers",
+   "level": "102level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "birdcage",
+   "level": "207level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "bumble",
+   "level": "203level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "angry patrol",
+   "level": "155level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "bookworm",
+   "level": "205level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "behind the hedges",
+   "level": "79level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "gravity manipulation",
+   "level": "64level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "Please hold my Dog",
+   "level": "62level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "newton's apple",
+   "level": "80level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "secluded garden",
+   "level": "77level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "animal crosser",
+   "level": "104level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "defy",
+   "level": "103level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "Alternate Trio",
+   "level": "101level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "Cleaning the Gutter",
+   "level": "99level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "stoppers",
+   "level": "268level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "tiny enclosure",
+   "level": "91level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "aquaphobia",
+   "level": "78level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "cardinal",
+   "level": "90level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "calm patrol",
+   "level": "154level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "hungry worm",
+   "level": "76level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "Shallow Stream",
+   "level": "157level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "catch-22",
+   "level": "258level",
+   "area": "4. Flowering Fortress"
+  },
+  {
+   "name": "pickle",
+   "level": "260level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "immortal",
+   "level": "234level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "reanimation",
+   "level": "228level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "cartographer",
+   "level": "181level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "when push comes to nudge",
+   "level": "135level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "puddle",
+   "level": "131level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "Cross",
+   "level": "130level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "overgrown courtyard",
+   "level": "36level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "river",
+   "level": "133level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "chute of victory",
+   "level": "128level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "pocket",
+   "level": "144level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "the split",
+   "level": "137level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "aimless",
+   "level": "141level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "day and night",
+   "level": "147level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "unsplittable",
+   "level": "143level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "space travel",
+   "level": "145level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "pumpkin patch",
+   "level": "151level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "time travel",
+   "level": "153level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "skipping jiji",
+   "level": "132level",
+   "area": "7. Mysterious Meadow"
+  },
+  {
+   "name": "hindrance",
+   "level": "232level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "not working",
+   "level": "26level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "storehouse",
+   "level": "27level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "twist",
+   "level": "30level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "Cover-up",
+   "level": "29level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "Broken & Entering",
+   "level": "28level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "auto response",
+   "level": "168level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "breaking point",
+   "level": "21level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "extrovert",
+   "level": "82level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "further solitude",
+   "level": "35level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "Bypass",
+   "level": "3level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "Circumvent",
+   "level": "4level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "not alone",
+   "level": "158level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "breakthrough",
+   "level": "236level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "impasse",
+   "level": "257level",
+   "area": "3. Crystalline Cavern"
+  },
+  {
+   "name": "Power Down",
+   "level": "40level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "breaker",
+   "level": "196level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "sanctuary",
+   "level": "166level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "overpowered",
+   "level": "69level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "walking batteries",
+   "level": "43level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "detail",
+   "level": "109level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "silver guardians",
+   "level": "107level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "hungry",
+   "level": "113level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "feast",
+   "level": "119level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "sacrificial pact",
+   "level": "72level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "life preserver",
+   "level": "49level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "Skeleton KeKey",
+   "level": "48level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "role reversal",
+   "level": "46level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "cheat",
+   "level": "204level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "cork",
+   "level": "44level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "availability",
+   "level": "39level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "power up",
+   "level": "38level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "spicy",
+   "level": "187level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "dilemma",
+   "level": "255level",
+   "area": "1. Red-Hot Ravine"
+  },
+  {
+   "name": "double back",
+   "level": "198level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "self reflection",
+   "level": "200level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "feeling nothing",
+   "level": "167level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "social butterfly",
+   "level": "123level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "picky pulling",
+   "level": "124level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "unlocked",
+   "level": "126level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "underwater facility",
+   "level": "139level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "clam's jewel",
+   "level": "138level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "shifty place",
+   "level": "114level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "do as i say, not as i do",
+   "level": "118level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "shark tank",
+   "level": "115level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "faker",
+   "level": "117level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "toxic pools",
+   "level": "111level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "far fetched",
+   "level": "112level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "filtration system",
+   "level": "116level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "evaporation",
+   "level": "121level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "a sinking feeling",
+   "level": "108level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "pretend",
+   "level": "122level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "fantasy",
+   "level": "231level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "quandary",
+   "level": "256level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "muddy facility",
+   "level": "127level",
+   "area": "2. Baleful Bog"
+  },
+  {
+   "name": "The Finish Line",
+   "level": "186level",
+   "area": "5. Eternal Emptiness"
+  },
+  {
+   "name": "Rock is Push",
+   "level": "93level",
+   "area": "5. Eternal Emptiness"
+  },
+  {
+   "name": "Flag Is Win",
+   "level": "92level",
+   "area": "5. Eternal Emptiness"
+  },
+  {
+   "name": "mousehole",
+   "level": "262level",
+   "area": "5. Eternal Emptiness"
+  },
+  {
+   "name": "library",
+   "level": "266level",
+   "area": "5. Eternal Emptiness"
+  },
+  {
+   "name": "sinkhole",
+   "level": "264level",
+   "area": "5. Eternal Emptiness"
+  },
+  {
+   "name": "loophole",
+   "level": "263level",
+   "area": "5. Eternal Emptiness"
+  },
+  {
+   "name": "Baba Is You",
+   "level": "98level",
+   "area": "5. Eternal Emptiness"
+  },
+  {
+   "name": "Wall is Stop",
+   "level": "97level",
+   "area": "5. Eternal Emptiness"
+  },
+  {
+   "name": "The Repose is Complete",
+   "level": "202level",
+   "area": "9. Grand Finale"
+  },
+  {
+   "name": "run-on sentence",
+   "level": "265level",
+   "area": "9. Grand Finale"
+  },
+  {
+   "name": "chaser",
+   "level": "94level",
+   "area": "9. Grand Finale"
+  },
+  {
+   "name": "hidden treasure",
+   "level": "161level",
+   "area": "9. Grand Finale"
+  },
+  {
+   "name": "strongarm",
+   "level": "237level",
+   "area": "9. Grand Finale"
+  },
+  {
+   "name": "Safety Carts",
+   "level": "9level",
+   "area": "9. Grand Finale"
+  },
+  {
+   "name": "unsafe conditions",
+   "level": "140level",
+   "area": "9. Grand Finale"
+  },
+  {
+   "name": "implosion",
+   "level": "191level",
+   "area": "9. Grand Finale"
+  },
+  {
+   "name": "perfect copy",
+   "level": "192level",
+   "area": "9. Grand Finale"
+  },
+  {
+   "name": "manual switches",
+   "level": "194level",
+   "area": "9. Grand Finale"
+  },
+  {
+   "name": "cancellation",
+   "level": "74level",
+   "area": "9. Grand Finale"
+  },
+  {
+   "name": "Passage",
+   "level": "136level",
+   "area": "9. Grand Finale"
+  }
+ ]
+}

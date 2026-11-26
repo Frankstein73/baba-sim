@@ -3,8 +3,10 @@
     python -m babasim.server --port 8765
 
     GET    /health
-    GET    /levels?world=baba                 -> {"levels": [{"level", "name"}]}
-    POST   /sessions  {"level": "0level", ...Session options}
+    GET    /levels?world=baba                 -> {"levels": [{"level", "file", "area"}]}: the playable levels of
+                                              the world in playing order, each under its in-game name
+    POST   /sessions  {"level": "baba is you", ...Session options}   (a level is named as /levels has it;
+                                              its file stem, "0level", is taken too)
                                               -> {"session_id", "system_prompt", "tools", "observation"}
     POST   /sessions/<id>/call  {"name": "move", "arguments": {"actions": ["right"]}}
                                               -> {"observation", "done", "won", "summary"}
@@ -27,7 +29,7 @@ import uuid
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
-from babasim.runtime import DATA
+from babasim.runtime import campaign, level_name, level_stem, list_levels
 from babasim.session import Session
 
 OPTIONS = ("world", "seed", "rules", "obs", "grid", "lang", "max_actions_per_call", "max_calls",
@@ -45,8 +47,10 @@ class Store:
         if not isinstance(level, str):
             raise ValueError("level is required")
         world = body.get("world", "baba")
-        if not (DATA / "levels" / world / f"{level}.json").is_file():
-            raise ValueError(f"unknown level {world}/{level}")
+        try:
+            level_stem(world, level)
+        except FileNotFoundError:
+            raise ValueError(f"unknown level {world}/{level}") from None
         unknown = set(body) - set(OPTIONS) - {"level"}
         if unknown:
             raise ValueError(f"unknown options: {sorted(unknown)}")
@@ -68,10 +72,10 @@ class Store:
 
 
 def levels(world: str) -> list[dict]:
-    out = []
-    for p in sorted((DATA / "levels" / world).glob("*.json")):
-        out.append({"level": p.stem, "name": json.loads(p.read_text())["ld"].get("general", {}).get("name", "")})
-    return out
+    listed = campaign(world)
+    if listed:
+        return [{"level": each["name"], "file": each["level"], "area": each.get("area", "")} for each in listed]
+    return [{"level": level_name(world, p.stem), "file": p.stem, "area": ""} for p in list_levels(world)]
 
 
 def make_handler(store: Store):
@@ -104,7 +108,7 @@ def make_handler(store: Store):
                     return self._send(200, {"ok": True, "sessions": len(store.sessions)})
                 if method == "GET" and parts == ["levels"]:
                     world = parse_qs(url.query).get("world", ["baba"])[0]
-                    if not world.isidentifier() or not (DATA / "levels" / world).is_dir():
+                    if not world.isidentifier() or not list_levels(world):
                         return self._send(404, {"error": f"unknown world {world}"})
                     return self._send(200, {"world": world, "levels": levels(world)})
                 if method == "POST" and parts == ["sessions"]:

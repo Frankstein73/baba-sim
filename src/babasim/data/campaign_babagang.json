@@ -1,0 +1,777 @@
+{
+ "_note": "Playable levels reachable from the pack's starting map, breadth-first (tools/export_campaign.py).",
+ "title": "Baba Gang Adventures",
+ "author": "quickmimic",
+ "levels": [
+  {
+   "name": "teamwork",
+   "level": "5level",
+   "area": "map"
+  },
+  {
+   "name": "friend?",
+   "level": "4level",
+   "area": "map"
+  },
+  {
+   "name": "you are baba",
+   "level": "2level",
+   "area": "map"
+  },
+  {
+   "name": "the meaning of text",
+   "level": "3level",
+   "area": "map"
+  },
+  {
+   "name": "the flag",
+   "level": "6level",
+   "area": "map"
+  },
+  {
+   "name": "Deep Dive",
+   "level": "205level",
+   "area": "The Void"
+  },
+  {
+   "name": "Ancient Beginnings...",
+   "level": "208level",
+   "area": "The Void"
+  },
+  {
+   "name": "Tick Tock...",
+   "level": "210level",
+   "area": "The Void"
+  },
+  {
+   "name": "Lost to the Void",
+   "level": "211level",
+   "area": "The Void"
+  },
+  {
+   "name": "A New World",
+   "level": "206level",
+   "area": "The Void"
+  },
+  {
+   "name": "Blossom Grove",
+   "level": "207level",
+   "area": "The Void"
+  },
+  {
+   "name": "Depths of the deep",
+   "level": "212level",
+   "area": "The Void"
+  },
+  {
+   "name": "New Beginnings",
+   "level": "213level",
+   "area": "The Void"
+  },
+  {
+   "name": "Cr d i ti al   s",
+   "level": "209level",
+   "area": "The Void"
+  },
+  {
+   "name": "AN Ending",
+   "level": "214level",
+   "area": "The Void"
+  },
+  {
+   "name": "Mashed Potato",
+   "level": "201level",
+   "area": "map hehe"
+  },
+  {
+   "name": "the meaning of food",
+   "level": "198level",
+   "area": "map hehe"
+  },
+  {
+   "name": "you are banana",
+   "level": "197level",
+   "area": "map hehe"
+  },
+  {
+   "name": "apple",
+   "level": "199level",
+   "area": "map hehe"
+  },
+  {
+   "name": "FRUITS OF POWER",
+   "level": "200level",
+   "area": "map hehe"
+  },
+  {
+   "name": "Everything Included",
+   "level": "184level",
+   "area": "Place"
+  },
+  {
+   "name": "ALL 2.0",
+   "level": "183level",
+   "area": "Place"
+  },
+  {
+   "name": "ALL",
+   "level": "182level",
+   "area": "Place"
+  },
+  {
+   "name": "Who's THIS!!??",
+   "level": "154level",
+   "area": "Place"
+  },
+  {
+   "name": "The end",
+   "level": "163level",
+   "area": "Place"
+  },
+  {
+   "name": "Pixelated",
+   "level": "175level",
+   "area": "Place"
+  },
+  {
+   "name": "Collapsing Labyrinth",
+   "level": "156level",
+   "area": "Place"
+  },
+  {
+   "name": "Power",
+   "level": "158level",
+   "area": "Place"
+  },
+  {
+   "name": "Boiler Room",
+   "level": "160level",
+   "area": "Place"
+  },
+  {
+   "name": "Power Magnet",
+   "level": "161level",
+   "area": "Place"
+  },
+  {
+   "name": "Infection",
+   "level": "151level",
+   "area": "Place"
+  },
+  {
+   "name": "Dodge the Infection!",
+   "level": "152level",
+   "area": "Place"
+  },
+  {
+   "name": "Encounter",
+   "level": "153level",
+   "area": "Place"
+  },
+  {
+   "name": "Creditentials",
+   "level": "194level",
+   "area": "Metawarped Multiverse"
+  },
+  {
+   "name": "Endgame?",
+   "level": "193level",
+   "area": "Metawarped Multiverse"
+  },
+  {
+   "name": "Ooh! Crystals!",
+   "level": "107level",
+   "area": "Glitched Gallery"
+  },
+  {
+   "name": "It is I, Badbad!",
+   "level": "81level",
+   "area": "Glitched Gallery"
+  },
+  {
+   "name": "ERROR",
+   "level": "82level",
+   "area": "Glitched Gallery"
+  },
+  {
+   "name": "A small problem...",
+   "level": "105level",
+   "area": "Glitched Gallery"
+  },
+  {
+   "name": "Tunnel",
+   "level": "106level",
+   "area": "Glitched Gallery"
+  },
+  {
+   "name": "Secret 6",
+   "level": "112level",
+   "area": "Glitched Gallery"
+  },
+  {
+   "name": "Descending Deeper",
+   "level": "96level",
+   "area": "The Mine"
+  },
+  {
+   "name": "Entry Mineshaft",
+   "level": "66level",
+   "area": "The Mine"
+  },
+  {
+   "name": "Entry Cavern",
+   "level": "67level",
+   "area": "The Mine"
+  },
+  {
+   "name": "Minecart Terminal",
+   "level": "68level",
+   "area": "The Mine"
+  },
+  {
+   "name": "Bat Attack",
+   "level": "72level",
+   "area": "The Mine"
+  },
+  {
+   "name": "Descending Deeper...",
+   "level": "73level",
+   "area": "The Mine"
+  },
+  {
+   "name": "Abandoned Mining Tunnel",
+   "level": "69level",
+   "area": "The Mine"
+  },
+  {
+   "name": "Deep Caverns Entrance",
+   "level": "74level",
+   "area": "The Mine"
+  },
+  {
+   "name": "Mine!",
+   "level": "70level",
+   "area": "The Mine"
+  },
+  {
+   "name": "Deep Caverns 1",
+   "level": "75level",
+   "area": "The Mine"
+  },
+  {
+   "name": "Deep Caverns Temple",
+   "level": "76level",
+   "area": "The Mine"
+  },
+  {
+   "name": "Deep Caverns 2",
+   "level": "77level",
+   "area": "The Mine"
+  },
+  {
+   "name": "Secret 5",
+   "level": "78level",
+   "area": "The Mine"
+  },
+  {
+   "name": "The Duel",
+   "level": "91level",
+   "area": "Desert"
+  },
+  {
+   "name": "The Two Pillars",
+   "level": "90level",
+   "area": "Desert"
+  },
+  {
+   "name": "Sandy Matter",
+   "level": "88level",
+   "area": "Desert"
+  },
+  {
+   "name": "oasis",
+   "level": "87level",
+   "area": "Desert"
+  },
+  {
+   "name": "Ruined Adventurer's Hut",
+   "level": "86level",
+   "area": "Desert"
+  },
+  {
+   "name": "Tomb Entrance",
+   "level": "92level",
+   "area": "Desert"
+  },
+  {
+   "name": "Lonely Stump",
+   "level": "89level",
+   "area": "Desert"
+  },
+  {
+   "name": "Barrier",
+   "level": "85level",
+   "area": "Desert"
+  },
+  {
+   "name": "Cliffside Labyrinth",
+   "level": "97level",
+   "area": "Desert"
+  },
+  {
+   "name": "Flag is win",
+   "level": "137level",
+   "area": "Desert"
+  },
+  {
+   "name": "Flag is win 2",
+   "level": "143level",
+   "area": "Desert"
+  },
+  {
+   "name": "secret 2",
+   "level": "26level",
+   "area": "swamp"
+  },
+  {
+   "name": "hint",
+   "level": "17level",
+   "area": "swamp"
+  },
+  {
+   "name": "the entrance",
+   "level": "16level",
+   "area": "swamp"
+  },
+  {
+   "name": "boggy matter",
+   "level": "15level",
+   "area": "swamp"
+  },
+  {
+   "name": "ruin",
+   "level": "8level",
+   "area": "swamp"
+  },
+  {
+   "name": "keke the hero",
+   "level": "9level",
+   "area": "swamp"
+  },
+  {
+   "name": "baba is two",
+   "level": "14level",
+   "area": "swamp"
+  },
+  {
+   "name": "keke's deal",
+   "level": "10level",
+   "area": "swamp"
+  },
+  {
+   "name": "keke?",
+   "level": "11level",
+   "area": "swamp"
+  },
+  {
+   "name": "static",
+   "level": "13level",
+   "area": "swamp"
+  },
+  {
+   "name": "traffic",
+   "level": "12level",
+   "area": "swamp"
+  },
+  {
+   "name": "you",
+   "level": "27level",
+   "area": "chasm"
+  },
+  {
+   "name": "gone?",
+   "level": "21level",
+   "area": "chasm"
+  },
+  {
+   "name": "baba buy mug",
+   "level": "37level",
+   "area": "chasm"
+  },
+  {
+   "name": "sheep eat pests",
+   "level": "36level",
+   "area": "chasm"
+  },
+  {
+   "name": "Gone With The Wind",
+   "level": "33level",
+   "area": "chasm"
+  },
+  {
+   "name": "Advantage Or Not?",
+   "level": "32level",
+   "area": "chasm"
+  },
+  {
+   "name": "emergancy escape",
+   "level": "24level",
+   "area": "chasm"
+  },
+  {
+   "name": "which way?",
+   "level": "19level",
+   "area": "chasm"
+  },
+  {
+   "name": "complete?",
+   "level": "20level",
+   "area": "chasm"
+  },
+  {
+   "name": "bye wall",
+   "level": "22level",
+   "area": "chasm"
+  },
+  {
+   "name": "Lost for words",
+   "level": "34level",
+   "area": "chasm"
+  },
+  {
+   "name": "Hidden expectations",
+   "level": "35level",
+   "area": "chasm"
+  },
+  {
+   "name": "secret 1",
+   "level": "23level",
+   "area": "chasm"
+  },
+  {
+   "name": "Diving Bubble",
+   "level": "204level",
+   "area": "chasm"
+  },
+  {
+   "name": "Secret 4",
+   "level": "57level",
+   "area": "castle"
+  },
+  {
+   "name": "front gate",
+   "level": "42level",
+   "area": "castle"
+  },
+  {
+   "name": "settlement",
+   "level": "49level",
+   "area": "castle"
+  },
+  {
+   "name": "coliseum",
+   "level": "50level",
+   "area": "castle"
+  },
+  {
+   "name": "barracks",
+   "level": "51level",
+   "area": "castle"
+  },
+  {
+   "name": "Beach",
+   "level": "52level",
+   "area": "castle"
+  },
+  {
+   "name": "Prince's tower",
+   "level": "55level",
+   "area": "castle"
+  },
+  {
+   "name": "dead end",
+   "level": "44level",
+   "area": "shipwreck"
+  },
+  {
+   "name": "bat swarm",
+   "level": "46level",
+   "area": "shipwreck"
+  },
+  {
+   "name": "careful now...",
+   "level": "45level",
+   "area": "shipwreck"
+  },
+  {
+   "name": "control room",
+   "level": "47level",
+   "area": "shipwreck"
+  },
+  {
+   "name": "???",
+   "level": "25level",
+   "area": "shipwreck"
+  },
+  {
+   "name": "secret 3",
+   "level": "48level",
+   "area": "shipwreck"
+  },
+  {
+   "name": "Pong Ping Multiball",
+   "level": "181level",
+   "area": "Shadowland"
+  },
+  {
+   "name": "Pong Ping",
+   "level": "180level",
+   "area": "Shadowland"
+  },
+  {
+   "name": "Maze maker 3D",
+   "level": "148level",
+   "area": "Shadowland"
+  },
+  {
+   "name": "Maze maker",
+   "level": "147level",
+   "area": "Shadowland"
+  },
+  {
+   "name": "DARK...",
+   "level": "29level",
+   "area": "Shadowland"
+  },
+  {
+   "name": "UHHHH",
+   "level": "166level",
+   "area": "Shadowland"
+  },
+  {
+   "name": "Demon",
+   "level": "189level",
+   "area": "Unused Gang members"
+  },
+  {
+   "name": "Fortune-teller fofo",
+   "level": "190level",
+   "area": "Unused Gang members"
+  },
+  {
+   "name": "Infectant",
+   "level": "191level",
+   "area": "Unused Gang members"
+  },
+  {
+   "name": "Gamemaster keke",
+   "level": "192level",
+   "area": "Unused Gang members"
+  },
+  {
+   "name": "Tomb Vault",
+   "level": "103level",
+   "area": "Cryptic Tomb"
+  },
+  {
+   "name": "Tomb Vault Door",
+   "level": "102level",
+   "area": "Cryptic Tomb"
+  },
+  {
+   "name": "Power Station",
+   "level": "101level",
+   "area": "Cryptic Tomb"
+  },
+  {
+   "name": "Water Pump",
+   "level": "100level",
+   "area": "Cryptic Tomb"
+  },
+  {
+   "name": "Generator",
+   "level": "98level",
+   "area": "Cryptic Tomb"
+  },
+  {
+   "name": "Floodgate",
+   "level": "95level",
+   "area": "Cryptic Tomb"
+  },
+  {
+   "name": "Main Processer",
+   "level": "99level",
+   "area": "Cryptic Tomb"
+  },
+  {
+   "name": "Overheat Management",
+   "level": "94level",
+   "area": "Cryptic Tomb"
+  },
+  {
+   "name": "secret 7 (Frozen Volcano)",
+   "level": "133level",
+   "area": "Frozen Volcano"
+  },
+  {
+   "name": "A new member?",
+   "level": "134level",
+   "area": "Frozen Volcano"
+  },
+  {
+   "name": "Bomby Escape",
+   "level": "132level",
+   "area": "Frozen Volcano"
+  },
+  {
+   "name": "Skull City",
+   "level": "131level",
+   "area": "Frozen Volcano"
+  },
+  {
+   "name": "Skull Town",
+   "level": "130level",
+   "area": "Frozen Volcano"
+  },
+  {
+   "name": "Water Zone",
+   "level": "129level",
+   "area": "Frozen Volcano"
+  },
+  {
+   "name": "Mind Control",
+   "level": "128level",
+   "area": "Frozen Volcano"
+  },
+  {
+   "name": "Possesion",
+   "level": "127level",
+   "area": "Frozen Volcano"
+  },
+  {
+   "name": "Erattic",
+   "level": "126level",
+   "area": "Frozen Volcano"
+  },
+  {
+   "name": "Controller",
+   "level": "176level",
+   "area": "Forest"
+  },
+  {
+   "name": "Magnet Beam",
+   "level": "149level",
+   "area": "Forest"
+  },
+  {
+   "name": "Wordmaker",
+   "level": "145level",
+   "area": "Forest"
+  },
+  {
+   "name": "Selection",
+   "level": "144level",
+   "area": "Forest"
+  },
+  {
+   "name": "Word Factory",
+   "level": "146level",
+   "area": "Forest"
+  },
+  {
+   "name": "Dodgy Exits",
+   "level": "122level",
+   "area": "Peaceful Meadow"
+  },
+  {
+   "name": "Flag Ban",
+   "level": "121level",
+   "area": "Peaceful Meadow"
+  },
+  {
+   "name": "Fofo in the meadow",
+   "level": "115level",
+   "area": "Peaceful Meadow"
+  },
+  {
+   "name": "Baba Gang",
+   "level": "114level",
+   "area": "Peaceful Meadow"
+  },
+  {
+   "name": "Keke in the Grass",
+   "level": "117level",
+   "area": "Peaceful Meadow"
+  },
+  {
+   "name": "Jiji and the Bird",
+   "level": "116level",
+   "area": "Peaceful Meadow"
+  },
+  {
+   "name": "Baba searches for Me",
+   "level": "119level",
+   "area": "Peaceful Meadow"
+  },
+  {
+   "name": "Who's This?",
+   "level": "118level",
+   "area": "Peaceful Meadow"
+  },
+  {
+   "name": "Flower Ban",
+   "level": "120level",
+   "area": "Peaceful Meadow"
+  },
+  {
+   "name": "Reunion",
+   "level": "124level",
+   "area": "Peaceful Meadow"
+  },
+  {
+   "name": "Onwards!",
+   "level": "141level",
+   "area": "Savanha"
+  },
+  {
+   "name": "7th Member",
+   "level": "140level",
+   "area": "Savanha"
+  },
+  {
+   "name": "Mischevious Stranger",
+   "level": "139level",
+   "area": "Savanha"
+  },
+  {
+   "name": "Lost Adventurer",
+   "level": "138level",
+   "area": "Savanha"
+  },
+  {
+   "name": "the all-powerful flag",
+   "level": "40level",
+   "area": "Savanha"
+  },
+  {
+   "name": "The final member",
+   "level": "178level",
+   "area": "Coast"
+  },
+  {
+   "name": "Thanks for playing!",
+   "level": "104level",
+   "area": "Coast"
+  },
+  {
+   "name": "Endgame",
+   "level": "64level",
+   "area": "Coast"
+  },
+  {
+   "name": "Secret 7 (Coast)",
+   "level": "179level",
+   "area": "Coast"
+  }
+ ]
+}

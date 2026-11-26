@@ -10,3 +10,5 @@ re/bin/
 re/proj/
 re/out/
 re/proj_b/
+# 下载的社区关卡包原件（tools/export_data.py / export_sprites.py 的输入）
+packs/

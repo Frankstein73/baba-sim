@@ -1,0 +1,52 @@
+{
+ "_note": "Playable levels reachable from the pack's starting map, breadth-first (tools/export_campaign.py).",
+ "title": "rescripted",
+ "author": "acb",
+ "levels": [
+  {
+   "name": "object oriented",
+   "level": "13level",
+   "area": "map.lua"
+  },
+  {
+   "name": "open source",
+   "level": "1level",
+   "area": "map.lua"
+  },
+  {
+   "name": "attributes",
+   "level": "3level",
+   "area": "map.lua"
+  },
+  {
+   "name": "text file",
+   "level": "4level",
+   "area": "map.lua"
+  },
+  {
+   "name": "co-op",
+   "level": "12level",
+   "area": "map.lua"
+  },
+  {
+   "name": "blueprint",
+   "level": "8level",
+   "area": "map.lua"
+  },
+  {
+   "name": "packet",
+   "level": "2level",
+   "area": "map.lua"
+  },
+  {
+   "name": "overwritten",
+   "level": "7level",
+   "area": "map.lua"
+  },
+  {
+   "name": "toolkit",
+   "level": "6level",
+   "area": "map.lua"
+  }
+ ]
+}

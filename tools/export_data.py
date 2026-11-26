@@ -4,7 +4,9 @@ Raw, lossless dump: object tables from values.lua / editor_objectlist.lua, and e
 layers (tile code + direction per occupied cell) plus its .ld sections. Interpreting tile codes
 and applying per-level [tiles] changes is the engine loader's job, not this script's.
 
-    uv run python tools/export_data.py [GAME_DATA_DIR]
+    uv run python tools/export_data.py [GAME_DATA_DIR] [PACKS_DIR ...]
+
+A packs directory holds Worlds/<world>/ like the game does; only its levels are exported.
 """
 
 from __future__ import annotations
@@ -80,7 +82,8 @@ def main() -> None:
     game = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "game"
     OUT.mkdir(exist_ok=True)
     export_objects(game)
-    export_levels(game)
+    for root in (game, *map(Path, sys.argv[2:])):
+        export_levels(root)
 
 
 if __name__ == "__main__":

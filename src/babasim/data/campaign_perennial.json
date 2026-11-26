@@ -1,0 +1,47 @@
+{
+ "_note": "Playable levels reachable from the pack's starting map, breadth-first (tools/export_campaign.py).",
+ "title": "perennial",
+ "author": "hutthutthutt",
+ "levels": [
+  {
+   "name": "we all start somewhere",
+   "level": "1level",
+   "area": "\"...back on the exploded view\""
+  },
+  {
+   "name": "what is text?",
+   "level": "8level",
+   "area": "\"...back on the exploded view\""
+  },
+  {
+   "name": "gardening",
+   "level": "2level",
+   "area": "\"...back on the exploded view\""
+  },
+  {
+   "name": "shifty stops",
+   "level": "5level",
+   "area": "\"...back on the exploded view\""
+  },
+  {
+   "name": "surprise me",
+   "level": "9level",
+   "area": "\"...back on the exploded view\""
+  },
+  {
+   "name": "import to microcosm",
+   "level": "3level",
+   "area": "\"...back on the exploded view\""
+  },
+  {
+   "name": "relics of the past",
+   "level": "6level",
+   "area": "\"...back on the exploded view\""
+  },
+  {
+   "name": "timeless duet",
+   "level": "10level",
+   "area": "\"...back on the exploded view\""
+  }
+ ]
+}

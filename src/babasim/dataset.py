@@ -16,7 +16,7 @@ import base64
 import io
 import json
 
-from babasim.runtime import DATA
+from babasim.runtime import campaign
 from babasim.session import Session
 
 # Thirty levels of the main game ("baba" world) in the order the game presents them, easiest first.
@@ -31,9 +31,9 @@ MAIN_30 = (
 )
 
 
-def main_all() -> tuple[str, ...]:
-    """Every playable level of the main game (217), in the order of the game's areas."""
-    return tuple(each["level"] for each in json.loads((DATA / "campaign_baba.json").read_text())["levels"])
+def world_all(world: str = "baba") -> tuple[str, ...]:
+    """Every playable level of a world by name, in playing order: the 217 of the main game, or a pack's."""
+    return tuple(each["name"] for each in campaign(world))
 
 
 def picture(session: Session, tile_px: int) -> str:
@@ -48,8 +48,8 @@ def picture(session: Session, tile_px: int) -> str:
 def rows(levels=MAIN_30, world: str = "baba", images: bool = True, tile_px: int = 48, **options):
     for order, level in enumerate(levels, 1):
         s = Session(level, world, **options)
-        title = json.loads((DATA / "levels" / world / f"{level}.json").read_text())["ld"].get("general", {}).get("name", "")
-        row = {"id": f"{world}:{level}", "order": order, "world": world, "level": level, "title": title,
+        name = s.game.level  # the in-game name, unique in the world; `file` is the level file it comes from
+        row = {"id": f"{world}:{name}", "order": order, "world": world, "level": name, "file": s.game.file,
                "prompt": s.system_prompt(), "initial_state": s.initial_observation()}
         shown = [row["prompt"]]
         if images:
@@ -65,8 +65,8 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("out")
     ap.add_argument("--world", default="baba")
-    ap.add_argument("--levels", nargs="*", help="level stems (default: the 30 main-game levels)")
-    ap.add_argument("--all", action="store_true", help="every playable level of the main game (217)")
+    ap.add_argument("--levels", nargs="*", help="level names or file stems (default: the 30 main-game levels; all of another world)")
+    ap.add_argument("--all", action="store_true", help="every playable level of the world: the 217 of the main game, or a pack's")
     ap.add_argument("--rules", choices=["none", "lit", "list"], default="lit")
     ap.add_argument("--lang", choices=["en", "zh"], default="en")
     ap.add_argument("--max-calls", type=int)
@@ -76,7 +76,7 @@ def main() -> None:
     a = ap.parse_args()
     n = 0
     with open(a.out, "w") as f:
-        for row in rows(a.levels or (main_all() if a.all else MAIN_30), a.world, images=not a.no_images, tile_px=a.tile_px, rules=a.rules, lang=a.lang,
+        for row in rows(a.levels or (world_all(a.world) if a.all or a.world != "baba" else MAIN_30), a.world, images=not a.no_images, tile_px=a.tile_px, rules=a.rules, lang=a.lang,
                         max_calls=a.max_calls, max_steps=a.max_steps):
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
             n += 1

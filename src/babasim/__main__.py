@@ -13,7 +13,7 @@ import json
 import sys
 
 from babasim.api import Game
-from babasim.runtime import DATA
+from babasim.runtime import level_name, list_levels
 from babasim.text import format_state, format_step
 
 KEYS = {"r": "right", "u": "up", "l": "left", "d": "down", "w": "wait", "z": "undo", "x": "restart"}
@@ -21,7 +21,7 @@ KEYS = {"r": "right", "u": "up", "l": "left", "d": "down", "w": "wait", "z": "un
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(prog="babasim", description=__doc__.splitlines()[0])
-    ap.add_argument("level", nargs="?", help="level file stem, e.g. 0level")
+    ap.add_argument("level", nargs="?", help="level name or file stem, e.g. \"baba is you\" or 0level")
     ap.add_argument("--world", default="baba")
     ap.add_argument("--list", action="store_true", help="list levels of the world and exit")
     ap.add_argument("--moves", help="string of r/u/l/d/w/z/x")
@@ -36,9 +36,8 @@ def main(argv=None) -> int:
     a = ap.parse_args(argv)
 
     if a.list or not a.level:
-        for p in sorted((DATA / "levels" / a.world).glob("*.json")):
-            name = json.loads(p.read_text())["ld"].get("general", {}).get("name", "")
-            print(f"{p.stem}\t{name}")
+        for p in list_levels(a.world):
+            print(f"{p.stem}\t{level_name(a.world, p.stem)}")
         return 0
 
     g = Game(a.level, a.world, a.seed, a.rules, a.view)

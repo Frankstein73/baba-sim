@@ -1,0 +1,37 @@
+{
+ "_note": "Playable levels reachable from the pack's starting map, breadth-first (tools/export_campaign.py).",
+ "title": "Ferchus' Complete Pack",
+ "author": "Ferchus",
+ "levels": [
+  {
+   "name": "Level - Tutorial 00",
+   "level": "1level",
+   "area": "Map"
+  },
+  {
+   "name": "Level - Tutorial 01",
+   "level": "2level",
+   "area": "Map"
+  },
+  {
+   "name": "Level - Tutorial 02",
+   "level": "3level",
+   "area": "Map"
+  },
+  {
+   "name": "Level - Tutorial 03",
+   "level": "4level",
+   "area": "Map"
+  },
+  {
+   "name": "Level - Intermediate 0",
+   "level": "5level",
+   "area": "Map"
+  },
+  {
+   "name": "Level - Advanced 0",
+   "level": "6level",
+   "area": "Map"
+  }
+ ]
+}

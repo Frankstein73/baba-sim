@@ -32,9 +32,10 @@ def req(method, url, body=None):
 def test_play_level_over_http(base):
     assert req("GET", base + "/health")[1]["ok"]
     code, lv = req("GET", base + "/levels?world=baba")
-    assert code == 200 and {"level": "0level", "name": "baba is you"} in lv["levels"]
+    assert code == 200 and lv["levels"][0] == {"level": "baba is you", "file": "0level", "area": "map"}
+    assert len(req("GET", base + "/levels?world=repose")[1]["levels"]) == 160
 
-    code, s = req("POST", base + "/sessions", {"level": "0level", "max_calls": 10})
+    code, s = req("POST", base + "/sessions", {"level": "baba is you", "max_calls": 10})
     assert code == 201 and [t["function"]["name"] for t in s["tools"]] == ["move", "undo", "restart", "look"]
     assert "baba  (12,10)" in s["observation"] and "puzzle game" in s["system_prompt"]
     url = f"{base}/sessions/{s['session_id']}"
@@ -48,6 +49,9 @@ def test_play_level_over_http(base):
 
     code, info = req("GET", url)
     assert [h["tool"] for h in info["history"]] == ["move", "undo", "move"]
+    assert info["summary"]["level"] == "baba is you"  # also when the level is asked for by its file
+    code, s = req("POST", base + "/sessions", {"level": "0level"})
+    assert code == 201 and req("GET", f"{base}/sessions/{s['session_id']}")[1]["summary"]["level"] == "baba is you"
     code, replay = req("GET", url + "/replay")
     assert code == 200 and replay["actions"] == ["right"] * 8 and replay["won"] and replay["verified"]
     assert replay["gif"] is None and replay["sources"][3] == [3, 0]  # the fourth step was undone and made again

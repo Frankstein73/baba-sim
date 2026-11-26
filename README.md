@@ -44,6 +44,36 @@ python -m babasim 0level --moves rrrrrrrr --gif last.gif
 python -m babasim 0level              # interactive
 ```
 
+## Levels
+
+A level is asked for by its in-game name (`Game("baba is you")`, `{"level": "baba is you"}`); the file stem
+(`0level`) is taken too. `data/campaign_<world>.json` lists the playable levels of a world in playing order,
+each with a name that is unique in the world (a name used twice gets its map appended: `prison (Neon City)`).
+
+| world | what | levels |
+|---|---|---|
+| `baba` | main game | 217 |
+| `repose` | Repose 2.5, Marlowe — marlowowe.itch.io/repose | 160 |
+| `alphons` | Alphons Allstars, Alphons6 — alphons6.itch.io/alphons-allstars | 156 |
+| `babagang` | Baba Gang Adventures, quickmimic — quickmimic.itch.io/babagang-adventures-a-baba-is-you-levelpack | 154 |
+| `disappearance` | Disappearance v1b, trollbreeder — trollbreeder.itch.io/disappearance | 41 |
+| `ruins_of_text` | Ruins of Text 1.0.6 — notaninart.itch.io/ruins-of-text-baba | 11 |
+| `lost_and_found` | Lost And Found, olie — itsolie.itch.io/lostandfound | 9 |
+| `rescripted` | Rescripted v1, acb — acben.itch.io/rescripted | 9 |
+| `perennial` | Perennial, hutthutthutt — hutt3.itch.io/baba-is-you-levelpack-perennial | 8 |
+| `ferchus` | Ferchus' Complete Pack — ferchus.itch.io/baba-is-you-level-pack | 6 |
+
+The packs are community level packs without Lua mods, so the translated game logic plays them as the game does.
+Every level loads and survives random play; none has been checked for being winnable here. `new_adv` and
+`museum` (shipped with the game) have level files but no campaign list yet. To add a pack, unpack its world
+directory to `packs/Worlds/<world>/` and run
+
+```
+uv run python tools/export_data.py game packs       # levels
+uv run python tools/export_sprites.py game packs    # the packs' own sprites and palettes
+uv run python tools/export_campaign.py packs        # data/campaign_<world>.json
+```
+
 ## Letting a model play
 
 `babasim.session.Session` exposes four tools (`move`, `undo`, `restart`, `look`) as function-calling
@@ -56,7 +86,8 @@ OPENAI_BASE_URL=http://host:4000/v1 OPENAI_API_KEY=... python tools/play_llm.py 
 
 # or as an HTTP service (stdlib only, no auth: bind to a trusted interface)
 python -m babasim.server --host 127.0.0.1 --port 8765
-curl -s -X POST localhost:8765/sessions -d '{"level":"0level","max_calls":30}'
+curl -s -X POST localhost:8765/sessions -d '{"level":"baba is you","max_calls":30}'
+curl -s -X POST localhost:8765/sessions -d '{"world":"repose","level":"double moat"}'
 curl -s -X POST localhost:8765/sessions/<id>/call -d '{"name":"move","arguments":{"actions":["right","right"]}}'
 ```
 

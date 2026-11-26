@@ -1,0 +1,787 @@
+{
+ "_note": "Playable levels reachable from the pack's starting map, breadth-first (tools/export_campaign.py).",
+ "title": "Alphons Allstars",
+ "author": "Alphons6",
+ "levels": [
+  {
+   "name": "Final Flowers",
+   "level": "287level",
+   "area": "Star Mountain"
+  },
+  {
+   "name": "welcome",
+   "level": "282level",
+   "area": "Star Mountain"
+  },
+  {
+   "name": "our dream",
+   "level": "314level",
+   "area": "Star Mountain"
+  },
+  {
+   "name": "pond scum",
+   "level": "346level",
+   "area": "familar faces"
+  },
+  {
+   "name": "...bridges?",
+   "level": "338level",
+   "area": "familar faces"
+  },
+  {
+   "name": "Nebula cloud",
+   "level": "336level",
+   "area": "familar faces"
+  },
+  {
+   "name": "this side down",
+   "level": "308level",
+   "area": "familar faces"
+  },
+  {
+   "name": "wheelbarrow",
+   "level": "315level",
+   "area": "familar faces"
+  },
+  {
+   "name": "Storage Crates",
+   "level": "77level",
+   "area": "familar faces"
+  },
+  {
+   "name": "by a hair",
+   "level": "309level",
+   "area": "familar faces"
+  },
+  {
+   "name": "Roombaba",
+   "level": "334level",
+   "area": "familar faces"
+  },
+  {
+   "name": "Melting Igloo",
+   "level": "326level",
+   "area": "familar faces"
+  },
+  {
+   "name": "with all your might",
+   "level": "319level",
+   "area": "familar faces"
+  },
+  {
+   "name": "smoldering crater",
+   "level": "250level",
+   "area": "familar faces"
+  },
+  {
+   "name": "Follow the Leader",
+   "level": "264level",
+   "area": "familar faces"
+  },
+  {
+   "name": "tumbler",
+   "level": "325level",
+   "area": "familar faces"
+  },
+  {
+   "name": "Uncharted Space",
+   "level": "117level",
+   "area": "familar faces"
+  },
+  {
+   "name": "moonwind",
+   "level": "332level",
+   "area": "familar faces"
+  },
+  {
+   "name": "lock",
+   "level": "3level",
+   "area": "familar faces"
+  },
+  {
+   "name": "toppling maze",
+   "level": "340level",
+   "area": "familar faces"
+  },
+  {
+   "name": "bridge building",
+   "level": "339level",
+   "area": "familar faces"
+  },
+  {
+   "name": "bridge building?",
+   "level": "337level",
+   "area": "familar faces"
+  },
+  {
+   "name": "biting the mailman",
+   "level": "342level",
+   "area": "familar faces"
+  },
+  {
+   "name": "gate to paradise",
+   "level": "343level",
+   "area": "familar faces"
+  },
+  {
+   "name": "signals from deep space",
+   "level": "345level",
+   "area": "familar faces"
+  },
+  {
+   "name": "twinning",
+   "level": "285level",
+   "area": "waiting room"
+  },
+  {
+   "name": "bable",
+   "level": "235level",
+   "area": "Gam Bab"
+  },
+  {
+   "name": "flappy baba",
+   "level": "123level",
+   "area": "Gam Bab"
+  },
+  {
+   "name": "The Exit 8",
+   "level": "222level",
+   "area": "Gam Bab"
+  },
+  {
+   "name": "jiggy",
+   "level": "166level",
+   "area": "Gam Bab"
+  },
+  {
+   "name": "Babaxorz",
+   "level": "171level",
+   "area": "Gam Bab"
+  },
+  {
+   "name": "level editor",
+   "level": "144level",
+   "area": "Gam Bab"
+  },
+  {
+   "name": "GLYPH READING",
+   "level": "153level",
+   "area": "Gam Bab"
+  },
+  {
+   "name": "Sword Swinger",
+   "level": "175level",
+   "area": "Gam Bab"
+  },
+  {
+   "name": "Ancient Dialect",
+   "level": "350level",
+   "area": "Gam Bab"
+  },
+  {
+   "name": "Attack Pattern",
+   "level": "307level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "crossing the line",
+   "level": "91level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "red cord",
+   "level": "92level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "Deliver Safely",
+   "level": "74level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "Bouncy Castle",
+   "level": "76level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "One man band",
+   "level": "90level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "checkpoint",
+   "level": "72level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "clipper",
+   "level": "73level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "More often than not",
+   "level": "148level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "Batbox",
+   "level": "162level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "Gumption",
+   "level": "149level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "Hopscotch",
+   "level": "30level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "kekuber",
+   "level": "146level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "sharp needles",
+   "level": "305level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "race track",
+   "level": "352level",
+   "area": "Cave of Curiosities"
+  },
+  {
+   "name": "Unspecified",
+   "level": "183level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "Frozen Volcano",
+   "level": "257level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "total erasure",
+   "level": "155level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "two lonely souls",
+   "level": "160level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "Moon Rocks",
+   "level": "312level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "Playback",
+   "level": "84level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "scorching drought",
+   "level": "98level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "PPPPadding",
+   "level": "296level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "Grass Fuse",
+   "level": "105level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "Crowd Control",
+   "level": "103level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "Green Thumb",
+   "level": "185level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "lone point",
+   "level": "104level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "orbital comfort",
+   "level": "196level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "satellite tower",
+   "level": "306level",
+   "area": "Strange new toys"
+  },
+  {
+   "name": "Wrongdoing",
+   "level": "239level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "Hefty Hardware",
+   "level": "156level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "reparsing",
+   "level": "247level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "Firewall",
+   "level": "164level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "if else",
+   "level": "241level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "Cloud Security",
+   "level": "246level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "decryption",
+   "level": "129level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "Blue Screen",
+   "level": "154level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "System Error",
+   "level": "245level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "quantum being",
+   "level": "236level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "its like meta",
+   "level": "244level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "Yellow Submarine",
+   "level": "113level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "Bakery",
+   "level": "111level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "Narcissism",
+   "level": "109level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "pastry across the road",
+   "level": "100level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "Murky River",
+   "level": "101level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "we have a situation",
+   "level": "114level",
+   "area": "Wonderous Words"
+  },
+  {
+   "name": "Fossilized Remains",
+   "level": "297level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Oh Shitake",
+   "level": "301level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Corrosive Spores",
+   "level": "302level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Brown Cap",
+   "level": "297level (2)",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Stubborn Gate",
+   "level": "290level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Fungal Cave",
+   "level": "253level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Ship Repair",
+   "level": "228level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Icy Grove",
+   "level": "176level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "blizzard",
+   "level": "143level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "warm embrace",
+   "level": "131level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Cold Magic",
+   "level": "106level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "display case",
+   "level": "107level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Missing a member",
+   "level": "145level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Snowy Courtyard",
+   "level": "87level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Handle with care",
+   "level": "133level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Gearbox",
+   "level": "195level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "super shmover",
+   "level": "125level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "think fast!",
+   "level": "127level",
+   "area": "Lessons in locomotion"
+  },
+  {
+   "name": "Gullywater",
+   "level": "313level",
+   "area": "Clown House"
+  },
+  {
+   "name": "outside the box",
+   "level": "384level",
+   "area": "Clown House"
+  },
+  {
+   "name": "Sad Day",
+   "level": "202level",
+   "area": "Clown House"
+  },
+  {
+   "name": "Sleep Over",
+   "level": "223level",
+   "area": "Clown House"
+  },
+  {
+   "name": "Falling leaves",
+   "level": "208level",
+   "area": "Clown House"
+  },
+  {
+   "name": "Feeling Gray",
+   "level": "207level",
+   "area": "Clown House"
+  },
+  {
+   "name": "Hot Foot",
+   "level": "351level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Quarks",
+   "level": "299level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "return of tiny passage",
+   "level": "192level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "rereturn of tiny passage",
+   "level": "24level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "smooth operators",
+   "level": "230level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Tiny Passage",
+   "level": "191level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Powerless",
+   "level": "112level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "BABAB",
+   "level": "118level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "baloon",
+   "level": "261level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "top soil",
+   "level": "96level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "vegetable patch",
+   "level": "294level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Peat Bog",
+   "level": "252level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Ice Floe",
+   "level": "135level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Love Lagoon",
+   "level": "278level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Romance reef",
+   "level": "277level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "sky ladder",
+   "level": "48level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "little cave",
+   "level": "180level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Sliding with Style",
+   "level": "276level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Let it Slide",
+   "level": "275level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Slide",
+   "level": "283level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "fear me",
+   "level": "46level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "White Pillar Black River",
+   "level": "14level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Fruit Salad",
+   "level": "318level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Whalefall",
+   "level": "141level",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "Shamir",
+   "level": "55level (2)",
+   "area": "vanilla flavored shores"
+  },
+  {
+   "name": "cakecheese factory",
+   "level": "272level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "snail mail",
+   "level": "194level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "advanced flight maneuver",
+   "level": "203level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "Grand Lake",
+   "level": "115level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "Three Compadres",
+   "level": "137level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "Roosting Pigeon",
+   "level": "163level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "damp woods",
+   "level": "382level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "Garden of Skull",
+   "level": "289level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "Unstick",
+   "level": "138level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "factory floor",
+   "level": "212level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "sleepwalking",
+   "level": "295level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "Ice Hole",
+   "level": "267level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "mousetrap",
+   "level": "158level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "Wet Cardboard",
+   "level": "218level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "On the edge",
+   "level": "271level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "Prismarine Tower",
+   "level": "142level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "locked in the museum",
+   "level": "298level",
+   "area": "pull shift playtime"
+  },
+  {
+   "name": "Seagull",
+   "level": "65level",
+   "area": "Float Point"
+  },
+  {
+   "name": "kekefight",
+   "level": "292level",
+   "area": "Float Point"
+  },
+  {
+   "name": "Impossible Crevice",
+   "level": "205level",
+   "area": "Float Point"
+  },
+  {
+   "name": "Garden of Baba",
+   "level": "281level",
+   "area": "Float Point"
+  },
+  {
+   "name": "moldy parts",
+   "level": "266level",
+   "area": "Float Point"
+  },
+  {
+   "name": "Ultra Prison",
+   "level": "389level",
+   "area": "Float Point"
+  },
+  {
+   "name": "The Hare and the weevil",
+   "level": "151level",
+   "area": "Float Point"
+  },
+  {
+   "name": "Wind Room",
+   "level": "270level",
+   "area": "Float Point"
+  },
+  {
+   "name": "Barbed Wire",
+   "level": "85level",
+   "area": "Float Point"
+  }
+ ]
+}

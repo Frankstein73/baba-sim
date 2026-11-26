@@ -1,0 +1,52 @@
+{
+ "_note": "Playable levels reachable from the pack's starting map, breadth-first (tools/export_campaign.py).",
+ "title": "Lost And Found",
+ "author": "olie",
+ "levels": [
+  {
+   "name": "Fumigation Services",
+   "level": "7level",
+   "area": "Lost And Found"
+  },
+  {
+   "name": "Thunderstorm",
+   "level": "6level",
+   "area": "Lost And Found"
+  },
+  {
+   "name": "Singled Out",
+   "level": "5level",
+   "area": "Lost And Found"
+  },
+  {
+   "name": "Timmmberrrrr!",
+   "level": "10level",
+   "area": "Lost And Found"
+  },
+  {
+   "name": "Foggy Memory",
+   "level": "15level",
+   "area": "Lost And Found"
+  },
+  {
+   "name": "Golf Course",
+   "level": "4level",
+   "area": "Lost And Found"
+  },
+  {
+   "name": "Until Further Notice",
+   "level": "3level",
+   "area": "Lost And Found"
+  },
+  {
+   "name": "Double Up",
+   "level": "8level",
+   "area": "Lost And Found"
+  },
+  {
+   "name": "Takes Two To Tango",
+   "level": "13level",
+   "area": "Lost And Found"
+  }
+ ]
+}

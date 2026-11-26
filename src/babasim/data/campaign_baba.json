@@ -2,1086 +2,1303 @@
  "_note": "Playable levels of the main game reachable from the world map (106level), in area order; within an area numbered levels, then lettered extras, then bonus levels. Area grouping follows github.com/stared/baba-is-harbor level_map.json (Apache-2.0); 294level (bonus orb room, no way to win) is left out.",
  "levels": [
   {
+   "name": "baba is you",
    "level": "0level",
    "area": "map",
    "kind": "level"
   },
   {
+   "name": "where do i go?",
    "level": "1level",
    "area": "map",
    "kind": "level"
   },
   {
+   "name": "now what is this?",
    "level": "189level",
    "area": "map",
    "kind": "level"
   },
   {
+   "name": "out of reach",
    "level": "3level",
    "area": "map",
    "kind": "level"
   },
   {
+   "name": "still out of reach",
    "level": "2level",
    "area": "map",
    "kind": "level"
   },
   {
+   "name": "volcano",
    "level": "90level",
    "area": "map",
    "kind": "level"
   },
   {
+   "name": "off limits",
    "level": "5level",
    "area": "map",
    "kind": "level"
   },
   {
+   "name": "grass yard",
    "level": "6level",
    "area": "map",
    "kind": "level"
   },
   {
+   "name": "slideshow",
    "level": "243level",
    "area": "map",
    "kind": "level"
   },
   {
+   "name": "fragile existence",
    "level": "245level",
    "area": "map",
    "kind": "level"
   },
   {
+   "name": "hostile environment",
    "level": "117level",
    "area": "map",
    "kind": "level"
   },
   {
+   "name": "?",
    "level": "78level",
    "area": "map",
    "kind": "bonus"
   },
   {
+   "name": "icy waters",
    "level": "20level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "turns",
    "level": "212level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "affection",
    "level": "10level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "pillar yard",
    "level": "4level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "brick wall",
    "level": "93level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "lock",
    "level": "209level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "novice locksmith",
    "level": "15level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "locked in",
    "level": "8level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "changeless",
    "level": "236level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "two doors",
    "level": "210level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "jelly throne",
    "level": "136level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "crab storage",
    "level": "30level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "burglary",
    "level": "166level",
    "area": "1. the lake",
    "kind": "level"
   },
   {
+   "name": "submerged ruins",
    "level": "211level",
    "area": "1. the lake",
    "kind": "bonus"
   },
   {
+   "name": "sunken temple",
    "level": "314level",
    "area": "1. the lake",
    "kind": "bonus"
   },
   {
+   "name": "poem",
    "level": "310level",
    "area": "2. solitary island",
    "kind": "level"
   },
   {
+   "name": "float",
    "level": "205level",
    "area": "2. solitary island",
    "kind": "level"
   },
   {
+   "name": "warm river",
    "level": "218level",
    "area": "2. solitary island",
    "kind": "level"
   },
   {
+   "name": "bridge building",
    "level": "171level",
    "area": "2. solitary island",
    "kind": "level"
   },
   {
+   "name": "bridge building?",
    "level": "172level",
    "area": "2. solitary island",
    "kind": "level"
   },
   {
+   "name": "victory spring",
    "level": "234level",
    "area": "2. solitary island",
    "kind": "level"
   },
   {
+   "name": "assembly team",
    "level": "107level",
    "area": "2. solitary island",
    "kind": "level"
   },
   {
+   "name": "catch the thief!",
    "level": "7level",
    "area": "2. solitary island",
    "kind": "level"
   },
   {
+   "name": "tiny pond",
    "level": "37level",
    "area": "2. solitary island",
    "kind": "level"
   },
   {
+   "name": "research facility",
    "level": "319level",
    "area": "2. solitary island",
    "kind": "level"
   },
   {
+   "name": "wireless connection",
    "level": "68level",
    "area": "2. solitary island",
    "kind": "level"
   },
   {
+   "name": "prison",
    "level": "65level",
    "area": "2. solitary island",
    "kind": "level"
   },
   {
+   "name": "boiling river",
    "level": "219level",
    "area": "2. solitary island",
    "kind": "bonus"
   },
   {
+   "name": "...bridges?",
    "level": "173level",
    "area": "2. solitary island",
    "kind": "bonus"
   },
   {
+   "name": "tiny isle",
    "level": "41level",
    "area": "2. solitary island",
    "kind": "bonus"
   },
   {
+   "name": "dim signal",
    "level": "134level",
    "area": "2. solitary island",
    "kind": "bonus"
   },
   {
+   "name": "dungeon",
    "level": "318level",
    "area": "2. solitary island",
    "kind": "bonus"
   },
   {
+   "name": "evaporating river",
    "level": "215level",
    "area": "2. solitary island",
    "kind": "bonus"
   },
   {
+   "name": "fragility",
    "level": "199level",
    "area": "3. temple ruins",
    "kind": "level"
   },
   {
+   "name": "tunnel vision",
    "level": "52level",
    "area": "3. temple ruins",
    "kind": "level"
   },
   {
+   "name": "a present for you",
    "level": "58level",
    "area": "3. temple ruins",
    "kind": "level"
   },
   {
+   "name": "unreachable shores",
    "level": "17level",
    "area": "3. temple ruins",
    "kind": "level"
   },
   {
+   "name": "but where's the key",
    "level": "23level",
    "area": "3. temple ruins",
    "kind": "level"
   },
   {
+   "name": "love is out there",
    "level": "33level",
    "area": "3. temple ruins",
    "kind": "level"
   },
   {
+   "name": "perilous gang",
    "level": "71level",
    "area": "3. temple ruins",
    "kind": "level"
   },
   {
+   "name": "double moat",
    "level": "72level",
    "area": "3. temple ruins",
    "kind": "level"
   },
   {
+   "name": "walls of gold",
    "level": "56level",
    "area": "3. temple ruins",
    "kind": "level"
   },
   {
+   "name": "further fields",
    "level": "129level",
    "area": "3. temple ruins",
    "kind": "bonus"
   },
   {
+   "name": "hop",
    "level": "238level",
    "area": "4. forest of fall",
    "kind": "level"
   },
   {
+   "name": "grand stream",
    "level": "221level",
    "area": "4. forest of fall",
    "kind": "level"
   },
   {
+   "name": "rocky road",
    "level": "235level",
    "area": "4. forest of fall",
    "kind": "level"
   },
   {
+   "name": "telephone",
    "level": "62level",
    "area": "4. forest of fall",
    "kind": "level"
   },
   {
+   "name": "haunt",
    "level": "194level",
    "area": "4. forest of fall",
    "kind": "level"
   },
   {
+   "name": "crate square",
    "level": "220level",
    "area": "4. forest of fall",
    "kind": "level"
   },
   {
+   "name": "ghost friend",
    "level": "36level",
    "area": "4. forest of fall",
    "kind": "level"
   },
   {
+   "name": "ghost guard",
    "level": "26level",
    "area": "4. forest of fall",
    "kind": "level"
   },
   {
+   "name": "leaf chamber",
    "level": "35level",
    "area": "4. forest of fall",
    "kind": "level"
   },
   {
+   "name": "not there",
    "level": "137level",
    "area": "4. forest of fall",
    "kind": "level"
   },
   {
+   "name": "catch",
    "level": "160level",
    "area": "4. forest of fall",
    "kind": "level"
   },
   {
+   "name": "dead end",
    "level": "174level",
    "area": "4. forest of fall",
    "kind": "level"
   },
   {
+   "name": "literacy",
    "level": "77level",
    "area": "4. forest of fall",
    "kind": "extra"
   },
   {
+   "name": "broken playground",
    "level": "29level",
    "area": "4. forest of fall",
    "kind": "extra"
   },
   {
+   "name": "fetching",
    "level": "269level",
    "area": "4. forest of fall",
    "kind": "extra"
   },
   {
+   "name": "scenic pond",
    "level": "307level",
    "area": "4. forest of fall",
    "kind": "extra"
   },
   {
+   "name": "skeletal door",
    "level": "70level",
    "area": "4. forest of fall",
    "kind": "extra"
   },
   {
+   "name": "jump",
    "level": "239level",
    "area": "4. forest of fall",
    "kind": "bonus"
   },
   {
+   "name": "even less there",
    "level": "138level",
    "area": "4. forest of fall",
    "kind": "bonus"
   },
   {
+   "name": "deep pool",
    "level": "308level",
    "area": "4. forest of fall",
    "kind": "bonus"
   },
   {
+   "name": "renovating",
    "level": "66level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "toolshed",
    "level": "246level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "keep out!",
    "level": "69level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "baba doesn't respond",
    "level": "34level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "patrol",
    "level": "57level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "canyon",
    "level": "85level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "concrete goals",
    "level": "151level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "victory in the open",
    "level": "98level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "moving floor",
    "level": "191level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "lovely house",
    "level": "315level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "supermarket",
    "level": "248level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "lock the door",
    "level": "67level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "factory",
    "level": "28level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "tiny pasture",
    "level": "233level",
    "area": "5. deep forest",
    "kind": "level"
   },
   {
+   "name": "nearly",
    "level": "50level",
    "area": "5. deep forest",
    "kind": "extra"
   },
   {
+   "name": "not quite",
    "level": "257level",
    "area": "5. deep forest",
    "kind": "extra"
   },
   {
+   "name": "passing through",
    "level": "260level",
    "area": "5. deep forest",
    "kind": "extra"
   },
   {
+   "name": "salvage",
    "level": "271level",
    "area": "5. deep forest",
    "kind": "extra"
   },
   {
+   "name": "insulation",
    "level": "268level",
    "area": "5. deep forest",
    "kind": "extra"
   },
   {
+   "name": "crumbling floor",
    "level": "193level",
    "area": "5. deep forest",
    "kind": "bonus"
   },
   {
+   "name": "skull house",
    "level": "54level",
    "area": "5. deep forest",
    "kind": "bonus"
   },
   {
+   "name": "empty",
    "level": "9level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "lonely flag",
    "level": "11level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "babas are you",
    "level": "13level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "please hold my key",
    "level": "80level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "horror story",
    "level": "201level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "aiming high",
    "level": "111level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "trio",
    "level": "112level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "bottleneck",
    "level": "79level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "platformer",
    "level": "216level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "the pit",
    "level": "226level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "heavy words",
    "level": "115level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "guardians",
    "level": "82level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "sky hold",
    "level": "217level",
    "area": "6. rocket trip",
    "kind": "level"
   },
   {
+   "name": "existential crisis",
    "level": "324level",
    "area": "6. rocket trip",
    "kind": "bonus"
   },
   {
+   "name": "heavy cloud",
    "level": "125level",
    "area": "6. rocket trip",
    "kind": "bonus"
   },
   {
+   "name": "condition",
    "level": "59level",
    "area": "7. flower garden",
    "kind": "level"
   },
   {
+   "name": "thicket",
    "level": "94level",
    "area": "7. flower garden",
    "kind": "level"
   },
   {
+   "name": "sorting facility",
    "level": "242level",
    "area": "7. flower garden",
    "kind": "level"
   },
   {
+   "name": "relaxing spot",
    "level": "124level",
    "area": "7. flower garden",
    "kind": "level"
   },
   {
+   "name": "maritime adventures",
    "level": "64level",
    "area": "7. flower garden",
    "kind": "level"
   },
   {
+   "name": "ruined orchard",
    "level": "89level",
    "area": "7. flower garden",
    "kind": "level"
   },
   {
+   "name": "blockade",
    "level": "150level",
    "area": "7. flower garden",
    "kind": "level"
   },
   {
+   "name": "jaywalkers united",
    "level": "91level",
    "area": "7. flower garden",
    "kind": "level"
   },
   {
+   "name": "overgrowth",
    "level": "130level",
    "area": "7. flower garden",
    "kind": "level"
   },
   {
+   "name": "adventurers",
    "level": "92level",
    "area": "7. flower garden",
    "kind": "level"
   },
   {
+   "name": "secret garden",
    "level": "127level",
    "area": "7. flower garden",
    "kind": "bonus"
   },
   {
+   "name": "out at sea",
    "level": "142level",
    "area": "7. flower garden",
    "kind": "bonus"
   },
   {
+   "name": "rocky prison",
    "level": "21level",
    "area": "8. chasm",
    "kind": "extra"
   },
   {
+   "name": "siege",
    "level": "241level",
    "area": "8. chasm",
    "kind": "extra"
   },
   {
+   "name": "elusive condition",
    "level": "31level",
    "area": "8. chasm",
    "kind": "extra"
   },
   {
+   "name": "treasury",
    "level": "240level",
    "area": "8. chasm",
    "kind": "extra"
   },
   {
+   "name": "looking for a heart",
    "level": "19level",
    "area": "8. chasm",
    "kind": "extra"
   },
   {
+   "name": "lava flood",
    "level": "110level",
    "area": "8. chasm",
    "kind": "extra"
   },
   {
+   "name": "entropy",
    "level": "18level",
    "area": "8. chasm",
    "kind": "extra"
   },
   {
+   "name": "floodgates",
    "level": "25level",
    "area": "8. chasm",
    "kind": "extra"
   },
   {
+   "name": "lonely sight",
    "level": "60level",
    "area": "8. chasm",
    "kind": "extra"
   },
   {
+   "name": "metacognition",
    "level": "155level",
    "area": "8. chasm",
    "kind": "bonus"
   },
   {
+   "name": "multitool",
    "level": "164level",
    "area": "8. chasm",
    "kind": "bonus"
   },
   {
+   "name": "broken",
    "level": "175level",
    "area": "8. chasm",
    "kind": "bonus"
   },
   {
+   "name": "alley",
    "level": "167level",
    "area": "8. chasm",
    "kind": "bonus"
   },
   {
+   "name": "keke and the star",
    "level": "156level",
    "area": "8. chasm",
    "kind": "bonus"
   },
   {
+   "name": "visiting baba",
    "level": "165level",
    "area": "8. chasm",
    "kind": "bonus"
   },
   {
+   "name": "automated doors",
    "level": "163level",
    "area": "8. chasm",
    "kind": "bonus"
   },
   {
+   "name": "tour",
    "level": "148level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "peril at every turn",
    "level": "47level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "pillarwork",
    "level": "266level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "mouse hole",
    "level": "95level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "torn apart",
    "level": "146level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "vital ingredients",
    "level": "46level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "backstage",
    "level": "270level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "the heist",
    "level": "101level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "join the crew",
    "level": "109level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "automaton",
    "level": "119level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "trick door",
    "level": "145level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "trapped",
    "level": "176level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "tunnel",
    "level": "122level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "broken expectations",
    "level": "178level",
    "area": "9. volcanic cavern",
    "kind": "level"
   },
   {
+   "name": "coronation",
    "level": "51level",
    "area": "9. volcanic cavern",
    "kind": "bonus"
   },
   {
+   "name": "shuffle",
    "level": "105level",
    "area": "10. mountaintop",
    "kind": "level"
   },
   {
+   "name": "love at first sight",
    "level": "100level",
    "area": "10. mountaintop",
    "kind": "level"
   },
   {
+   "name": "solitude",
    "level": "195level",
    "area": "10. mountaintop",
    "kind": "level"
   },
   {
+   "name": "what is baba?",
    "level": "116level",
    "area": "10. mountaintop",
    "kind": "level"
   },
   {
+   "name": "connector",
    "level": "120level",
    "area": "10. mountaintop",
    "kind": "level"
   },
   {
+   "name": "floaty platforms",
    "level": "118level",
    "area": "10. mountaintop",
    "kind": "level"
   },
   {
+   "name": "seeking acceptance",
    "level": "99level",
    "area": "10. mountaintop",
    "kind": "level"
   },
   {
+   "name": "tectonic movements",
    "level": "104level",
    "area": "10. mountaintop",
    "kind": "level"
   },
   {
+   "name": "the floatiest platforms",
    "level": "48level",
    "area": "10. mountaintop",
    "kind": "bonus"
   },
   {
+   "name": "glitch",
    "level": "192level",
    "area": "???",
    "kind": "level"
   },
   {
+   "name": "error",
    "level": "197level",
    "area": "???",
    "kind": "level"
   },
   {
+   "name": "whoops",
    "level": "84level",
    "area": "???",
    "kind": "level"
   },
   {
+   "name": "mean fence",
    "level": "227level",
    "area": "???",
    "kind": "level"
   },
   {
+   "name": "scale",
    "level": "141level",
    "area": "???",
    "kind": "level"
   },
   {
+   "name": "fireplace",
    "level": "75level",
    "area": "???",
    "kind": "level"
   },
   {
+   "name": "turn the corner",
    "level": "247level",
    "area": "???",
    "kind": "level"
   },
   {
+   "name": "vip area",
    "level": "231level",
    "area": "???",
    "kind": "level"
   },
   {
+   "name": "tense atmosphere",
    "level": "250level",
    "area": "???",
    "kind": "level"
   },
   {
+   "name": "tag team",
    "level": "230level",
    "area": "???",
    "kind": "level"
   },
   {
+   "name": "security check",
    "level": "275level",
    "area": "???",
    "kind": "level"
   },
   {
+   "name": "ultimate maze",
    "level": "168level",
    "area": "???",
    "kind": "level"
   },
   {
+   "name": "Write the rules",
    "level": "340level",
    "area": "???",
    "kind": "extra"
   },
   {
+   "name": "Rewrite the rules",
    "level": "341level",
    "area": "???",
    "kind": "extra"
   },
   {
+   "name": "Written instructions",
    "level": "337level",
    "area": "???",
    "kind": "extra"
   },
   {
+   "name": "across",
    "level": "t1level",
    "area": "???",
    "kind": "bonus"
   },
   {
+   "name": "castle disaster",
    "level": "n2level",
    "area": "???",
    "kind": "bonus"
   },
   {
+   "name": "hazel den",
    "level": "196level",
    "area": "???",
    "kind": "bonus"
   },
   {
+   "name": "baba has keke",
    "level": "n1level",
    "area": "???",
    "kind": "bonus"
   },
   {
+   "name": "orb",
    "level": "306level",
    "area": "???",
    "kind": "bonus"
   },
   {
+   "name": "lunar gallery",
    "level": "255level",
    "area": "abc",
    "kind": "level"
   },
   {
+   "name": "ba",
    "level": "252level",
    "area": "abc",
    "kind": "level"
   },
   {
+   "name": "ab",
    "level": "253level",
    "area": "abc",
    "kind": "level"
   },
   {
+   "name": "wall",
    "level": "280level",
    "area": "abc",
    "kind": "level"
   },
   {
+   "name": "stardrop",
    "level": "313level",
    "area": "abc",
    "kind": "level"
   },
   {
+   "name": "meteor strike",
    "level": "281level",
    "area": "abc",
    "kind": "bonus"
   },
   {
+   "name": "gallery",
    "level": "305level",
    "area": "center",
    "kind": "bonus"
   },
   {
+   "name": "the end",
    "level": "198level",
    "area": "center",
    "kind": "bonus"
   },
   {
+   "name": "cleaning service",
    "level": "261level",
    "area": "depths",
    "kind": "level"
   },
   {
+   "name": "exercise hall",
    "level": "251level",
    "area": "depths",
    "kind": "level"
   },
   {
+   "name": "crushers",
    "level": "263level",
    "area": "depths",
    "kind": "level"
   },
   {
+   "name": "collaborative effort",
    "level": "262level",
    "area": "depths",
    "kind": "level"
   },
   {
+   "name": "living lands",
    "level": "265level",
    "area": "depths",
    "kind": "level"
   },
   {
+   "name": "priority lane",
    "level": "274level",
    "area": "depths",
    "kind": "bonus"
   },
   {
+   "name": "hot potato",
    "level": "288level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "adventure",
    "level": "287level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "booby trap",
    "level": "302level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "canister",
    "level": "285level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "avalanche",
    "level": "291level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "one-way entrance",
    "level": "132level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "bramblevine",
    "level": "295level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "mutual feelings",
    "level": "297level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "delicate stars",
    "level": "298level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "just no",
    "level": "303level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "acrobatics",
    "level": "289level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "tangle",
    "level": "284level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "the box",
    "level": "277level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "queue",
    "level": "279level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "breaking and entering",
    "level": "292level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "the return of scenic pond",
    "level": "309level",
    "area": "meta",
    "kind": "level"
   },
   {
+   "name": "hidden path",
    "level": "299level",
    "area": "meta",
    "kind": "bonus"
   },
   {
+   "name": "triplets",
    "level": "188level",
    "area": "meta",
    "kind": "bonus"
   },
   {
+   "name": "power generator",
    "level": "323level",
    "area": "meta",
    "kind": "bonus"
   },
   {
+   "name": "a way out?",
    "level": "203level",
    "area": "map",
    "kind": "bonus"

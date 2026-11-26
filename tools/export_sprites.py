@@ -2,7 +2,9 @@
 
 Only the first wobble frame of every sprite is kept (still pictures need no more).
 
-    uv run python tools/export_sprites.py [GAME_DATA_DIR]
+    uv run python tools/export_sprites.py [GAME_DATA_DIR] [PACKS_DIR ...]
+
+A packs directory holds Worlds/<world>/ like the game does; only its worlds' own sprites and palettes are taken.
 """
 
 from __future__ import annotations
@@ -22,12 +24,16 @@ def main() -> None:
         for p in sorted(game.glob("Sprites/*_1.png")):
             z.write(p, f"Sprites/{p.name}")
             n += 1
-        for p in sorted(game.glob("Worlds/*/Sprites/*_1.png")):
-            z.write(p, f"Worlds/{p.parent.parent.name}/Sprites/{p.name}")
-            n += 1
-        for p in sorted(game.glob("Palettes/*.png")) + sorted(game.glob("Worlds/*/Palettes/*.png")):
+        for p in sorted(game.glob("Palettes/*.png")):
             z.write(p, str(p.relative_to(game)))
             n += 1
+        for root in (game, *map(Path, sys.argv[2:])):
+            for p in sorted(root.glob("Worlds/*/Sprites/*_1.png")):
+                z.write(p, f"Worlds/{p.parent.parent.name}/Sprites/{p.name}")
+                n += 1
+            for p in sorted(root.glob("Worlds/*/Palettes/*.png")):
+                z.write(p, str(p.relative_to(root)))
+                n += 1
     print(f"{n} files -> {OUT} ({OUT.stat().st_size // 1024} KiB)")
 
 

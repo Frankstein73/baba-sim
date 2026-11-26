@@ -6,7 +6,7 @@ Follows docs/state-schema.md. `Game.step` returns a StepResult dict (events + en
 
 from __future__ import annotations
 
-from babasim.runtime import Engine
+from babasim.runtime import Engine, level_name, level_stem
 
 ACTIONS = {"right": "r", "up": "u", "left": "l", "down": "d", "wait": "w",
            "r": "r", "u": "u", "l": "l", "d": "d", "w": "w"}
@@ -25,7 +25,9 @@ class Game:
                  view: str = "perceptual", base_rules: bool = False, engine: Engine | None = None):
         if rules not in ("none", "lit", "list") or view not in ("perceptual", "full"):
             raise ValueError("rules must be none/lit/list and view perceptual/full")
-        self.level, self.world, self.seed = level, world, seed
+        # `level` may be the in-game name or the file stem; the game is known by the name, the engine loads the file
+        self.file = level_stem(world, level)
+        self.level, self.world, self.seed = level_name(world, self.file), world, seed
         self.rules_mode, self.view, self.base_rules = rules, view, base_rules
         self.engine = engine or Engine(world)
         self._hook()
@@ -68,7 +70,7 @@ class Game:
     # ---- lifecycle ---------------------------------------------------------------------
     def restart(self) -> dict:
         self._shared["destroyed"] = None
-        self.engine.load(self.level, self.world, self.seed)
+        self.engine.load(self.file, self.world, self.seed)
         self.turn = 0
         self._info = {}
         self._status_stack = []

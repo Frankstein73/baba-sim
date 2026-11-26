@@ -3,6 +3,7 @@ order in which the engine calls into the translated logic (re/NATIVE_TURN_LOOP.m
 
 from __future__ import annotations
 
+import functools
 import importlib
 import json
 import math
@@ -52,6 +53,34 @@ def list_levels(world: str) -> list[Path]:
         for p in (d / world).glob("*.json"):
             found.setdefault(p.stem, p)
     return [found[k] for k in sorted(found)]
+
+
+@functools.cache
+def campaign(world: str) -> tuple[dict, ...]:
+    """The playable levels of a world in playing order ({"name", "level", "area"}), from data/campaign_<world>.json;
+    empty for a world without one."""
+    path = DATA / f"campaign_{world}.json"
+    return tuple(json.loads(path.read_text())["levels"]) if path.is_file() else ()
+
+
+def level_stem(world: str, level: str) -> str:
+    """The file stem of a level given by its in-game name (as the world's campaign has it) or by the stem itself."""
+    if (world, level) in REGISTERED or find_level(world, level) is not None:
+        return level
+    for same in (str, str.casefold):
+        for each in campaign(world):
+            if same(each["name"]) == same(level):
+                return each["level"]
+    raise FileNotFoundError(f"no level {world}/{level}")
+
+
+def level_name(world: str, stem: str) -> str:
+    """What a level is called: its campaign name (unique in the world), else the name in its file, else the stem."""
+    for each in campaign(world):
+        if each["level"] == stem:
+            return each["name"]
+    return read_level(world, stem)["ld"].get("general", {}).get("name", "").strip() or stem
+
 
 sys.setrecursionlimit(max(sys.getrecursionlimit(), 20000))
 

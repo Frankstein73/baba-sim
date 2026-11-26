@@ -1,0 +1,212 @@
+{
+ "_note": "Playable levels reachable from the pack's starting map, breadth-first (tools/export_campaign.py).",
+ "title": "disappearance",
+ "author": "trollbreeder",
+ "levels": [
+  {
+   "name": "Baba's home",
+   "level": "0level",
+   "area": "the town"
+  },
+  {
+   "name": "trial of balt",
+   "level": "37level",
+   "area": "Jiji's factory"
+  },
+  {
+   "name": "the chain",
+   "level": "34level",
+   "area": "Jiji's factory"
+  },
+  {
+   "name": "perfect landing",
+   "level": "35level",
+   "area": "Jiji's factory"
+  },
+  {
+   "name": "delivery!",
+   "level": "33level",
+   "area": "Jiji's factory"
+  },
+  {
+   "name": "spirit of balt",
+   "level": "32level",
+   "area": "Jiji's factory"
+  },
+  {
+   "name": "balt",
+   "level": "29level",
+   "area": "Jiji's factory"
+  },
+  {
+   "name": "inaccessible",
+   "level": "31level",
+   "area": "Jiji's factory"
+  },
+  {
+   "name": "alternating current",
+   "level": "19level",
+   "area": "mechanical garden"
+  },
+  {
+   "name": "power",
+   "level": "20level",
+   "area": "mechanical garden"
+  },
+  {
+   "name": "transport",
+   "level": "23level",
+   "area": "mechanical garden"
+  },
+  {
+   "name": "pull the lever!",
+   "level": "25level",
+   "area": "mechanical garden"
+  },
+  {
+   "name": "cogworks",
+   "level": "14level",
+   "area": "mechanical garden"
+  },
+  {
+   "name": "toggle",
+   "level": "21level",
+   "area": "mechanical garden"
+  },
+  {
+   "name": "3 bad steps",
+   "level": "24level",
+   "area": "mechanical garden"
+  },
+  {
+   "name": "destination",
+   "level": "46level",
+   "area": "the outer region"
+  },
+  {
+   "name": "...group?",
+   "level": "50level",
+   "area": "Neon City"
+  },
+  {
+   "name": "you just can't win",
+   "level": "52level",
+   "area": "Neon City"
+  },
+  {
+   "name": "peer pressure",
+   "level": "60level",
+   "area": "Neon City"
+  },
+  {
+   "name": "defeats the point",
+   "level": "53level",
+   "area": "Neon City"
+  },
+  {
+   "name": "groups",
+   "level": "58level",
+   "area": "Neon City"
+  },
+  {
+   "name": "abstract and object",
+   "level": "65level",
+   "area": "Neon City"
+  },
+  {
+   "name": "prison (Neon City)",
+   "level": "63level",
+   "area": "Neon City"
+  },
+  {
+   "name": "poof!",
+   "level": "64level",
+   "area": "Neon City"
+  },
+  {
+   "name": "all",
+   "level": "54level",
+   "area": "Neon City"
+  },
+  {
+   "name": "noclip",
+   "level": "55level",
+   "area": "Neon City"
+  },
+  {
+   "name": "this ain't metatext!",
+   "level": "56level",
+   "area": "Neon City"
+  },
+  {
+   "name": "a dance of fire and ice",
+   "level": "57level",
+   "area": "Neon City"
+  },
+  {
+   "name": "text does not respond",
+   "level": "59level",
+   "area": "Neon City"
+  },
+  {
+   "name": "never",
+   "level": "67level",
+   "area": "Neon City"
+  },
+  {
+   "name": "ghost house",
+   "level": "72level",
+   "area": "horrorland"
+  },
+  {
+   "name": "metal detector",
+   "level": "15level",
+   "area": "horrorland"
+  },
+  {
+   "name": "rule spaghetti",
+   "level": "17level",
+   "area": "horrorland"
+  },
+  {
+   "name": "access denied",
+   "level": "16level",
+   "area": "horrorland"
+  },
+  {
+   "name": "prison (horrorland)",
+   "level": "8level",
+   "area": "horrorland"
+  },
+  {
+   "name": "sneak past",
+   "level": "11level",
+   "area": "horrorland"
+  },
+  {
+   "name": "fruit buster",
+   "level": "10level",
+   "area": "horrorland"
+  },
+  {
+   "name": "ghost buster",
+   "level": "9level",
+   "area": "horrorland"
+  },
+  {
+   "name": "humpty dumpty",
+   "level": "6level",
+   "area": "horrorland"
+  },
+  {
+   "name": "over the wall",
+   "level": "5level",
+   "area": "horrorland"
+  },
+  {
+   "name": "grass crossing",
+   "level": "4level",
+   "area": "horrorland"
+  }
+ ]
+}

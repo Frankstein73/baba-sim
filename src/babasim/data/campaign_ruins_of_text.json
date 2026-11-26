@@ -1,0 +1,62 @@
+{
+ "_note": "Playable levels reachable from the pack's starting map, breadth-first (tools/export_campaign.py).",
+ "title": "ruins of text",
+ "author": "",
+ "levels": [
+  {
+   "name": "harvest",
+   "level": "11level",
+   "area": "ruins of text"
+  },
+  {
+   "name": "text is you",
+   "level": "4level",
+   "area": "ruins of text"
+  },
+  {
+   "name": "co-op play",
+   "level": "7level",
+   "area": "ruins of text"
+  },
+  {
+   "name": "another co-op",
+   "level": "5level",
+   "area": "ruins of text"
+  },
+  {
+   "name": "one more co-op",
+   "level": "3level",
+   "area": "ruins of text"
+  },
+  {
+   "name": "shuffle",
+   "level": "6level",
+   "area": "ruins of text"
+  },
+  {
+   "name": "rotary",
+   "level": "8level",
+   "area": "ruins of text"
+  },
+  {
+   "name": "storage room",
+   "level": "9level",
+   "area": "ruins of text"
+  },
+  {
+   "name": "you win",
+   "level": "10level",
+   "area": "ruins of text"
+  },
+  {
+   "name": "meet your doom",
+   "level": "12level",
+   "area": "trap"
+  },
+  {
+   "name": "you lose",
+   "level": "13level",
+   "area": "trap"
+  }
+ ]
+}
