@@ -230,7 +230,10 @@ class Emitter:
             self.anon += 1
             name = f"_anon{self.anon}"
             self.used.add(name)
-            self.function(name, e.args, e.body, False, getattr(e, "line", None))
+            # a function value that returns several values (the condition table of conditions.lua) returns a
+            # tuple; it is only reachable through a variable, see assign()
+            several = any(len(r.values or []) > 1 for r in own_returns(e.body))
+            self.function(name, e.args, e.body, several, getattr(e, "line", None))
             return name
         if isinstance(e, N.Table):
             return self.table(e)
@@ -320,6 +323,14 @@ class Emitter:
             self.emit(depth, f"{targets[0]} = {self.expr(values[0])}")
             return
         tail_multi = bool(values) and self.is_multi_call(values[-1])
+        last = values[-1] if values else None
+        if (not tail_multi and n > len(values) and isinstance(last, N.Call) and not last.wrapped
+                and isinstance(last.func, N.Name) and self.lookup(last.func.id) is not None):
+            # more targets than values and the last value calls a function held in a local variable:
+            # whatever it returns is spread over the remaining targets
+            head = "".join(self.expr(v) + ", " for v in values[:-1])
+            self.emit(depth, f"{', '.join(targets)} = L_adjust(({head}*L_values({self.call(last)}),), {n})")
+            return
         if not tail_multi:
             vals = [self.expr(v) for v in values[:n]]
             extra = values[n:]

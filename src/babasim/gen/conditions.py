@@ -149,7 +149,7 @@ def load(G):
 						subresult = True
 						ccc = False
 						cdata = L_T([], {'name': name, 'x': x, 'y': y, 'unitid': unitid, 'dir': dir_, 'extras': extras, 'limit': limit, 'conds': conds, 'subtype': condsubtype, 'i': i_2, 'surrounds': surrounds, 'notcond': notcond, 'debugname': cond[1]})
-						subresult, checkedconds, ccc = cfunc(params, checkedconds, checkedconds_, cdata), None, None
+						subresult, checkedconds, ccc = L_adjust((*L_values(cfunc(params, checkedconds, checkedconds_, cdata)),), 3)
 						clearcconds = (_t8 if L_t(_t8 := ccc) else False)
 						if (notcond is not None and notcond is not False):
 							subresult = (not (subresult is not None and subresult is not False))
@@ -185,7 +185,8 @@ def load(G):
 		return result
 	G['testcond'] = f_testcond
 	def _anon1(params_2=None, checkedconds_2=None, *_):  # L293
-		return False
+		return (False, checkedconds_2,)
+		return ()
 	def _anon2(params_3=None, checkedconds_3=None, checkedconds__2=None, cdata_2=None, *_):  # L296
 		allfound = 0
 		alreadyfound = L_T()
@@ -201,7 +202,7 @@ def load(G):
 						pname = L_sub(b_7, 5)
 					bcode = L_concat(b_7, '_', L_tostring(a_7))
 					if (L_sub(pname, 1, 5) == 'group'):
-						return False
+						return (False, checkedconds_3,)
 					if (unitid_2 != 1):
 						if (((pname != 'empty') and (b_7 != 'level')) or ((b_7 == 'level') and (alreadyfound[1] is not None))):
 							if (G['unitmap'][tileid] is not None):
@@ -223,7 +224,7 @@ def load(G):
 								L_noop(L_concat('unitmap is nil at ', L_tostring(x_2), ', ', L_tostring(y_2), ' for object ', L_tostring(G['name']), ' (', L_tostring(unitid_2), ')!'))
 						elif (pname == 'empty'):
 							if (pnot is False):
-								return False
+								return (False, checkedconds_3,)
 							else:
 								if (G['unitmap'][tileid] is not None):
 									for c_5, d_4 in L_ipairs(G['unitmap'][tileid]):
@@ -291,7 +292,7 @@ def load(G):
 							allfound = (allfound + 1)
 			else:
 				L_noop('no parameters given!')
-				return False
+				return (False, checkedconds_3,)
 		else:
 			for a_8, b_8 in L_ipairs(params_3):
 				bcode_2 = L_concat(b_8, '_', L_tostring(a_8))
@@ -299,8 +300,9 @@ def load(G):
 					alreadyfound[bcode_2] = 1
 					allfound = (allfound + 1)
 				else:
-					return False
-		return (allfound == L_len(params_3))
+					return (False, checkedconds_3,)
+		return ((allfound == L_len(params_3)), checkedconds_3,)
+		return ()
 	def _anon3(params_4=None, checkedconds_4=None, checkedconds__3=None, cdata_3=None, *_):  # L468
 		allfound_2 = 0
 		alreadyfound_2 = L_T()
@@ -314,7 +316,7 @@ def load(G):
 					pname_2 = L_sub(b_9, 5)
 				bcode_3 = L_concat(b_9, '_', L_tostring(a_9))
 				if (L_sub(pname_2, 1, 5) == 'group'):
-					return False
+					return (False, checkedconds_4,)
 				if (unitid_3 != 1):
 					if ((b_9 != 'level') or ((b_9 == 'level') and (alreadyfound_2[1] is not None))):
 						for g in L_range((-1), 1):
@@ -415,8 +417,9 @@ def load(G):
 						allfound_2 = (allfound_2 + 1)
 		else:
 			L_noop('no parameters given!')
-			return False
-		return (allfound_2 == L_len(params_4))
+			return (False, checkedconds_4,)
+		return ((allfound_2 == L_len(params_4)), checkedconds_4,)
+		return ()
 	def _anon4(params_5=None, checkedconds_5=None, checkedconds__4=None, cdata_4=None, *_):  # L647
 		allfound_3 = 0
 		alreadyfound_3 = L_T()
@@ -430,7 +433,7 @@ def load(G):
 					pname_3 = L_sub(b_10, 5)
 				bcode_4 = L_concat(b_10, '_', L_tostring(a_10))
 				if (L_sub(pname_3, 1, 5) == 'group'):
-					return False
+					return (False, checkedconds_5,)
 				if (unitid_4 != 1):
 					if ((b_10 != 'level') or ((b_10 == 'level') and (alreadyfound_3[1] is not None))):
 						for g_2 in L_range((-1), 1):
@@ -532,8 +535,9 @@ def load(G):
 						allfound_3 = (allfound_3 + 1)
 		else:
 			L_noop('no parameters given!')
-			return False
-		return (allfound_3 == L_len(params_5))
+			return (False, checkedconds_5,)
+		return ((allfound_3 == L_len(params_5)), checkedconds_5,)
+		return ()
 	def _anon5(params_6=None, checkedconds_6=None, checkedconds__5=None, cdata_5=None, *_):  # L828
 		allfound_4 = 0
 		alreadyfound_4 = L_T()
@@ -553,7 +557,7 @@ def load(G):
 					pname_4 = L_sub(b_11, 5)
 				bcode_5 = L_concat(b_11, '_', L_tostring(a_11))
 				if (L_sub(pname_4, 1, 5) == 'group'):
-					return False
+					return (False, checkedconds_6,)
 				if (unitid_5 != 1):
 					if (((pname_4 != 'empty') and (b_11 != 'level')) or ((b_11 == 'level') and (alreadyfound_4[1] is not None))):
 						if (G['stringintable'](pname_4, extras_2) is False):
@@ -614,8 +618,9 @@ def load(G):
 									alreadyfound_4[bcode_5] = 1
 									allfound_4 = (allfound_4 + 1)
 		else:
-			return False
-		return (allfound_4 == L_len(params_6))
+			return (False, checkedconds_6,)
+		return ((allfound_4 == L_len(params_6)), checkedconds_6,)
+		return ()
 	def _anon6(params_7=None, checkedconds_7=None, checkedconds__6=None, cdata_6=None, *_):  # L953
 		allfound_5 = 0
 		alreadyfound_5 = L_T()
@@ -636,7 +641,7 @@ def load(G):
 						pname_5 = L_sub(b_12, 5)
 					bcode_6 = L_concat(b_12, '_', L_tostring(a_12))
 					if (L_sub(pname_5, 1, 5) == 'group'):
-						return False
+						return (False, checkedconds_7,)
 					if (((pname_5 != 'empty') and (b_12 != 'level')) or ((b_12 == 'level') and (alreadyfound_5[1] is not None))):
 						if (G['unitmap'][tileid_7] is not None):
 							for c_23, d_21 in L_ipairs(G['unitmap'][tileid_7]):
@@ -687,8 +692,9 @@ def load(G):
 						alreadyfound_5[1] = 1
 						allfound_5 = (allfound_5 + 1)
 			else:
-				return False
-		return (allfound_5 == L_len(params_7))
+				return (False, checkedconds_7,)
+		return ((allfound_5 == L_len(params_7)), checkedconds_7,)
+		return ()
 	def _anon7(params_8=None, checkedconds_8=None, checkedconds__7=None, cdata_7=None, *_):  # L1063
 		allfound_6 = 0
 		alreadyfound_6 = L_T()
@@ -703,7 +709,7 @@ def load(G):
 		tileid_8 = ((x_7 + ox_3) + ((y_7 + oy_3) * G['roomsizex']))
 		solid = 0
 		if ((checkedconds__7 is not None) and (checkedconds__7[L_concat(L_tostring(conds_4), '_s_')] is not None)):
-			return False
+			return (False, checkedconds_8, True,)
 		if ((L_len(params_8) > 0) and (dir__5 != 4)):
 			while ((solid == 0) and L_t(G['inbounds'](nx, ny, 1))):
 				nx = (nx + ox_3)
@@ -736,7 +742,7 @@ def load(G):
 					pname_6 = L_sub(b_14, 5)
 				bcode_7 = L_concat(b_14, '_', L_tostring(a_14))
 				if (L_sub(pname_6, 1, 5) == 'group'):
-					return False
+					return (False, checkedconds_8,)
 				if (unitid_7 != 1):
 					if (((pname_6 != 'empty') and (b_14 != 'level')) or ((b_14 == 'level') and (alreadyfound_6[1] is not None))):
 						for c_24, d_ in L_ipairs(targets):
@@ -786,10 +792,11 @@ def load(G):
 									allfound_6 = (allfound_6 + 1)
 		elif (L_len(params_8) == 0):
 			L_noop('no parameters given!')
-			return False
+			return (False, checkedconds_8, True,)
 		else:
-			return False
-		return (allfound_6 == L_len(params_8))
+			return (False, checkedconds_8, True,)
+		return ((allfound_6 == L_len(params_8)), checkedconds_8, True,)
+		return ()
 	def _anon8(params_9=None, checkedconds_9=None, checkedconds__8=None, cdata_8=None, *_):  # L1216
 		allfound_7 = 0
 		alreadyfound_7 = L_T()
@@ -810,7 +817,7 @@ def load(G):
 					pname_7 = L_sub(b_16, 5)
 				bcode_8 = L_concat(b_16, '_', L_tostring(a_16))
 				if (L_sub(pname_7, 1, 5) == 'group'):
-					return False
+					return (False, checkedconds_9,)
 				if (((b_16 != 'level') and (b_16 != 'empty')) or ((b_16 == 'level') and (unitcount['level'] > 0))):
 					if (pnot_7 is False):
 						if (alreadyfound_7[bcode_8] is None):
@@ -859,10 +866,11 @@ def load(G):
 					break
 		else:
 			L_noop('no parameters given!')
-			return False
+			return (False, checkedconds_9,)
 		if (notcond_2 is not None and notcond_2 is not False):
-			return (allfound_7 > 0)
-		return (allfound_7 == L_len(params_9))
+			return ((allfound_7 > 0), checkedconds_9,)
+		return ((allfound_7 == L_len(params_9)), checkedconds_9,)
+		return ()
 	def _anon9(params_10=None, checkedconds_10=None, checkedconds__9=None, cdata_9=None, *_):  # L1333
 		allfound_8 = 0
 		alreadyfound_8 = L_T()
@@ -876,7 +884,7 @@ def load(G):
 					pname_8 = L_sub(b_17, 5)
 				bcode_9 = L_concat(b_17, '_', L_tostring(a_17))
 				if (L_sub(pname_8, 1, 5) == 'group'):
-					return False
+					return (False, checkedconds_10,)
 				dist = ((G['roomsizey'] - y_8) - 2)
 				if (unitid_9 != 1):
 					if ((b_17 != 'level') or ((b_17 == 'level') and (alreadyfound_8[1] is not None))):
@@ -970,8 +978,9 @@ def load(G):
 						allfound_8 = (allfound_8 + 1)
 		else:
 			L_noop('no parameters given!')
-			return False
-		return (allfound_8 == L_len(params_10))
+			return (False, checkedconds_10,)
+		return ((allfound_8 == L_len(params_10)), checkedconds_10,)
+		return ()
 	def _anon10(params_11=None, checkedconds_11=None, checkedconds__10=None, cdata_10=None, *_):  # L1499
 		allfound_9 = 0
 		alreadyfound_9 = L_T()
@@ -985,7 +994,7 @@ def load(G):
 					pname_9 = L_sub(b_18, 5)
 				bcode_10 = L_concat(b_18, '_', L_tostring(a_18))
 				if (L_sub(pname_9, 1, 5) == 'group'):
-					return False
+					return (False, checkedconds_11,)
 				dist_2 = (y_9 - 1)
 				if (unitid_10 != 1):
 					if ((b_18 != 'level') or ((b_18 == 'level') and (alreadyfound_9[1] is not None))):
@@ -1079,8 +1088,9 @@ def load(G):
 						allfound_9 = (allfound_9 + 1)
 		else:
 			L_noop('no parameters given!')
-			return False
-		return (allfound_9 == L_len(params_11))
+			return (False, checkedconds_11,)
+		return ((allfound_9 == L_len(params_11)), checkedconds_11,)
+		return ()
 	def _anon11(params_12=None, checkedconds_12=None, checkedconds__11=None, cdata_11=None, *_):  # L1665
 		allfound_10 = 0
 		alreadyfound_10 = L_T()
@@ -1094,7 +1104,7 @@ def load(G):
 					pname_10 = L_sub(b_19, 5)
 				bcode_11 = L_concat(b_19, '_', L_tostring(a_19))
 				if (L_sub(pname_10, 1, 5) == 'group'):
-					return False
+					return (False, checkedconds_12,)
 				dist_3 = (x_10 - 1)
 				if (unitid_11 != 1):
 					if ((b_19 != 'level') or ((b_19 == 'level') and (alreadyfound_10[1] is not None))):
@@ -1188,8 +1198,9 @@ def load(G):
 						allfound_10 = (allfound_10 + 1)
 		else:
 			L_noop('no parameters given!')
-			return False
-		return (allfound_10 == L_len(params_12))
+			return (False, checkedconds_12,)
+		return ((allfound_10 == L_len(params_12)), checkedconds_12,)
+		return ()
 	def _anon12(params_13=None, checkedconds_13=None, checkedconds__12=None, cdata_12=None, *_):  # L1831
 		allfound_11 = 0
 		alreadyfound_11 = L_T()
@@ -1203,7 +1214,7 @@ def load(G):
 					pname_11 = L_sub(b_20, 5)
 				bcode_12 = L_concat(b_20, '_', L_tostring(a_20))
 				if (L_sub(pname_11, 1, 5) == 'group'):
-					return False
+					return (False, checkedconds_13,)
 				dist_4 = ((G['roomsizex'] - x_11) - 2)
 				if (unitid_12 != 1):
 					if ((b_20 != 'level') or ((b_20 == 'level') and (alreadyfound_11[1] is not None))):
@@ -1297,8 +1308,9 @@ def load(G):
 						allfound_11 = (allfound_11 + 1)
 		else:
 			L_noop('no parameters given!')
-			return False
-		return (allfound_11 == L_len(params_13))
+			return (False, checkedconds_13,)
+		return ((allfound_11 == L_len(params_13)), checkedconds_13,)
+		return ()
 	def _anon13(params_14=None, checkedconds_14=None, checkedconds__13=None, cdata_13=None, *_):  # L1997
 		allfound_12 = 0
 		alreadyfound_12 = L_T()
@@ -1336,8 +1348,9 @@ def load(G):
 													allfound_12 = (allfound_12 + 1)
 													break
 		else:
-			return False
-		return (allfound_12 == L_len(params_14))
+			return (False, checkedconds_14, True,)
+		return ((allfound_12 == L_len(params_14)), checkedconds_14, True,)
+		return ()
 	def _anon14(params_15=None, checkedconds_15=None, checkedconds__14=None, cdata_14=None, *_):  # L2062
 		failure = False
 		unitid_14, x_13, y_13 = cdata_14['unitid'], cdata_14['x'], cdata_14['y']
@@ -1350,7 +1363,8 @@ def load(G):
 						break
 		else:
 			failure = True
-		return (failure is False)
+		return ((failure is False), checkedconds_15,)
+		return ()
 	def _anon15(params_16=None, checkedconds_16=None, checkedconds__15=None, cdata_15=None, *_):  # L2082
 		found_2 = False
 		x_14, y_14, limit_3, subtype, conds_5 = cdata_15['x'], cdata_15['y'], cdata_15['limit'], cdata_15['subtype'], L_tostring(cdata_15['conds'])
@@ -1381,9 +1395,11 @@ def load(G):
 		checkedconds_16 = (_t1 if L_t(_t1 := checkedconds__15) else L_T([], {L_tostring(conds_5): 1}))
 		if ((checkedconds__15 is None) and (G['poweredstatus'][fullname] is None)):
 			G['poweredstatus'][fullname] = found_2
-		return found_2
+		return (found_2, checkedconds_16, True,)
+		return ()
 	def _anon16(params_17=None, checkedconds_17=None, *_):  # L2137
-		return (G['last_key'] == 4)
+		return ((G['last_key'] == 4), checkedconds_17,)
+		return ()
 	def _anon17(params_18=None, checkedconds_18=None, checkedconds__16=None, cdata_16=None, *_):  # L2140
 		unitid_15, x_15, y_15, conds_6, i_5 = cdata_16['unitid'], cdata_16['x'], cdata_16['y'], L_tostring(cdata_16['conds']), cdata_16['i']
 		if (G['condstatus'][L_tostring(conds_6)] is None):
@@ -1399,7 +1415,8 @@ def load(G):
 			rnd = d_49[id_]
 		else:
 			d_49[id_] = rnd
-		return (rnd > 1)
+		return ((rnd > 1), checkedconds_18,)
+		return ()
 	def _anon18(params_19=None, checkedconds_19=None, checkedconds__17=None, cdata_17=None, *_):  # L2166
 		unitid_16, x_16, y_16, conds_7, i_6 = cdata_17['unitid'], cdata_17['x'], cdata_17['y'], L_tostring(cdata_17['conds']), cdata_17['i']
 		if (G['condstatus'][L_tostring(conds_7)] is None):
@@ -1415,5 +1432,6 @@ def load(G):
 			rnd_2 = d_50[id__2]
 		else:
 			d_50[id__2] = rnd_2
-		return (rnd_2 == 1)
+		return ((rnd_2 == 1), checkedconds_19,)
+		return ()
 	G['condlist'] = L_T([], {'never': _anon1, 'on': _anon2, 'near': _anon3, 'nextto': _anon4, 'facing': _anon5, 'facedby': _anon6, 'seeing': _anon7, 'without': _anon8, 'above': _anon9, 'below': _anon10, 'besideright': _anon11, 'besideleft': _anon12, 'feeling': _anon13, 'lonely': _anon14, 'powered': _anon15, 'idle': _anon16, 'often': _anon17, 'seldom': _anon18})

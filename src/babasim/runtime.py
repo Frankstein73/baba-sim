@@ -211,7 +211,20 @@ class Engine:
         custom = ld.get("general", {}).get("customobjects", "")
         if custom:
             G["loadcustomobjects"](custom)
-        G["handleobjectchanges"]()
+        # FUN_1001ab590: every object the level redefines (name, sprite, colour, word type...) is created once
+        # so that addchange() reads its [tiles] entries into `changes`; without it a renamed tile keeps the
+        # default meaning of its object slot.
+        tiles = ld.get("tiles", {})
+        G["restoredefaults"]()
+        if tiles.get("changed"):
+            count = tiles.get("changed_count", "")
+            lists = ["changed"] + [f"changed{i}" for i in range(2, (int(count) if count.isdigit() else 1) + 1)]
+            for target in ",".join(tiles.get(key, "") for key in lists).split(","):
+                if target in G["tileslist"].hash:
+                    fixed = G["MF_create"](target)
+                    G["addchange"](fixed)
+                    G["MF_cleanremove"](fixed)
+            G["handleobjectchanges"]()
 
         cells = sorted((x, y, li, tx, ty, d or 0)
                        for li, layer in enumerate(layers) for x, y, tx, ty, d in layer["cells"])

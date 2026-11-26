@@ -157,7 +157,23 @@ function ORACLE_loadlevel(level)
 	roomsizex, roomsizey = level.width, level.height
 	local custom = MF_read("level", "general", "customobjects")
 	if (#custom > 0) then loadcustomobjects(custom) end
-	handleobjectchanges()
+	-- FUN_1001ab590: each redefined object is created once so addchange() reads its [tiles] entries
+	restoredefaults()
+	if (#MF_read("level", "tiles", "changed") > 0) then
+		local lists = math.max(tonumber(MF_read("level", "tiles", "changed_count")) or 1, 1)
+		for i = 1, lists do
+			local id = "changed"
+			if (i > 1) then id = id .. tostring(i) end
+			for target in string.gmatch(MF_read("level", "tiles", id), "%w+") do
+				if (tileslist[target] ~= nil) then
+					local fixed = MF_create(target)
+					addchange(fixed)
+					MF_cleanremove(fixed)
+				end
+			end
+		end
+		handleobjectchanges()
+	end
 
 	local bycell = {}
 	for _, c in ipairs(level.cells) do

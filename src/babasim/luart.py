@@ -10,7 +10,7 @@ import math
 import re
 
 __all__ = [
-    "LuaTable", "DefTable", "L_T", "L_t", "L_first", "L_adjust", "L_concat", "L_len", "L_div",
+    "LuaTable", "DefTable", "L_T", "L_t", "L_first", "L_values", "L_adjust", "L_concat", "L_len", "L_div",
     "L_pow", "L_range", "L_pairs", "L_ipairs", "L_invoke", "L_tostring", "L_tonumber", "L_type",
     "L_insert", "L_remove", "L_sort", "L_sub", "L_strlen", "L_find", "L_gmatch", "L_floor",
     "L_max", "L_min", "L_noop", "L_lib",
@@ -269,6 +269,11 @@ def L_t(x):
 
 def L_first(x):
     return x[0] if x else None
+
+
+def L_values(x):
+    """What a call through a variable returned, as a tuple: the callee may or may not return several values."""
+    return x if x.__class__ is tuple else (x,)
 
 
 def L_adjust(vals, n):
